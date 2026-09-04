@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "geo-001",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the largest hot desert in the world?",
+    "a": "The Sahara",
+    "accept": [
+      "Sahara",
+      "Sahara Desert"
+    ],
+    "note": "The Sahara covers roughly the same area as the entire United States.",
+    "era": "timeless",
+    "topic": "deserts",
+    "pack": "core"
+  },
+  {
+    "id": "geo-002",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which mountain is the highest point on Earth above sea level?",
+    "a": "Mount Everest",
+    "accept": [
+      "Everest",
+      "Sagarmatha",
+      "Chomolungma"
+    ],
+    "note": "Its summit sits directly on the border between Nepal and China.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-003",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which is the largest island in the world?",
+    "a": "Greenland",
+    "accept": [
+      "Kalaallit Nunaat"
+    ],
+    "note": "Australia is bigger, but geographers class it as a continental landmass rather than an island.",
+    "era": "timeless",
+    "topic": "islands",
+    "pack": "core"
+  },
+  {
+    "id": "geo-004",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "On which continent is the Atacama Desert?",
+    "a": "South America",
+    "accept": [
+      "South American continent"
+    ],
+    "note": "Some weather stations in the Atacama have gone decades without recording measurable rain.",
+    "era": "timeless",
+    "topic": "deserts",
+    "pack": "core"
+  },
+  {
+    "id": "geo-005",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which volcano buried the Roman city of Pompeii in AD 79?",
+    "a": "Mount Vesuvius",
+    "accept": [
+      "Vesuvius"
+    ],
+    "note": "The same eruption buried nearby Herculaneum, preserving both towns under ash for centuries.",
+    "era": "timeless",
+    "topic": "volcanoes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-006",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which peninsula do Spain and Portugal share?",
+    "a": "The Iberian Peninsula",
+    "accept": [
+      "Iberia",
+      "Iberian"
+    ],
+    "note": "Andorra and Gibraltar sit on the same peninsula, tucked into its edges.",
+    "era": "timeless",
+    "topic": "peninsulas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-007",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which mountain range is traditionally taken as the dividing line between Europe and Asia in Russia?",
+    "a": "The Ural Mountains",
+    "accept": [
+      "Urals",
+      "Ural",
+      "Ural Range"
+    ],
+    "note": "The Urals run roughly north to south for about 1,500 miles, from the Arctic coast to Kazakhstan.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-008",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Name the highest mountain in Africa.",
+    "a": "Mount Kilimanjaro",
+    "accept": [
+      "Kilimanjaro"
+    ],
+    "note": "Kilimanjaro is a dormant volcano in Tanzania that rises alone from the plain rather than as part of a range.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-009",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which mountain range runs down the entire western edge of South America?",
+    "a": "The Andes",
+    "accept": [
+      "Andes Mountains",
+      "Cordillera de los Andes"
+    ],
+    "note": "At roughly 4,300 miles, the Andes form the longest continental mountain range on Earth.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-010",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which volcano erupted catastrophically in Washington State in May 1980?",
+    "a": "Mount St. Helens",
+    "accept": [
+      "Mount Saint Helens",
+      "St. Helens",
+      "Saint Helens"
+    ],
+    "note": "The blast took roughly 1,300 feet off the top of the mountain and left a horseshoe-shaped crater.",
+    "era": "timeless",
+    "topic": "volcanoes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-011",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which desert stretches across southern Mongolia and northern China?",
+    "a": "The Gobi",
+    "accept": [
+      "Gobi Desert"
+    ],
+    "note": "Unlike the Sahara, the Gobi is a cold desert where winter temperatures drop far below freezing.",
+    "era": "timeless",
+    "topic": "deserts",
+    "pack": "core"
+  },
+  {
+    "id": "geo-012",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "On which Italian island would you find Mount Etna?",
+    "a": "Sicily",
+    "accept": [
+      "Sicilia"
+    ],
+    "note": "Etna is the most active volcano in Europe and has been erupting on and off for thousands of years.",
+    "era": "timeless",
+    "topic": "volcanoes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-013",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which mountain is the second highest in the world?",
+    "a": "K2",
+    "accept": [
+      "Mount Godwin-Austen",
+      "Godwin Austen",
+      "Chhogori"
+    ],
+    "note": "K2 straddles the China-Pakistan border and has a far higher climbing death rate than Everest.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-014",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which island nation off the southeast coast of Africa is the world's fourth largest island?",
+    "a": "Madagascar",
+    "accept": [
+      "Republic of Madagascar"
+    ],
+    "note": "Madagascar split from the African mainland so long ago that most of its wildlife exists nowhere else.",
+    "era": "timeless",
+    "topic": "islands",
+    "pack": "core"
+  },
+  {
+    "id": "geo-015",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "The Yucatan Peninsula lies mostly within which country?",
+    "a": "Mexico",
+    "accept": [
+      "United Mexican States"
+    ],
+    "note": "The peninsula is honeycombed with cenotes, sinkholes that open into flooded limestone caves.",
+    "era": "timeless",
+    "topic": "peninsulas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-016",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which mountain is the highest peak in North America?",
+    "a": "Denali, also known as Mount McKinley",
+    "accept": [
+      "Denali",
+      "Mount McKinley",
+      "McKinley"
+    ],
+    "note": "The Alaskan peak rises to about 20,300 feet, and its older name means roughly \"the tall one\" in Koyukon.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-017",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "What is the highest mountain in the contiguous 48 United States?",
+    "a": "Mount Whitney",
+    "accept": [
+      "Whitney"
+    ],
+    "note": "Whitney's summit in California stands less than 100 miles from Badwater Basin, the lowest point in North America.",
+    "era": "timeless",
+    "topic": "mountains",
+    "pack": "core"
+  },
+  {
+    "id": "geo-018",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Name the peninsula that makes up mainland Denmark and reaches into northern Germany.",
+    "a": "Jutland",
+    "accept": [
+      "Jylland",
+      "Jutland Peninsula"
+    ],
+    "note": "Denmark's capital, Copenhagen, is not on Jutland at all but across the water on the island of Zealand.",
+    "era": "timeless",
+    "topic": "peninsulas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-019",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which coastal desert in southwestern Africa gives its name to a country?",
+    "a": "The Namib",
+    "accept": [
+      "Namib Desert"
+    ],
+    "note": "Fog drifting in off the cold Atlantic is the main source of moisture for life in the Namib.",
+    "era": "timeless",
+    "topic": "deserts",
+    "pack": "core"
+  },
+  {
+    "id": "geo-020",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "What is the largest peninsula in the world?",
+    "a": "The Arabian Peninsula",
+    "accept": [
+      "Arabia",
+      "Arabian"
+    ],
+    "note": "Saudi Arabia takes up the bulk of it, with Yemen and Oman along the southern rim.",
+    "era": "timeless",
+    "topic": "peninsulas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-021",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the capital of Canada?",
+    "a": "Ottawa",
+    "accept": [
+      "Ottawa, Ontario"
+    ],
+    "note": "Queen Victoria settled on Ottawa in 1857 as a compromise between rival cities including Toronto and Quebec City.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-022",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the capital of Australia?",
+    "a": "Canberra",
+    "accept": [],
+    "note": "Canberra was built from scratch as a compromise capital because Sydney and Melbourne could not agree.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-023",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which is the largest country in the world by land area?",
+    "a": "Russia",
+    "accept": [
+      "Russian Federation"
+    ],
+    "note": "Russia is so wide that it shares a land border with Norway in the northwest and North Korea in the far east.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-024",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Cairo is the capital of which country?",
+    "a": "Egypt",
+    "accept": [
+      "Arab Republic of Egypt"
+    ],
+    "note": "Cairo sits at the head of the Nile Delta, where the river fans out toward the Mediterranean.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-025",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Stockholm is the capital of which Scandinavian country?",
+    "a": "Sweden",
+    "accept": [
+      "Kingdom of Sweden"
+    ],
+    "note": "Stockholm is spread across more than a dozen islands where a large lake drains into the Baltic Sea.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-026",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the capital of Japan?",
+    "a": "Tokyo",
+    "accept": [],
+    "note": "The city was called Edo until 1868, when the emperor moved there and it was renamed Tokyo, or \"eastern capital.\"",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-027",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of Brazil?",
+    "a": "Brasilia",
+    "accept": [
+      "Brasília"
+    ],
+    "note": "Brasilia was purpose-built in the empty interior and took over as capital from Rio de Janeiro in 1960.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-028",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of Turkey?",
+    "a": "Ankara",
+    "accept": [],
+    "note": "Ankara replaced Istanbul as the capital in 1923, when the Turkish republic was founded.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-029",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which tiny country sits high in the Pyrenees between France and Spain?",
+    "a": "Andorra",
+    "accept": [
+      "Principality of Andorra"
+    ],
+    "note": "Andorra has been governed since 1278 by two co-princes: the French head of state and a Spanish bishop.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-030",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of New Zealand?",
+    "a": "Wellington",
+    "accept": [],
+    "note": "Wellington is the southernmost capital city of any sovereign country.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-031",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which country is completely surrounded by South Africa?",
+    "a": "Lesotho",
+    "accept": [
+      "Kingdom of Lesotho"
+    ],
+    "note": "Lesotho is one of only three countries in the world entirely enclosed by a single other country.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-032",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of Morocco?",
+    "a": "Rabat",
+    "accept": [],
+    "note": "Casablanca and Marrakesh are better known abroad, but the government sits in Rabat on the Atlantic coast.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-033",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which South American country takes its name from the Spanish word for the equator?",
+    "a": "Ecuador",
+    "accept": [
+      "Republic of Ecuador"
+    ],
+    "note": "The equator itself passes just north of the capital, Quito.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-034",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which South American country has two capitals, La Paz and Sucre?",
+    "a": "Bolivia",
+    "accept": [
+      "Republic of Bolivia"
+    ],
+    "note": "Sucre is the constitutional capital, while the government does its business up in La Paz.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-035",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which is the smallest sovereign country in the world by area?",
+    "a": "Vatican City",
+    "accept": [
+      "The Vatican",
+      "Holy See"
+    ],
+    "note": "The whole country covers about 110 acres, tucked inside the city of Rome.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-036",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of Switzerland?",
+    "a": "Bern",
+    "accept": [
+      "Berne"
+    ],
+    "note": "Zurich and Geneva are larger and more famous, but Bern has held the federal government since 1848.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-037",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which African country was settled by freed American slaves and declared independence in 1847?",
+    "a": "Liberia",
+    "accept": [
+      "Republic of Liberia"
+    ],
+    "note": "Its capital, Monrovia, is named after US President James Monroe.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-038",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Ljubljana is the capital of which European country?",
+    "a": "Slovenia",
+    "accept": [
+      "Republic of Slovenia"
+    ],
+    "note": "Slovenia broke away from Yugoslavia in 1991 after a conflict that lasted only ten days.",
+    "era": "timeless",
+    "topic": "capitals",
+    "pack": "core"
+  },
+  {
+    "id": "geo-039",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which is the only country with coastline on both the Caspian Sea and the Persian Gulf?",
+    "a": "Iran",
+    "accept": [
+      "Islamic Republic of Iran",
+      "Persia"
+    ],
+    "note": "Iran was known internationally as Persia until it asked the world to use its own name in 1935.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-040",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which country governs the western half of the island of New Guinea?",
+    "a": "Indonesia",
+    "accept": [
+      "Republic of Indonesia"
+    ],
+    "note": "The eastern half is the separate country of Papua New Guinea, and the border is a nearly straight line.",
+    "era": "timeless",
+    "topic": "countries",
+    "pack": "core"
+  },
+  {
+    "id": "geo-041",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which US state is the largest by area?",
+    "a": "Alaska",
+    "accept": [],
+    "note": "Alaska is more than twice the size of Texas, the runner-up.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-042",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "In which US state is the Grand Canyon?",
+    "a": "Arizona",
+    "accept": [],
+    "note": "The canyon runs for about 277 river miles and in places is a mile deep.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-043",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which US state is made up entirely of islands?",
+    "a": "Hawaii",
+    "accept": [
+      "Hawai'i"
+    ],
+    "note": "Hawaii joined the Union in 1959 as the fiftieth state, a few months after Alaska.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-044",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which American city is nicknamed the Windy City?",
+    "a": "Chicago",
+    "accept": [],
+    "note": "The nickname is often traced to the city's boastful politicians rather than to the weather off Lake Michigan.",
+    "era": "timeless",
+    "topic": "american-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-045",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which US state is nicknamed the Lone Star State?",
+    "a": "Texas",
+    "accept": [],
+    "note": "The single star recalls the years Texas spent as an independent republic before joining the Union in 1845.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-046",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which US state is known as the Golden State?",
+    "a": "California",
+    "accept": [],
+    "note": "Gold was found at Sutter's Mill in 1848, and California became a state just two years later.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-047",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Yellowstone National Park lies mostly within which US state?",
+    "a": "Wyoming",
+    "accept": [],
+    "note": "Narrow strips of the park spill over into Montana and Idaho.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-048",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which US state is nicknamed the Show-Me State?",
+    "a": "Missouri",
+    "accept": [],
+    "note": "The phrase is usually traced to an 1899 speech by a Missouri congressman boasting of his state's skepticism.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-049",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the capital of New York State?",
+    "a": "Albany",
+    "accept": [],
+    "note": "Albany has held the job since 1797 and is one of the oldest continuously chartered cities in the country.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-050",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which US state shares a land border with only one other state?",
+    "a": "Maine",
+    "accept": [],
+    "note": "Maine touches only New Hampshire, and beyond that its neighbor is Canada.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-051",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which American city sits where the Allegheny and Monongahela rivers meet?",
+    "a": "Pittsburgh",
+    "accept": [],
+    "note": "The two rivers join at that spot to form the Ohio River.",
+    "era": "timeless",
+    "topic": "american-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-052",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which US state is the smallest by area?",
+    "a": "Rhode Island",
+    "accept": [],
+    "note": "You could fit more than 400 Rhode Islands inside Alaska.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-053",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What name is given to the only spot in the United States where four states meet at a single point?",
+    "a": "The Four Corners",
+    "accept": [
+      "Four Corners Monument",
+      "Four Corners"
+    ],
+    "note": "Arizona, Utah, Colorado and New Mexico all touch there.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-054",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Bourbon Street runs through the French Quarter of which American city?",
+    "a": "New Orleans",
+    "accept": [
+      "New Orleans, Louisiana"
+    ],
+    "note": "The street is named for the French royal House of Bourbon, not for the whiskey.",
+    "era": "timeless",
+    "topic": "american-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-055",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which mountain range runs through the eastern United States from Georgia up to Maine?",
+    "a": "The Appalachians",
+    "accept": [
+      "Appalachian Mountains",
+      "Appalachia"
+    ],
+    "note": "The Appalachian Trail follows them for roughly 2,200 miles.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-056",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which is the only US state named after a US president?",
+    "a": "Washington",
+    "accept": [
+      "Washington State"
+    ],
+    "note": "The nation's capital carries his name too, but the District of Columbia is not a state.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-057",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "What is the capital of Vermont?",
+    "a": "Montpelier",
+    "accept": [],
+    "note": "The town takes its name from Montpellier in southern France.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-058",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which US state capital sits at the highest elevation?",
+    "a": "Santa Fe, New Mexico",
+    "accept": [
+      "Santa Fe"
+    ],
+    "note": "Santa Fe stands about 7,000 feet up in the foothills of the Sangre de Cristo mountains.",
+    "era": "timeless",
+    "topic": "american-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-059",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which city, founded by the Spanish in 1565, is the oldest continuously occupied European settlement in the continental United States?",
+    "a": "St. Augustine, Florida",
+    "accept": [
+      "St. Augustine",
+      "Saint Augustine"
+    ],
+    "note": "Spanish settlers were living there more than forty years before the English founded Jamestown.",
+    "era": "timeless",
+    "topic": "american-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-060",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which US state contains the geographic center of the contiguous 48 states?",
+    "a": "Kansas",
+    "accept": [],
+    "note": "A stone marker near the small town of Lebanon, Kansas claims the spot.",
+    "era": "timeless",
+    "topic": "us-states",
+    "pack": "core"
+  },
+  {
+    "id": "geo-061",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which is the largest of the world's oceans?",
+    "a": "The Pacific Ocean",
+    "accept": [
+      "Pacific"
+    ],
+    "note": "The Pacific covers more of the globe than all the world's dry land put together.",
+    "era": "timeless",
+    "topic": "oceans",
+    "pack": "core"
+  },
+  {
+    "id": "geo-062",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which river flows the length of Egypt and empties into the Mediterranean?",
+    "a": "The Nile",
+    "accept": [
+      "Nile River"
+    ],
+    "note": "Ancient Egypt depended on the Nile's yearly flood, which the Aswan High Dam has held back since the 1960s.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-063",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which river runs through Paris?",
+    "a": "The Seine",
+    "accept": [
+      "Seine River"
+    ],
+    "note": "The Seine empties into the English Channel at the port of Le Havre.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-064",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which is the largest of the five Great Lakes?",
+    "a": "Lake Superior",
+    "accept": [
+      "Superior"
+    ],
+    "note": "Superior holds more water than the other four Great Lakes combined.",
+    "era": "timeless",
+    "topic": "lakes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-065",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which river forms the border between Texas and Mexico?",
+    "a": "The Rio Grande",
+    "accept": [
+      "Rio Grande",
+      "Rio Bravo"
+    ],
+    "note": "On the Mexican side the same river is called the Rio Bravo.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-066",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which river flows through London?",
+    "a": "The Thames",
+    "accept": [
+      "Thames River",
+      "River Thames"
+    ],
+    "note": "The Thames is tidal through London and runs east into the North Sea.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-067",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which is the largest lake in the world by surface area?",
+    "a": "The Caspian Sea",
+    "accept": [
+      "Caspian"
+    ],
+    "note": "Despite the name it is a landlocked lake, bordered by Russia, Iran, Kazakhstan, Turkmenistan and Azerbaijan.",
+    "era": "timeless",
+    "topic": "lakes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-068",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "The Strait of Gibraltar connects the Atlantic Ocean to which sea?",
+    "a": "The Mediterranean Sea",
+    "accept": [
+      "Mediterranean"
+    ],
+    "note": "The strait is only about eight miles across at its narrowest point.",
+    "era": "timeless",
+    "topic": "seas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-069",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which river flows through Vienna, Budapest and Belgrade?",
+    "a": "The Danube",
+    "accept": [
+      "Danube River",
+      "Donau"
+    ],
+    "note": "The Danube touches ten countries on its way to the Black Sea, more than any other river.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-070",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which lake, bordered by Tanzania, Uganda and Kenya, is the largest in Africa?",
+    "a": "Lake Victoria",
+    "accept": [
+      "Victoria",
+      "Victoria Nyanza"
+    ],
+    "note": "The White Nile begins at its northern shore in Uganda.",
+    "era": "timeless",
+    "topic": "lakes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-071",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which is the deepest lake in the world?",
+    "a": "Lake Baikal",
+    "accept": [
+      "Baikal"
+    ],
+    "note": "This Siberian lake holds roughly a fifth of all the unfrozen fresh surface water on Earth.",
+    "era": "timeless",
+    "topic": "lakes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-072",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which sacred Indian river flows past Varanasi and empties into the Bay of Bengal?",
+    "a": "The Ganges",
+    "accept": [
+      "Ganges River",
+      "Ganga"
+    ],
+    "note": "The Ganges begins as meltwater in the Himalayas before crossing the plains of northern India.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-073",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which body of water between Israel and Jordan sits at the lowest land elevation on Earth?",
+    "a": "The Dead Sea",
+    "accept": [
+      "Dead Sea"
+    ],
+    "note": "Its shore lies more than 1,300 feet below sea level, and the water is salty enough to float a swimmer.",
+    "era": "timeless",
+    "topic": "seas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-074",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which ocean lies between Africa and Australia?",
+    "a": "The Indian Ocean",
+    "accept": [
+      "Indian"
+    ],
+    "note": "It is the only ocean named after a country.",
+    "era": "timeless",
+    "topic": "oceans",
+    "pack": "core"
+  },
+  {
+    "id": "geo-075",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which major river flows north through Germany and the Netherlands into the North Sea?",
+    "a": "The Rhine",
+    "accept": [
+      "Rhine River",
+      "Rhein",
+      "Rijn"
+    ],
+    "note": "The Rhine marked the frontier of the Roman Empire and has been a trade artery ever since.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-076",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the name of the deepest known trench in the world's oceans?",
+    "a": "The Mariana Trench",
+    "accept": [
+      "Marianas Trench",
+      "Challenger Deep"
+    ],
+    "note": "Its deepest point, the Challenger Deep, lies nearly 36,000 feet down in the western Pacific near Guam.",
+    "era": "timeless",
+    "topic": "oceans",
+    "pack": "core"
+  },
+  {
+    "id": "geo-077",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which sea has no coastline at all, its edges defined instead by ocean currents?",
+    "a": "The Sargasso Sea",
+    "accept": [
+      "Sargasso"
+    ],
+    "note": "It sits in the North Atlantic, ringed by four currents, and is named for the sargassum seaweed that drifts there.",
+    "era": "timeless",
+    "topic": "seas",
+    "pack": "core"
+  },
+  {
+    "id": "geo-078",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which is the longest river in Asia?",
+    "a": "The Yangtze",
+    "accept": [
+      "Yangtze River",
+      "Chang Jiang"
+    ],
+    "note": "The Three Gorges Dam spans it, and the river runs entirely within China.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-079",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which is the longest river in Europe?",
+    "a": "The Volga",
+    "accept": [
+      "Volga River"
+    ],
+    "note": "The Volga flows entirely inside Russia and drains into the Caspian Sea rather than any ocean.",
+    "era": "timeless",
+    "topic": "rivers",
+    "pack": "core"
+  },
+  {
+    "id": "geo-080",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which African lake is the longest freshwater lake in the world?",
+    "a": "Lake Tanganyika",
+    "accept": [
+      "Tanganyika"
+    ],
+    "note": "It stretches roughly 400 miles along the Great Rift Valley and is the second deepest lake on Earth.",
+    "era": "timeless",
+    "topic": "lakes",
+    "pack": "core"
+  },
+  {
+    "id": "geo-081",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "In which city would you find the Colosseum?",
+    "a": "Rome",
+    "accept": [
+      "Roma"
+    ],
+    "note": "The arena was built to hold an estimated 50,000 spectators for gladiator games and staged hunts.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-082",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "In which country is the Taj Mahal?",
+    "a": "India",
+    "accept": [
+      "Republic of India"
+    ],
+    "note": "It was built in the 1600s as a tomb for Mumtaz Mahal, wife of the emperor Shah Jahan.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-083",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "The Statue of Liberty was a gift to the United States from which country?",
+    "a": "France",
+    "accept": [
+      "French Republic"
+    ],
+    "note": "It was dedicated in 1886, and its iron framework was engineered by Gustave Eiffel.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-084",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "In which American city is Times Square?",
+    "a": "New York City",
+    "accept": [
+      "New York",
+      "NYC",
+      "Manhattan"
+    ],
+    "note": "The square was renamed in 1904 for The New York Times, which had just moved its offices there.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-085",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "The famous Leaning Tower stands in which Italian city?",
+    "a": "Pisa",
+    "accept": [],
+    "note": "The bell tower started tilting while it was still being built in the 1170s, because the ground beneath it was too soft.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-086",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "In which city is the Forbidden City?",
+    "a": "Beijing",
+    "accept": [
+      "Peking"
+    ],
+    "note": "The palace complex housed Chinese emperors for nearly 500 years, until 1912.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-087",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which country are the ruins of Machu Picchu?",
+    "a": "Peru",
+    "accept": [
+      "Republic of Peru"
+    ],
+    "note": "The Inca site perches about 8,000 feet up on a ridge above the Urubamba valley.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-088",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which city does the Brandenburg Gate stand?",
+    "a": "Berlin",
+    "accept": [],
+    "note": "From 1961 to 1989 the gate sat stranded in the no-man's-land beside the Berlin Wall.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-089",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which city is the Kremlin?",
+    "a": "Moscow",
+    "accept": [
+      "Moskva"
+    ],
+    "note": "The word kremlin simply means fortress in Russian, and other Russian cities have their own.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-090",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which city is home to both the Blue Mosque and the Hagia Sophia?",
+    "a": "Istanbul",
+    "accept": [
+      "Constantinople",
+      "Byzantium"
+    ],
+    "note": "Istanbul spreads across both Europe and Asia, divided by the Bosporus strait.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-091",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which country is the ancient city of Petra, carved into rose-colored rock?",
+    "a": "Jordan",
+    "accept": [
+      "Hashemite Kingdom of Jordan"
+    ],
+    "note": "Petra was the capital of the Nabataean traders more than two thousand years ago.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-092",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "The statue of Christ the Redeemer looks out over which city?",
+    "a": "Rio de Janeiro",
+    "accept": [
+      "Rio"
+    ],
+    "note": "The statue stands on Corcovado mountain, some 2,300 feet above the harbor.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-093",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "The Golden Gate Bridge spans the entrance to which bay?",
+    "a": "San Francisco Bay",
+    "accept": [
+      "San Francisco"
+    ],
+    "note": "Its paint color has an official name: International Orange.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-094",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which city would you climb the Acropolis to reach the Parthenon?",
+    "a": "Athens",
+    "accept": [
+      "Athina"
+    ],
+    "note": "The Parthenon went up in the fifth century BC as a temple to the goddess Athena.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-095",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "In which country is Angkor Wat, the largest religious monument in the world?",
+    "a": "Cambodia",
+    "accept": [
+      "Kingdom of Cambodia",
+      "Kampuchea"
+    ],
+    "note": "Built in the 12th century as a Hindu temple, it was later converted to Buddhist use and never abandoned.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-096",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which European city is built across more than a hundred small islands in a lagoon?",
+    "a": "Venice",
+    "accept": [
+      "Venezia"
+    ],
+    "note": "Its buildings rest on millions of wooden piles driven down into the mud of the lagoon floor.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-097",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "In which country is the fabled desert city of Timbuktu?",
+    "a": "Mali",
+    "accept": [
+      "Republic of Mali"
+    ],
+    "note": "Timbuktu grew rich on the trans-Saharan trade and became a famed center of Islamic scholarship.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-098",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "The Alhambra palace complex overlooks which Spanish city?",
+    "a": "Granada",
+    "accept": [],
+    "note": "The Alhambra was the seat of the last Muslim rulers in Spain, who surrendered it in 1492.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-099",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "The Winter Palace and the Hermitage Museum are in which Russian city?",
+    "a": "St. Petersburg",
+    "accept": [
+      "Saint Petersburg",
+      "Leningrad",
+      "Petrograd"
+    ],
+    "note": "Peter the Great founded the city on marshland in 1703, and it was called Leningrad from 1924 to 1991.",
+    "era": "timeless",
+    "topic": "world-cities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-100",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "The buried Terracotta Army was discovered near which Chinese city?",
+    "a": "Xi'an",
+    "accept": [
+      "Xian",
+      "Sian"
+    ],
+    "note": "Farmers digging a well in 1974 struck the first of thousands of life-size clay soldiers.",
+    "era": "timeless",
+    "topic": "landmarks",
+    "pack": "core"
+  },
+  {
+    "id": "geo-101",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which country's flag features a single red maple leaf?",
+    "a": "Canada",
+    "accept": [],
+    "note": "The maple leaf flag was adopted in 1965, replacing a design based on the British Red Ensign.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-102",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "Which country flies a flag showing a plain red circle on a white field?",
+    "a": "Japan",
+    "accept": [],
+    "note": "The Japanese call it the Hinomaru, meaning circle of the sun.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-103",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "How many time zones does the contiguous United States span?",
+    "a": "Four",
+    "accept": [
+      "4"
+    ],
+    "note": "Eastern, Central, Mountain and Pacific, with Alaska and Hawaii adding two more beyond them.",
+    "era": "timeless",
+    "topic": "time-zones",
+    "pack": "core"
+  },
+  {
+    "id": "geo-104",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the name of the imaginary line at zero degrees latitude?",
+    "a": "The equator",
+    "accept": [
+      "Equator"
+    ],
+    "note": "It crosses through Ecuador, Kenya, Indonesia and Brazil, among other countries.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-105",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the name of the line of zero degrees longitude that runs through Greenwich, England?",
+    "a": "The prime meridian",
+    "accept": [
+      "Prime meridian",
+      "Greenwich meridian"
+    ],
+    "note": "An international conference fixed it at Greenwich in 1884, beating out rival lines through Paris and elsewhere.",
+    "era": "timeless",
+    "topic": "time-zones",
+    "pack": "core"
+  },
+  {
+    "id": "geo-106",
+    "category": "geography",
+    "difficulty": 1,
+    "q": "What is the name of the line running roughly down the middle of the Pacific where the calendar date changes?",
+    "a": "The International Date Line",
+    "accept": [
+      "Date Line",
+      "International Dateline"
+    ],
+    "note": "It zigzags rather than running straight, so island groups can keep the same day as their neighbors.",
+    "era": "timeless",
+    "topic": "time-zones",
+    "pack": "core"
+  },
+  {
+    "id": "geo-107",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which is the only country whose national flag is not a rectangle or a square?",
+    "a": "Nepal",
+    "accept": [
+      "Federal Democratic Republic of Nepal"
+    ],
+    "note": "Nepal's flag is two stacked triangular pennants, a shape carried over from much older banners.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-108",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which country flies a square flag bearing a white cross on red?",
+    "a": "Switzerland",
+    "accept": [
+      "Swiss Confederation"
+    ],
+    "note": "Switzerland and Vatican City are the only two countries whose flags are square.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-109",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which South American country borders more other countries than any other on the continent?",
+    "a": "Brazil",
+    "accept": [
+      "Federative Republic of Brazil"
+    ],
+    "note": "Brazil touches every country in South America except Chile and Ecuador.",
+    "era": "timeless",
+    "topic": "borders",
+    "pack": "core"
+  },
+  {
+    "id": "geo-110",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the name of the line of latitude marking the northern edge of the tropics?",
+    "a": "The Tropic of Cancer",
+    "accept": [
+      "Tropic of Cancer"
+    ],
+    "note": "It marks the farthest north the sun can ever stand directly overhead, which happens around June 21.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-111",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which country lies south of North Korea, across a border first drawn along the 38th parallel?",
+    "a": "South Korea",
+    "accept": [
+      "Republic of Korea",
+      "Korea"
+    ],
+    "note": "The two were split along that line in 1945, and the demilitarized zone still runs near it.",
+    "era": "timeless",
+    "topic": "borders",
+    "pack": "core"
+  },
+  {
+    "id": "geo-112",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which country's flag shows a blue Star of David between two blue horizontal stripes?",
+    "a": "Israel",
+    "accept": [
+      "State of Israel"
+    ],
+    "note": "The stripes echo the bands on a traditional Jewish prayer shawl.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-113",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "What is the name of the narrow strip of land that joins North and South America?",
+    "a": "The Isthmus of Panama",
+    "accept": [
+      "Isthmus of Panama",
+      "Panama"
+    ],
+    "note": "The Panama Canal cuts straight through it, saving ships the long trip around South America.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-114",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which continent has no permanent human residents?",
+    "a": "Antarctica",
+    "accept": [],
+    "note": "Antarctica also counts as the world's largest desert, since almost no precipitation falls there.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-115",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Besides Vatican City, which other tiny republic is entirely surrounded by Italy?",
+    "a": "San Marino",
+    "accept": [
+      "Republic of San Marino"
+    ],
+    "note": "San Marino claims to be the world's oldest surviving republic, traditionally dated to AD 301.",
+    "era": "timeless",
+    "topic": "borders",
+    "pack": "core"
+  },
+  {
+    "id": "geo-116",
+    "category": "geography",
+    "difficulty": 2,
+    "q": "Which Himalayan kingdom flies a flag featuring a white dragon?",
+    "a": "Bhutan",
+    "accept": [
+      "Kingdom of Bhutan",
+      "Druk Yul"
+    ],
+    "note": "Bhutan calls itself Druk Yul, which means Land of the Thunder Dragon.",
+    "era": "timeless",
+    "topic": "flags",
+    "pack": "core"
+  },
+  {
+    "id": "geo-117",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which African country is surrounded by Senegal on every side except its short Atlantic coast?",
+    "a": "The Gambia",
+    "accept": [
+      "Gambia"
+    ],
+    "note": "The country is essentially a narrow ribbon of land following the banks of the river it is named for.",
+    "era": "timeless",
+    "topic": "borders",
+    "pack": "core"
+  },
+  {
+    "id": "geo-118",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which US state contains the Northwest Angle, the only part of the lower 48 states lying north of the 49th parallel?",
+    "a": "Minnesota",
+    "accept": [],
+    "note": "The Angle is cut off from the rest of the state by water, so driving there means passing through Canada.",
+    "era": "timeless",
+    "topic": "borders",
+    "pack": "core"
+  },
+  {
+    "id": "geo-119",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which is the only US state whose name begins with two vowels?",
+    "a": "Iowa",
+    "accept": [],
+    "note": "Ohio, Oregon, Oklahoma and Utah all start with a vowel, but each follows it with a consonant.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  },
+  {
+    "id": "geo-120",
+    "category": "geography",
+    "difficulty": 3,
+    "q": "Which Pacific island nation lies in all four hemispheres at once?",
+    "a": "Kiribati",
+    "accept": [
+      "Republic of Kiribati"
+    ],
+    "note": "Its islands straddle both the equator and the 180th meridian, and in 1995 it shifted the date line east so the whole country shares one day.",
+    "era": "timeless",
+    "topic": "oddities",
+    "pack": "core"
+  }
+]

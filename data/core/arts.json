@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "art-001",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which novel by Harper Lee is narrated by a young girl nicknamed Scout?",
+    "a": "To Kill a Mockingbird",
+    "accept": [
+      "Mockingbird"
+    ],
+    "note": "Published in 1960, it won the Pulitzer Prize for Fiction the following year.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-002",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Herman Melville novel begins with the line \"Call me Ishmael\"?",
+    "a": "Moby-Dick",
+    "accept": [
+      "Moby Dick",
+      "Moby-Dick; or, The Whale"
+    ],
+    "note": "It sold poorly in Melville's lifetime and only became a classic decades after his death.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-003",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In which George Orwell novel are citizens warned that \"Big Brother is watching you\"?",
+    "a": "Nineteen Eighty-Four",
+    "accept": [
+      "1984",
+      "Nineteen Eighty Four"
+    ],
+    "note": "Orwell finished it in 1948 and reportedly arrived at the title by flipping the last two digits.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-004",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Jane Austen novel follows the courtship of Elizabeth Bennet and Mr. Darcy?",
+    "a": "Pride and Prejudice",
+    "accept": [
+      "Pride & Prejudice"
+    ],
+    "note": "Austen originally drafted it under the title First Impressions.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-005",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Mary Shelley novel carries the subtitle \"The Modern Prometheus\"?",
+    "a": "Frankenstein",
+    "accept": [],
+    "note": "She began it at eighteen, during a rainy summer at Lake Geneva when Lord Byron proposed a ghost-story contest.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-006",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which F. Scott Fitzgerald novel is narrated by Nick Carraway?",
+    "a": "The Great Gatsby",
+    "accept": [
+      "Gatsby"
+    ],
+    "note": "Fitzgerald died believing it a failure; it sold modestly in his lifetime and boomed only after copies were shipped to soldiers in World War II.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-007",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Charles Dickens novel opens \"It was the best of times, it was the worst of times\"?",
+    "a": "A Tale of Two Cities",
+    "accept": [
+      "Tale of Two Cities"
+    ],
+    "note": "The two cities are London and Paris, and the story climaxes at the guillotine during the French Revolution.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-008",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In the novel by Cervantes, what is the name of Don Quixote's squire?",
+    "a": "Sancho Panza",
+    "accept": [
+      "Sancho"
+    ],
+    "note": "He is promised the governorship of an island as his reward, and eventually gets a mock version of one.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-009",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Tolstoy novel opens with the observation that all happy families are alike?",
+    "a": "Anna Karenina",
+    "accept": [],
+    "note": "The line has been borrowed so often by scientists and economists that it is now known as the Anna Karenina principle.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-010",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which 1897 Bram Stoker novel is told through letters, diaries and newspaper clippings kept by Jonathan Harker and his friends?",
+    "a": "Dracula",
+    "accept": [],
+    "note": "Stoker never visited Transylvania, and researched the setting entirely from books in English libraries.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-011",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Emily Brontë novel centres on Heathcliff and Catherine Earnshaw on the Yorkshire moors?",
+    "a": "Wuthering Heights",
+    "accept": [],
+    "note": "It was first published under the male pen name Ellis Bell, and was her only novel.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-012",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Aldous Huxley novel is set in a World State whose citizens are bred in hatcheries and sedated with a drug called soma?",
+    "a": "Brave New World",
+    "accept": [],
+    "note": "The title is lifted from a line spoken by Miranda in Shakespeare's The Tempest.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-013",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which J.D. Salinger novel is narrated by a teenager named Holden Caulfield?",
+    "a": "The Catcher in the Rye",
+    "accept": [
+      "Catcher in the Rye"
+    ],
+    "note": "Salinger spent the last fifty years of his life as a near-total recluse and published no further novels.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-014",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Victor Hugo novel follows the ex-convict Jean Valjean, pursued for years by the policeman Javert?",
+    "a": "Les Misérables",
+    "accept": [
+      "Les Miserables",
+      "The Wretched"
+    ],
+    "note": "Valjean's original crime was stealing a loaf of bread to feed his sister's children.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-015",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Ray Bradbury novel about book burning takes its title from a temperature?",
+    "a": "Fahrenheit 451",
+    "accept": [],
+    "note": "Its hero, Guy Montag, is a fireman whose job is to start fires rather than put them out.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-016",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Joseph Conrad novella follows a sailor named Marlow up an African river in search of a trader called Kurtz?",
+    "a": "Heart of Darkness",
+    "accept": [],
+    "note": "Francis Ford Coppola transplanted its plot to the Vietnam War for the film Apocalypse Now.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-017",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "In Dostoevsky's Crime and Punishment, what is the name of the student who murders an old pawnbroker?",
+    "a": "Rodion Raskolnikov",
+    "accept": [
+      "Raskolnikov",
+      "Rodion Romanovich Raskolnikov"
+    ],
+    "note": "His surname comes from a Russian word for a schism or split, matching his divided conscience.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-018",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Thomas Hardy novel ends with its heroine arrested at Stonehenge?",
+    "a": "Tess of the d'Urbervilles",
+    "accept": [
+      "Tess",
+      "Tess of the Durbervilles"
+    ],
+    "note": "The outcry over the book's sympathy for a \"fallen woman\" helped push Hardy to abandon novels for poetry.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-019",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "In Kafka's The Metamorphosis, what is the name of the travelling salesman who wakes up transformed into a giant insect?",
+    "a": "Gregor Samsa",
+    "accept": [
+      "Samsa",
+      "Gregor"
+    ],
+    "note": "Kafka insisted his publisher never illustrate the creature on the cover.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-020",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "What is the name of the fictional town where Gabriel García Márquez sets One Hundred Years of Solitude?",
+    "a": "Macondo",
+    "accept": [],
+    "note": "The novel traces seven generations of the Buendía family in that town, and helped win its author the Nobel Prize.",
+    "era": "timeless",
+    "topic": "classic-novels",
+    "pack": "core"
+  },
+  {
+    "id": "art-021",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which British author created the detective Sherlock Holmes?",
+    "a": "Arthur Conan Doyle",
+    "accept": [
+      "Conan Doyle",
+      "Sir Arthur Conan Doyle",
+      "Doyle"
+    ],
+    "note": "He grew so tired of Holmes that he killed him off at the Reichenbach Falls, then revived him after a public outcry.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-022",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Who wrote the Harry Potter series of novels?",
+    "a": "J.K. Rowling",
+    "accept": [
+      "Rowling",
+      "Joanne Rowling",
+      "JK Rowling"
+    ],
+    "note": "Her publisher used initials rather than her first name in the hope that boys would pick up the book.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-023",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which American author wrote The Adventures of Tom Sawyer under a pen name?",
+    "a": "Mark Twain",
+    "accept": [
+      "Twain",
+      "Samuel Clemens",
+      "Samuel Langhorne Clemens"
+    ],
+    "note": "Born Samuel Clemens, he took his pen name from a riverboat call meaning water two fathoms deep.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-024",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Who wrote The Hobbit and The Lord of the Rings?",
+    "a": "J.R.R. Tolkien",
+    "accept": [
+      "Tolkien",
+      "JRR Tolkien",
+      "John Ronald Reuel Tolkien"
+    ],
+    "note": "He was a professor of Anglo-Saxon at Oxford, and invented the Elvish languages before he invented the stories.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-025",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Danish writer wrote the fairy tales \"The Little Mermaid\" and \"The Ugly Duckling\"?",
+    "a": "Hans Christian Andersen",
+    "accept": [
+      "Andersen",
+      "Hans Andersen"
+    ],
+    "note": "A bronze statue of his little mermaid has sat on a rock in Copenhagen harbour since 1913.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-026",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which American writer wrote the poem \"The Raven\"?",
+    "a": "Edgar Allan Poe",
+    "accept": [
+      "Poe",
+      "Edgar Poe"
+    ],
+    "note": "The bird's single croaked word, \"Nevermore\", made him famous almost overnight but earned him only about nine dollars.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-027",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which English poet wrote the lines beginning \"I wandered lonely as a cloud\"?",
+    "a": "William Wordsworth",
+    "accept": [
+      "Wordsworth"
+    ],
+    "note": "The daffodils in the poem were ones his sister Dorothy described first, in her journal.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-028",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which reclusive American poet of Amherst, Massachusetts wrote \"Because I could not stop for Death\"?",
+    "a": "Emily Dickinson",
+    "accept": [
+      "Dickinson"
+    ],
+    "note": "Fewer than a dozen of her roughly 1,800 poems were published while she was alive.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-029",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which American poet wrote \"The Road Not Taken\" and \"Stopping by Woods on a Snowy Evening\"?",
+    "a": "Robert Frost",
+    "accept": [
+      "Frost"
+    ],
+    "note": "He read at John F. Kennedy's inauguration, though glare off the snow forced him to recite from memory instead.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-030",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Russian writer, also a practising doctor, wrote the play The Cherry Orchard?",
+    "a": "Anton Chekhov",
+    "accept": [
+      "Chekhov"
+    ],
+    "note": "He called medicine his lawful wife and literature his mistress.",
+    "era": "timeless",
+    "topic": "playwrights",
+    "pack": "core"
+  },
+  {
+    "id": "art-031",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which American author wrote A Farewell to Arms and The Old Man and the Sea?",
+    "a": "Ernest Hemingway",
+    "accept": [
+      "Hemingway"
+    ],
+    "note": "His stripped-down style, all short declarative sentences, was shaped by his years as a newspaper reporter.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-032",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Canadian author wrote the dystopian novel The Handmaid's Tale?",
+    "a": "Margaret Atwood",
+    "accept": [
+      "Atwood"
+    ],
+    "note": "She has said she included nothing in the book that some society had not already done somewhere.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-033",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Italian poet wrote The Divine Comedy?",
+    "a": "Dante Alighieri",
+    "accept": [
+      "Dante"
+    ],
+    "note": "By writing it in Tuscan rather than Latin he did more than anyone to make that dialect into modern Italian.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-034",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which of the Brontë sisters wrote Jane Eyre?",
+    "a": "Charlotte Brontë",
+    "accept": [
+      "Charlotte",
+      "Charlotte Bronte"
+    ],
+    "note": "She published it as Currer Bell, and reviewers spent months arguing about whether the author was a man.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-035",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Irish writer wrote the novel The Picture of Dorian Gray and the play The Importance of Being Earnest?",
+    "a": "Oscar Wilde",
+    "accept": [
+      "Wilde"
+    ],
+    "note": "Earnest opened in London in 1895, at the very height of his fame and only weeks before his ruin.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-036",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Nigerian author wrote Things Fall Apart?",
+    "a": "Chinua Achebe",
+    "accept": [
+      "Achebe"
+    ],
+    "note": "He took the title from a line in W.B. Yeats's poem \"The Second Coming\".",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-037",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which poet wrote the 1922 modernist poem \"The Waste Land\"?",
+    "a": "T.S. Eliot",
+    "accept": [
+      "Eliot",
+      "Thomas Stearns Eliot",
+      "TS Eliot"
+    ],
+    "note": "Ezra Pound cut the draft roughly in half, and Eliot dedicated the poem to him in gratitude.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-038",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Argentine writer wrote the labyrinthine short-story collections Ficciones and The Aleph?",
+    "a": "Jorge Luis Borges",
+    "accept": [
+      "Borges"
+    ],
+    "note": "He went blind in middle age, around the same time he was appointed director of Argentina's national library.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-039",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Japanese noblewoman wrote The Tale of Genji, often called the world's first novel?",
+    "a": "Murasaki Shikibu",
+    "accept": [
+      "Murasaki",
+      "Lady Murasaki"
+    ],
+    "note": "She wrote it around a thousand years ago as a lady-in-waiting at the Heian imperial court.",
+    "era": "timeless",
+    "topic": "authors",
+    "pack": "core"
+  },
+  {
+    "id": "art-040",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which American poet wrote \"O Captain! My Captain!\", an elegy for Abraham Lincoln?",
+    "a": "Walt Whitman",
+    "accept": [
+      "Whitman"
+    ],
+    "note": "He spent his life expanding a single book, Leaves of Grass, through edition after edition.",
+    "era": "timeless",
+    "topic": "poets",
+    "pack": "core"
+  },
+  {
+    "id": "art-041",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Italian artist painted the Mona Lisa?",
+    "a": "Leonardo da Vinci",
+    "accept": [
+      "Leonardo",
+      "da Vinci"
+    ],
+    "note": "The painting became a worldwide celebrity partly because it was stolen from the Louvre in 1911 and missing for two years.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-042",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Dutch post-Impressionist painted The Starry Night?",
+    "a": "Vincent van Gogh",
+    "accept": [
+      "Van Gogh",
+      "Vincent"
+    ],
+    "note": "He painted the swirling night sky from a window of the asylum at Saint-Rémy, from memory rather than direct observation.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-043",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which artist painted the ceiling of the Sistine Chapel?",
+    "a": "Michelangelo",
+    "accept": [
+      "Michelangelo Buonarroti"
+    ],
+    "note": "He considered himself a sculptor rather than a painter and took the commission reluctantly, spending four years on the scaffold.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-044",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Spanish artist painted Guernica and helped invent Cubism?",
+    "a": "Pablo Picasso",
+    "accept": [
+      "Picasso"
+    ],
+    "note": "Guernica was his response to the bombing of a Basque town during the Spanish Civil War in 1937.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-045",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In which Paris museum does the Mona Lisa hang?",
+    "a": "The Louvre",
+    "accept": [
+      "Louvre",
+      "Musée du Louvre"
+    ],
+    "note": "The building was a royal palace long before it became a museum, opening to the public after the French Revolution.",
+    "era": "timeless",
+    "topic": "art-museums",
+    "pack": "core"
+  },
+  {
+    "id": "art-046",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Norwegian artist painted The Scream?",
+    "a": "Edvard Munch",
+    "accept": [
+      "Munch"
+    ],
+    "note": "He made several versions of the image, and two of them have been stolen and later recovered.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-047",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which French sculptor created the bronze figure known as The Thinker?",
+    "a": "Auguste Rodin",
+    "accept": [
+      "Rodin"
+    ],
+    "note": "The figure began as a small part of a much larger doorway sculpture, The Gates of Hell.",
+    "era": "timeless",
+    "topic": "sculpture",
+    "pack": "core"
+  },
+  {
+    "id": "art-048",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Spanish Surrealist painted The Persistence of Memory, with its drooping melted watches?",
+    "a": "Salvador Dalí",
+    "accept": [
+      "Dalí",
+      "Dali",
+      "Salvador Dali"
+    ],
+    "note": "He said the soft watches were inspired by a wheel of Camembert melting in the sun.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-049",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which French painter's canvas Impression, Sunrise gave the Impressionist movement its name?",
+    "a": "Claude Monet",
+    "accept": [
+      "Monet"
+    ],
+    "note": "A hostile critic coined the word \"Impressionists\" as an insult, and the painters cheerfully adopted it.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-050",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Mexican painter is known for unflinching self-portraits and the double portrait The Two Fridas?",
+    "a": "Frida Kahlo",
+    "accept": [
+      "Kahlo"
+    ],
+    "note": "She began painting seriously while bedridden after a streetcar accident, using a mirror mounted above her bed.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-051",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which American artist painted Nighthawks, showing four figures in a late-night diner?",
+    "a": "Edward Hopper",
+    "accept": [
+      "Hopper"
+    ],
+    "note": "There is no visible door into the diner, which is part of why the scene feels so sealed off.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-052",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Dutch master painted the enormous militia group portrait known as The Night Watch?",
+    "a": "Rembrandt",
+    "accept": [
+      "Rembrandt van Rijn"
+    ],
+    "note": "Its familiar nickname comes from centuries of darkened varnish; the scene is actually set in daylight.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-053",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which artist made the Pop Art silkscreens of Campbell's Soup Cans and Marilyn Monroe?",
+    "a": "Andy Warhol",
+    "accept": [
+      "Warhol"
+    ],
+    "note": "He began as a successful commercial illustrator, which is exactly why the art world was slow to take him seriously.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-054",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Italian Renaissance artist painted The Birth of Venus, showing the goddess arriving on a scallop shell?",
+    "a": "Sandro Botticelli",
+    "accept": [
+      "Botticelli"
+    ],
+    "note": "It hangs in the Uffizi in Florence, painted for the Medici circle at the height of their power.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-055",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "What is the title of Grant Wood's painting of a stern farmer holding a pitchfork beside a woman, in front of a white farmhouse?",
+    "a": "American Gothic",
+    "accept": [],
+    "note": "The title refers to the pointed window on the house behind them, a style called Carpenter Gothic.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-056",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which famous armless ancient Greek statue of Aphrodite is named after the island where it was found?",
+    "a": "Venus de Milo",
+    "accept": [
+      "The Venus de Milo",
+      "Aphrodite of Milos"
+    ],
+    "note": "A farmer uncovered it on Milos in 1820, and nobody knows what the missing arms were doing.",
+    "era": "timeless",
+    "topic": "sculpture",
+    "pack": "core"
+  },
+  {
+    "id": "art-057",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Dutch painter created Girl with a Pearl Earring?",
+    "a": "Johannes Vermeer",
+    "accept": [
+      "Vermeer",
+      "Jan Vermeer"
+    ],
+    "note": "Only about three dozen paintings are firmly attributed to him, and he was largely forgotten for two centuries.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-058",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Spanish painter put himself at his easel in the royal group portrait Las Meninas?",
+    "a": "Diego Velázquez",
+    "accept": [
+      "Velázquez",
+      "Velazquez"
+    ],
+    "note": "The king and queen appear only as a small reflection in a mirror at the back of the room.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-059",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Japanese artist made the woodblock print The Great Wave off Kanagawa?",
+    "a": "Katsushika Hokusai",
+    "accept": [
+      "Hokusai"
+    ],
+    "note": "It is one sheet from his series Thirty-six Views of Mount Fuji, and the mountain sits small behind the wave.",
+    "era": "timeless",
+    "topic": "printmaking",
+    "pack": "core"
+  },
+  {
+    "id": "art-060",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Netherlandish painter created the crowded, nightmarish triptych The Garden of Earthly Delights?",
+    "a": "Hieronymus Bosch",
+    "accept": [
+      "Bosch"
+    ],
+    "note": "One damned figure in the hell panel has musical notation written across his backside, which modern musicians have transcribed and played.",
+    "era": "timeless",
+    "topic": "painting",
+    "pack": "core"
+  },
+  {
+    "id": "art-061",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Shakespeare play is about young lovers from the feuding Montague and Capulet families of Verona?",
+    "a": "Romeo and Juliet",
+    "accept": [
+      "Romeo & Juliet"
+    ],
+    "note": "Shakespeare did not invent the plot; he reworked an English poem that was itself based on Italian tales.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-062",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Shakespeare play contains the soliloquy beginning \"To be, or not to be\"?",
+    "a": "Hamlet",
+    "accept": [],
+    "note": "At around 4,000 lines it is Shakespeare's longest play, and Hamlet has more lines than any other character he wrote.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-063",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Shakespeare tragedy opens with three witches and follows a Scottish thane who murders his king?",
+    "a": "Macbeth",
+    "accept": [],
+    "note": "Theatre superstition holds that saying its name inside a theatre is unlucky, so actors call it \"the Scottish play\".",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-064",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Andrew Lloyd Webber musical features a masked figure living beneath the Paris Opera House?",
+    "a": "The Phantom of the Opera",
+    "accept": [
+      "Phantom of the Opera",
+      "Phantom"
+    ],
+    "note": "It is based on a 1910 novel by the French writer Gaston Leroux.",
+    "era": "timeless",
+    "topic": "musical-theatre",
+    "pack": "core"
+  },
+  {
+    "id": "art-065",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "What is the name of the round London playhouse associated with Shakespeare's company, rebuilt near its original site in 1997?",
+    "a": "The Globe",
+    "accept": [
+      "Globe Theatre",
+      "Shakespeare's Globe",
+      "The Globe Theatre"
+    ],
+    "note": "The original burned down in 1613 when a stage cannon set the thatched roof alight during a performance of Henry VIII.",
+    "era": "timeless",
+    "topic": "theatre-history",
+    "pack": "core"
+  },
+  {
+    "id": "art-066",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Shakespeare comedy features the fairy king Oberon and a mischievous sprite named Puck?",
+    "a": "A Midsummer Night's Dream",
+    "accept": [
+      "Midsummer Night's Dream",
+      "A Midsummer Nights Dream"
+    ],
+    "note": "Puck's other name in the play, Robin Goodfellow, comes straight out of English folk belief.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-067",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In Shakespeare's Julius Caesar, what warning does the soothsayer call out to Caesar in the street?",
+    "a": "Beware the Ides of March",
+    "accept": [
+      "The Ides of March",
+      "Ides of March"
+    ],
+    "note": "The Ides simply meant the middle of the month, in this case 15 March.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-068",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Shakespeare tragedy features a Moorish general destroyed by the scheming of his ensign Iago?",
+    "a": "Othello",
+    "accept": [],
+    "note": "Iago speaks more lines than the title character, which is unusual for a Shakespeare villain.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-069",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Shakespeare tragedy begins with an ageing king dividing his kingdom among his daughters?",
+    "a": "King Lear",
+    "accept": [
+      "Lear"
+    ],
+    "note": "For roughly 150 years the play was performed only in a rewritten version with a happy ending.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-070",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In which Samuel Beckett play do two tramps, Vladimir and Estragon, wait by a tree for someone who never arrives?",
+    "a": "Waiting for Godot",
+    "accept": [
+      "Godot",
+      "En attendant Godot"
+    ],
+    "note": "Beckett wrote it in French first, then translated it into his native English himself.",
+    "era": "timeless",
+    "topic": "modern-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-071",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Arthur Miller play dramatises the Salem witch trials?",
+    "a": "The Crucible",
+    "accept": [
+      "Crucible"
+    ],
+    "note": "Miller wrote it in 1953 as a parallel to the anti-communist hearings then gripping the United States.",
+    "era": "timeless",
+    "topic": "modern-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-072",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Tennessee Williams play pits the fragile Blanche DuBois against her brother-in-law Stanley Kowalski?",
+    "a": "A Streetcar Named Desire",
+    "accept": [
+      "Streetcar Named Desire",
+      "Streetcar"
+    ],
+    "note": "The streetcar of the title was a real New Orleans line running along Desire Street.",
+    "era": "timeless",
+    "topic": "modern-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-073",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Greek tragedy by Sophocles concerns a king who unknowingly kills his father and marries his mother?",
+    "a": "Oedipus Rex",
+    "accept": [
+      "Oedipus the King",
+      "Oedipus",
+      "Oedipus Tyrannus"
+    ],
+    "note": "Freud borrowed the king's name for his theory some 2,400 years after the play was written.",
+    "era": "timeless",
+    "topic": "greek-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-074",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In The Merchant of Venice, which moneylender demands a pound of flesh as forfeit on a loan?",
+    "a": "Shylock",
+    "accept": [],
+    "note": "He is undone by a technicality: the bond entitles him to flesh, but not to a single drop of blood.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-075",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Shakespeare play is set on an island ruled by the exiled magician Prospero?",
+    "a": "The Tempest",
+    "accept": [
+      "Tempest"
+    ],
+    "note": "It is widely thought to be the last play he wrote alone, and Prospero's farewell to his magic is often read as Shakespeare's own.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-076",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "What three-word phrase do theatre people traditionally use to wish a performer good luck?",
+    "a": "Break a leg",
+    "accept": [
+      "Break a leg!"
+    ],
+    "note": "Wishing someone plain good luck is considered a jinx, so the superstition demands you wish them harm instead.",
+    "era": "timeless",
+    "topic": "theatre-history",
+    "pack": "core"
+  },
+  {
+    "id": "art-077",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Norwegian playwright wrote A Doll's House, which ends with Nora walking out and slamming the door?",
+    "a": "Henrik Ibsen",
+    "accept": [
+      "Ibsen"
+    ],
+    "note": "German theatres of the day forced him to supply an alternative ending in which Nora stays.",
+    "era": "timeless",
+    "topic": "modern-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-078",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which fat, boastful, cowardly knight is Prince Hal's drinking companion in Shakespeare's Henry IV plays?",
+    "a": "Falstaff",
+    "accept": [
+      "Sir John Falstaff",
+      "John Falstaff"
+    ],
+    "note": "He proved so popular that Shakespeare gave him his own comedy, The Merry Wives of Windsor.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-079",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which ancient Greek playwright wrote the trilogy known as the Oresteia?",
+    "a": "Aeschylus",
+    "accept": [],
+    "note": "It is the only complete trilogy to survive from Greek tragedy.",
+    "era": "timeless",
+    "topic": "greek-drama",
+    "pack": "core"
+  },
+  {
+    "id": "art-080",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "In Shakespeare's Twelfth Night, what name does the shipwrecked Viola take while disguised as a young man?",
+    "a": "Cesario",
+    "accept": [],
+    "note": "The tangle is complete when Olivia falls for the disguise and Viola falls for the duke she is serving.",
+    "era": "timeless",
+    "topic": "shakespeare",
+    "pack": "core"
+  },
+  {
+    "id": "art-081",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which German composer wrote the Ninth Symphony, with its \"Ode to Joy\" finale, after going deaf?",
+    "a": "Ludwig van Beethoven",
+    "accept": [
+      "Beethoven"
+    ],
+    "note": "At the 1824 premiere he had to be turned around to see the applause he could not hear.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-082",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Austrian child prodigy composed The Magic Flute and died in 1791 at the age of 35?",
+    "a": "Wolfgang Amadeus Mozart",
+    "accept": [
+      "Mozart"
+    ],
+    "note": "He left his Requiem unfinished at his death, and a pupil completed it for the widow to collect the fee.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-083",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Russian composer wrote the ballets Swan Lake and The Nutcracker?",
+    "a": "Pyotr Ilyich Tchaikovsky",
+    "accept": [
+      "Tchaikovsky"
+    ],
+    "note": "The Nutcracker was a flop at its 1892 premiere and only became a Christmas fixture much later.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-084",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Italian composer wrote the set of violin concertos known as The Four Seasons?",
+    "a": "Antonio Vivaldi",
+    "accept": [
+      "Vivaldi"
+    ],
+    "note": "He was an ordained priest with red hair, nicknamed the Red Priest, who taught music at a Venetian orphanage for girls.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-085",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which German composer wrote the Brandenburg Concertos and the Goldberg Variations?",
+    "a": "Johann Sebastian Bach",
+    "accept": [
+      "Bach",
+      "J.S. Bach",
+      "JS Bach"
+    ],
+    "note": "He fathered twenty children, and several of his sons became famous composers in their own right.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-086",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which section of a symphony orchestra contains the violins, violas, cellos and double basses?",
+    "a": "The strings",
+    "accept": [
+      "Strings",
+      "String section"
+    ],
+    "note": "It is by far the largest section, and its players are the only ones who normally all play the same few instrument types.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-087",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Puccini opera is set in Nagasaki and centres on a young Japanese bride called Cio-Cio-San?",
+    "a": "Madama Butterfly",
+    "accept": [
+      "Madame Butterfly",
+      "Madam Butterfly"
+    ],
+    "note": "It was booed off the stage at its 1904 premiere at La Scala; Puccini revised it and it became one of the most performed operas ever written.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-088",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Italian composer wrote the operas Rigoletto, La Traviata and Aida?",
+    "a": "Giuseppe Verdi",
+    "accept": [
+      "Verdi"
+    ],
+    "note": "Aida was written for a grand opera house in Cairo, and premiered there in 1871.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-089",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which German composer wrote the four-opera Ring cycle, which includes the \"Ride of the Valkyries\"?",
+    "a": "Richard Wagner",
+    "accept": [
+      "Wagner"
+    ],
+    "note": "He had an entire theatre built at Bayreuth to his own specifications just to stage the cycle properly.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-090",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which composer wrote the Water Music and the oratorio Messiah, with its \"Hallelujah\" chorus?",
+    "a": "George Frideric Handel",
+    "accept": [
+      "Handel",
+      "Georg Friedrich Händel"
+    ],
+    "note": "German-born, he settled in London and became a British subject, and is buried in Westminster Abbey.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-091",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Polish-born composer wrote almost exclusively for solo piano, including a famous set of nocturnes and mazurkas?",
+    "a": "Frédéric Chopin",
+    "accept": [
+      "Chopin",
+      "Frederic Chopin"
+    ],
+    "note": "He spent his adult life in Paris and asked that his heart be returned to Warsaw after his death, which it was.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-092",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which composer's ballet The Rite of Spring caused a near-riot at its 1913 Paris premiere?",
+    "a": "Igor Stravinsky",
+    "accept": [
+      "Stravinsky"
+    ],
+    "note": "The jagged choreography upset the audience as much as the music, and the dancers had to take their counts shouted from the wings.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-093",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "What Italian musical term describes the speed at which a piece is played?",
+    "a": "Tempo",
+    "accept": [],
+    "note": "The word simply means \"time\" in Italian, the language that supplied most of Western music's performance vocabulary.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-094",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Austrian composer of more than a hundred symphonies is nicknamed the \"Father of the Symphony\"?",
+    "a": "Joseph Haydn",
+    "accept": [
+      "Haydn",
+      "Franz Joseph Haydn"
+    ],
+    "note": "He taught the young Beethoven and was a close friend of Mozart, bridging two generations of Viennese music.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-095",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In opera, what name is given to the highest female voice type?",
+    "a": "Soprano",
+    "accept": [],
+    "note": "The word comes from the Italian for \"above\", since the part sits on top of the vocal texture.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-096",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which French composer wrote the opera Carmen?",
+    "a": "Georges Bizet",
+    "accept": [
+      "Bizet"
+    ],
+    "note": "He died a few months after its cool reception in 1875, never knowing it would become one of the most popular operas in the world.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-097",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which composer wrote the tone poem Also sprach Zarathustra, whose sunrise opening was used in the film 2001: A Space Odyssey?",
+    "a": "Richard Strauss",
+    "accept": [
+      "Strauss",
+      "R. Strauss"
+    ],
+    "note": "He was no relation to the Viennese waltz Strausses, a confusion that followed him all his life.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-098",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Russian composer wrote the piano suite Pictures at an Exhibition?",
+    "a": "Modest Mussorgsky",
+    "accept": [
+      "Mussorgsky",
+      "Musorgsky"
+    ],
+    "note": "He wrote it in memory of a friend, an artist whose drawings the movements depict, and Ravel's later orchestration made it a concert staple.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-099",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Czech composer wrote the symphony known as \"From the New World\" while living in the United States?",
+    "a": "Antonín Dvořák",
+    "accept": [
+      "Dvořák",
+      "Dvorak",
+      "Antonin Dvorak"
+    ],
+    "note": "He was running a New York conservatory at the time and urged American composers to build on their own folk traditions.",
+    "era": "timeless",
+    "topic": "classical-music",
+    "pack": "core"
+  },
+  {
+    "id": "art-100",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Victorian writing-and-composing partnership produced the comic operas The Mikado and The Pirates of Penzance?",
+    "a": "Gilbert and Sullivan",
+    "accept": [
+      "Gilbert & Sullivan",
+      "W.S. Gilbert and Arthur Sullivan"
+    ],
+    "note": "Gilbert wrote the words and Sullivan the music, and the two men quarrelled bitterly for years over, among other things, a carpet.",
+    "era": "timeless",
+    "topic": "opera",
+    "pack": "core"
+  },
+  {
+    "id": "art-101",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In Greek mythology, which god rules the other gods from Mount Olympus?",
+    "a": "Zeus",
+    "accept": [],
+    "note": "The Romans identified him with Jupiter, and his weapon in both traditions is the thunderbolt.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-102",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which Paris landmark was built as the entrance arch for the 1889 World's Fair?",
+    "a": "The Eiffel Tower",
+    "accept": [
+      "Eiffel Tower",
+      "La Tour Eiffel"
+    ],
+    "note": "It was meant to be dismantled after twenty years and survived mainly because it made such a useful radio mast.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-103",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In Greek mythology, which hero's only vulnerable spot was his heel?",
+    "a": "Achilles",
+    "accept": [],
+    "note": "His mother dipped him in the river Styx as a baby but held him by the heel, leaving that patch untouched.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-104",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "Which white marble mausoleum at Agra in India was built by an emperor as a tomb for his wife?",
+    "a": "The Taj Mahal",
+    "accept": [
+      "Taj Mahal"
+    ],
+    "note": "Shah Jahan built it for Mumtaz Mahal, who died giving birth to their fourteenth child.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-105",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In Norse mythology, which hammer-wielding god is associated with thunder?",
+    "a": "Thor",
+    "accept": [],
+    "note": "His hammer is called Mjölnir, and Thursday is named after him.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-106",
+    "category": "arts",
+    "difficulty": 1,
+    "q": "In Greek myth, what half-man, half-bull creature was kept in the Labyrinth on Crete?",
+    "a": "The Minotaur",
+    "accept": [
+      "Minotaur"
+    ],
+    "note": "Theseus killed it and found his way back out using a thread given to him by Ariadne.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-107",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In Greek myth, who ignored his father's warning and flew so close to the sun that his wax wings melted?",
+    "a": "Icarus",
+    "accept": [],
+    "note": "His father Daedalus, who built the wings, also designed the Labyrinth they were escaping from.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-108",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Roman god corresponds to the Greek god of war, Ares?",
+    "a": "Mars",
+    "accept": [],
+    "note": "The Romans thought far better of him than the Greeks did of Ares, treating him as a founding father of Rome itself.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-109",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which Spanish architect designed the Sagrada Família church in Barcelona?",
+    "a": "Antoni Gaudí",
+    "accept": [
+      "Gaudí",
+      "Gaudi",
+      "Antoni Gaudi"
+    ],
+    "note": "He worked on it for more than forty years and knew he would never see it finished; construction is still going on.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-110",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "What is the name of the great oval amphitheatre in Rome, completed around AD 80?",
+    "a": "The Colosseum",
+    "accept": [
+      "Colosseum",
+      "Coliseum",
+      "Flavian Amphitheatre"
+    ],
+    "note": "Its formal name was the Flavian Amphitheatre, after the emperors who built it, and it held roughly 50,000 spectators.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-111",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In Greek myth, what one thing remained inside Pandora's box after everything else had escaped?",
+    "a": "Hope",
+    "accept": [],
+    "note": "It was originally a large storage jar; \"box\" crept in through a mistranslation in the sixteenth century.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-112",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which American architect designed the spiral-ramped Guggenheim Museum in New York and the house called Fallingwater?",
+    "a": "Frank Lloyd Wright",
+    "accept": [
+      "Wright",
+      "Lloyd Wright"
+    ],
+    "note": "He died a few months before the Guggenheim opened in 1959, after sixteen years of wrangling over the design.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-113",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In Greek myth, which musician was allowed to lead his wife Eurydice out of the underworld provided he did not look back?",
+    "a": "Orpheus",
+    "accept": [],
+    "note": "He looked back within sight of daylight, and the story has been set as an opera more often than almost any other myth.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-114",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which ancient temple dedicated to Athena stands on the Acropolis in Athens?",
+    "a": "The Parthenon",
+    "accept": [
+      "Parthenon"
+    ],
+    "note": "It stood largely intact for over two thousand years until a Venetian shell hit the gunpowder stored inside it in 1687.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-115",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "In Norse mythology, what name is given to the prophesied final battle in which many of the gods die?",
+    "a": "Ragnarök",
+    "accept": [
+      "Ragnarok",
+      "Ragnarokk"
+    ],
+    "note": "Wagner borrowed it for the last opera of his Ring cycle, under the German name Götterdämmerung.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-116",
+    "category": "arts",
+    "difficulty": 2,
+    "q": "Which style of architecture is defined by pointed arches, ribbed vaults and flying buttresses, as seen in Notre-Dame de Paris?",
+    "a": "Gothic",
+    "accept": [
+      "Gothic architecture"
+    ],
+    "note": "Renaissance critics coined the name as an insult, meaning barbarian work fit for Goths.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-117",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "Which Danish architect designed the Sydney Opera House?",
+    "a": "Jørn Utzon",
+    "accept": [
+      "Utzon",
+      "Jorn Utzon"
+    ],
+    "note": "He won the competition in 1957, resigned in a funding row before the building was finished, and never saw it completed in person.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "art-118",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "In Greek myth, which hero beheaded the Gorgon Medusa?",
+    "a": "Perseus",
+    "accept": [],
+    "note": "He avoided her petrifying gaze by watching her reflection in a polished shield.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  },
+  {
+    "id": "art-119",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "What name is given to the thousands of life-size clay soldiers buried near the tomb of China's first emperor?",
+    "a": "The Terracotta Army",
+    "accept": [
+      "Terracotta Army",
+      "Terracotta Warriors",
+      "The Terracotta Warriors"
+    ],
+    "note": "Farmers digging a well near Xi'an stumbled on them in 1974, more than two thousand years after they were buried.",
+    "era": "timeless",
+    "topic": "sculpture",
+    "pack": "core"
+  },
+  {
+    "id": "art-120",
+    "category": "arts",
+    "difficulty": 3,
+    "q": "In Norse mythology, what is the name of the great tree whose branches and roots link the nine worlds?",
+    "a": "Yggdrasil",
+    "accept": [
+      "Yggdrasill"
+    ],
+    "note": "It is usually described as an ash, with a serpent gnawing at its roots and an eagle perched at the top.",
+    "era": "timeless",
+    "topic": "mythology",
+    "pack": "core"
+  }
+]

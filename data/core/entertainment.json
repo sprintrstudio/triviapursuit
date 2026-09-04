@@ -1,0 +1,1568 @@
+[
+  {
+    "id": "ent-001",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1939 film The Wizard of Oz, what color are the magic slippers Dorothy wears?",
+    "a": "Ruby red",
+    "accept": [
+      "Ruby",
+      "Red"
+    ],
+    "note": "They were silver in L. Frank Baum's novel, and MGM switched them to ruby to show off Technicolor.",
+    "era": "1930s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-002",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1977 film Star Wars, what is the name of Han Solo's battered freighter?",
+    "a": "The Millennium Falcon",
+    "accept": [
+      "Millennium Falcon"
+    ],
+    "note": "Han brags that it made the Kessel Run in less than twelve parsecs, a boast about distance rather than time.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-003",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1960 thriller Psycho, where in the Bates Motel is Marion Crane murdered?",
+    "a": "In the shower",
+    "accept": [
+      "The shower",
+      "Shower",
+      "The bathroom",
+      "In the bathroom"
+    ],
+    "note": "Bernard Herrmann scored the entire film for string instruments alone, including those shrieking violins.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-004",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1985 film Back to the Future, what make of car does Doc Brown turn into a time machine?",
+    "a": "A DeLorean",
+    "accept": [
+      "DeLorean",
+      "DeLorean DMC-12"
+    ],
+    "note": "The car has to hit 88 miles per hour and draw 1.21 gigawatts of power to jump through time.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-005",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the dying word spoken in the opening scene of the 1941 film Citizen Kane?",
+    "a": "Rosebud",
+    "accept": [],
+    "note": "Orson Welles co-wrote, directed and starred in the picture, his first feature film.",
+    "era": "1940s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-006",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actress played the singing governess Maria in the 1965 film The Sound of Music?",
+    "a": "Julie Andrews",
+    "accept": [],
+    "note": "She won the Best Actress Oscar for Mary Poppins, released the year before.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-007",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1975 film Jaws, what is the name of the beach town terrorized by the great white shark?",
+    "a": "Amity Island",
+    "accept": [
+      "Amity"
+    ],
+    "note": "The mechanical shark broke down so often that the director kept it hidden, which only made the film scarier.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-008",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the aging Don Vito Corleone in the 1972 film The Godfather?",
+    "a": "Marlon Brando",
+    "accept": [],
+    "note": "He won Best Actor for the role and refused the award in protest at Hollywood's portrayal of Native Americans.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-009",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the ship's computer that turns on the crew in the 1968 film 2001: A Space Odyssey?",
+    "a": "HAL 9000",
+    "accept": [
+      "HAL"
+    ],
+    "note": "Each letter of HAL sits one place before IBM in the alphabet, which Arthur C. Clarke always insisted was a coincidence.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-010",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1982 film E.T. the Extra-Terrestrial, what brand of candy does Elliott use to coax E.T. into his house?",
+    "a": "Reese's Pieces",
+    "accept": [
+      "Reeses Pieces"
+    ],
+    "note": "Mars turned down the chance to use M&M's, and sales of Reese's Pieces soared after the film opened.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-011",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1939 epic Gone with the Wind, what is the name of Scarlett O'Hara's family plantation?",
+    "a": "Tara",
+    "accept": [],
+    "note": "Hattie McDaniel won Best Supporting Actress for the film, the first Academy Award given to a Black performer.",
+    "era": "1930s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-012",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the snowbound Colorado hotel in the 1980 film The Shining?",
+    "a": "The Overlook Hotel",
+    "accept": [
+      "Overlook",
+      "The Overlook"
+    ],
+    "note": "Stephen King disliked Kubrick's version so much that he backed a more faithful television remake in 1997.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-013",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which heavyweight champion does Rocky Balboa fight in the climax of the 1976 film Rocky?",
+    "a": "Apollo Creed",
+    "accept": [
+      "Apollo"
+    ],
+    "note": "Sylvester Stallone wrote the screenplay himself and refused to sell it unless he could star in it.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-014",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1979 science fiction film introduced Sigourney Weaver as Warrant Officer Ripley?",
+    "a": "Alien",
+    "accept": [],
+    "note": "Ridley Scott kept the cast in the dark about the chestburster scene, so much of their horror is genuine.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-015",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the nightclub run by Humphrey Bogart's character in the 1942 film Casablanca?",
+    "a": "Rick's Café Américain",
+    "accept": [
+      "Rick's",
+      "Rick's Cafe Americain",
+      "Rick's Cafe"
+    ],
+    "note": "The film's most quoted line, 'Play it again, Sam,' is never actually spoken in it.",
+    "era": "1940s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-016",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which star sings and dances the title number through a downpour in the 1952 musical Singin' in the Rain?",
+    "a": "Gene Kelly",
+    "accept": [],
+    "note": "The story is set during Hollywood's chaotic switch from silent pictures to talkies.",
+    "era": "1950s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-017",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor played T. E. Lawrence in the 1962 epic Lawrence of Arabia?",
+    "a": "Peter O'Toole",
+    "accept": [],
+    "note": "He was nominated for eight acting Oscars across his career and never won a competitive one.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-018",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "How many different roles did Peter Sellers play in the 1964 satire Dr. Strangelove?",
+    "a": "Three",
+    "accept": [
+      "3"
+    ],
+    "note": "He was meant to play a fourth, the bomber pilot, but an injury handed that part to Slim Pickens.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-019",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1974 Roman Polanski film about Los Angeles water rights ends with the line 'Forget it, Jake. It's Chinatown'?",
+    "a": "Chinatown",
+    "accept": [],
+    "note": "Screenwriter Robert Towne took home the film's only Academy Award.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-020",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1959 Billy Wilder comedy closes with the line 'Nobody's perfect'?",
+    "a": "Some Like It Hot",
+    "accept": [],
+    "note": "Joe E. Brown delivers it after learning that his fiancée is a man in disguise.",
+    "era": "1950s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-021",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the penniless artist Jack Dawson in the 1997 film Titanic?",
+    "a": "Leonardo DiCaprio",
+    "accept": [],
+    "note": "The film won eleven Academy Awards, tying the record set by the 1959 epic Ben-Hur.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-022",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1999 film The Matrix, what color pill does Neo swallow to learn the truth?",
+    "a": "The red pill",
+    "accept": [
+      "Red"
+    ],
+    "note": "Its slow-motion 'bullet time' shots were made with a ring of still cameras firing in sequence.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-023",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1994 film Forrest Gump, Forrest says that life is like a box of what?",
+    "a": "Chocolates",
+    "accept": [
+      "A box of chocolates"
+    ],
+    "note": "Tom Hanks won Best Actor for the role, his second win in a row after Philadelphia.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-024",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1990 comedy Home Alone, what is the first name of the boy left behind when his family flies to Paris?",
+    "a": "Kevin",
+    "accept": [
+      "Kevin McCallister"
+    ],
+    "note": "John Hughes wrote the screenplay after wondering what might happen if he forgot one of his own children on a trip.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-025",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 2001 film Harry Potter and the Sorcerer's Stone, what is the name of the school Harry is invited to attend?",
+    "a": "Hogwarts",
+    "accept": [
+      "Hogwarts School of Witchcraft and Wizardry"
+    ],
+    "note": "Outside North America the same film was released as Harry Potter and the Philosopher's Stone.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-026",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the Joker in the 2008 film The Dark Knight?",
+    "a": "Heath Ledger",
+    "accept": [],
+    "note": "He died before the film opened and won a posthumous Oscar for Best Supporting Actor.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-027",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1993 film Jurassic Park, what is the name of the island where the dinosaur park is built?",
+    "a": "Isla Nublar",
+    "accept": [
+      "Nublar"
+    ],
+    "note": "Michael Crichton wrote the 1990 novel and then co-wrote the screenplay.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-028",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Who wrote and directed the 1994 crime film Pulp Fiction?",
+    "a": "Quentin Tarantino",
+    "accept": [],
+    "note": "It won the Palme d'Or at Cannes and the Academy Award for Best Original Screenplay.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-029",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1994 film The Shawshank Redemption, what does Andy Dufresne hang on his cell wall to hide his escape tunnel?",
+    "a": "A poster",
+    "accept": [
+      "A pin-up poster",
+      "A movie poster",
+      "A poster of Rita Hayworth",
+      "Rita Hayworth poster"
+    ],
+    "note": "The film barely made its money back in cinemas and became a favorite only through television reruns and video.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-030",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played Hannibal Lecter in the 1991 film The Silence of the Lambs?",
+    "a": "Anthony Hopkins",
+    "accept": [],
+    "note": "The film swept the top five Oscars, something only two other films have ever managed.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-031",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The opening sequence of the 1998 film Saving Private Ryan re-creates the D-Day landing on which Normandy beach?",
+    "a": "Omaha Beach",
+    "accept": [
+      "Omaha"
+    ],
+    "note": "The landing was actually filmed on a stretch of Irish coast in County Wexford.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-032",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the Roman general Maximus in the 2000 film Gladiator?",
+    "a": "Russell Crowe",
+    "accept": [],
+    "note": "The film took Best Picture and Crowe took Best Actor.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-033",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 2001 film The Lord of the Rings: The Fellowship of the Ring, which hobbit is given the task of carrying the One Ring?",
+    "a": "Frodo Baggins",
+    "accept": [
+      "Frodo"
+    ],
+    "note": "Peter Jackson shot all three installments back to back in New Zealand.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-034",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "On which lush alien moon is the 2009 film Avatar set?",
+    "a": "Pandora",
+    "accept": [],
+    "note": "Pandora is a moon orbiting a gas giant, not a planet in its own right.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-035",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the hidden African nation ruled by T'Challa in the 2018 film Black Panther?",
+    "a": "Wakanda",
+    "accept": [],
+    "note": "It became the first superhero film ever nominated for the Best Picture Oscar.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-036",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 2016 musical was mistakenly announced as the Best Picture winner before Moonlight was named the real winner?",
+    "a": "La La Land",
+    "accept": [],
+    "note": "The presenters had been handed a duplicate Best Actress envelope, which Emma Stone had just won for that same film.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-037",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "In Steven Spielberg's otherwise black-and-white 1993 film Schindler's List, what color is the coat worn by a small girl in the ghetto?",
+    "a": "Red",
+    "accept": [
+      "The red coat"
+    ],
+    "note": "The film won Spielberg his first Academy Award for Best Director.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-038",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which pair of filmmaking brothers wrote and directed the 2007 Best Picture winner No Country for Old Men?",
+    "a": "The Coen brothers",
+    "accept": [
+      "Joel and Ethan Coen",
+      "Coen brothers",
+      "The Coens"
+    ],
+    "note": "Javier Bardem won Best Supporting Actor as the coin-flipping killer Anton Chigurh.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-039",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 2000 Christopher Nolan thriller tells the story of a man with no short-term memory largely in reverse order?",
+    "a": "Memento",
+    "accept": [],
+    "note": "It grew out of a short story written by the director's brother, Jonathan Nolan.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-040",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which comedian wrote and directed the 2017 horror film Get Out, winning an Oscar for its screenplay?",
+    "a": "Jordan Peele",
+    "accept": [],
+    "note": "He was already well known for the sketch series Key & Peele.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-041",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the sitcom Friends, which premiered in 1994, what is the name of the coffee house where the group hangs out?",
+    "a": "Central Perk",
+    "accept": [],
+    "note": "The six leads eventually negotiated their salaries as a single group rather than individually.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-042",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In The Simpsons, which began as a half-hour series in 1989, what is the name of the town where the family lives?",
+    "a": "Springfield",
+    "accept": [],
+    "note": "The show has never settled which state it is in, and the vagueness is the joke.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-043",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the series Breaking Bad, which began in 2008, what subject did Walter White teach in high school?",
+    "a": "Chemistry",
+    "accept": [],
+    "note": "He takes the alias Heisenberg, borrowed from the German physicist.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-044",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "On Sesame Street, which first aired in 1969, which grouchy character lives in a trash can?",
+    "a": "Oscar the Grouch",
+    "accept": [
+      "Oscar"
+    ],
+    "note": "Caroll Spinney performed both Oscar and Big Bird for nearly fifty years.",
+    "era": "1960s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-045",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "The series M*A*S*H, which ran from 1972 to 1983, is set during which war?",
+    "a": "The Korean War",
+    "accept": [
+      "Korea",
+      "Korean War"
+    ],
+    "note": "The show lasted eleven years, more than three times as long as the war it depicted.",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-046",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the American version of The Office, which premiered in 2005, what is the name of the paper company where the staff work?",
+    "a": "Dunder Mifflin",
+    "accept": [],
+    "note": "The branch sits in Scranton, Pennsylvania, and the series was adapted from Ricky Gervais's British original.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-047",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the rarely used first name of Kramer, the neighbor on the sitcom Seinfeld, which ran from 1989 to 1998?",
+    "a": "Cosmo",
+    "accept": [
+      "Cosmo Kramer"
+    ],
+    "note": "The character was based on Kenny Kramer, a real-life neighbor of co-creator Larry David.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-048",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the HBO series Game of Thrones, which premiered in 2011, what three words serve as the motto of House Stark?",
+    "a": "Winter is coming",
+    "accept": [
+      "Winter is coming."
+    ],
+    "note": "The series was adapted from George R. R. Martin's novels, starting with A Game of Thrones.",
+    "era": "2010s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-049",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the starship commanded by Captain Kirk in the original Star Trek series, which debuted in 1966?",
+    "a": "The USS Enterprise",
+    "accept": [
+      "Enterprise",
+      "USS Enterprise"
+    ],
+    "note": "The original series was canceled after three seasons and only became a phenomenon in reruns.",
+    "era": "1960s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-050",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In which American city is the bar in the sitcom Cheers, which ran from 1982 to 1993?",
+    "a": "Boston",
+    "accept": [],
+    "note": "The exterior shots show a real pub then known as the Bull & Finch.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-051",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which comedian starred as Lucy Ricardo in the 1950s sitcom I Love Lucy?",
+    "a": "Lucille Ball",
+    "accept": [],
+    "note": "It was shot on film with three cameras before a live audience, which is why the reruns still look sharp.",
+    "era": "1950s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-052",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the surname of the skeptical medical doctor partnered with Fox Mulder in The X-Files, which began in 1993?",
+    "a": "Scully",
+    "accept": [
+      "Dana Scully"
+    ],
+    "note": "Gillian Anderson was a near-unknown, and the network had to be talked into casting her.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-053",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played mob boss Tony Soprano in the HBO drama that began in 1999?",
+    "a": "James Gandolfini",
+    "accept": [],
+    "note": "The series ends mid-scene with an abrupt cut to black that still divides viewers.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-054",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the nickname of Henry Winkler's leather-jacketed character on the 1970s sitcom Happy Days?",
+    "a": "The Fonz",
+    "accept": [
+      "Fonzie",
+      "Fonz",
+      "Arthur Fonzarelli"
+    ],
+    "note": "A 1977 episode in which he water-skis over a shark gave the world the phrase 'jumping the shark.'",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-055",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In which city do the four housemates live in the sitcom The Golden Girls, which premiered in 1985?",
+    "a": "Miami",
+    "accept": [],
+    "note": "All four leads won an Emmy for the series, a rare clean sweep.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-056",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the dark parallel world in the series Stranger Things, which premiered in 2016?",
+    "a": "The Upside Down",
+    "accept": [
+      "Upside Down"
+    ],
+    "note": "The show is set in the fictional town of Hawkins, Indiana, during the 1980s.",
+    "era": "2010s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-057",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "The 1980 cliffhanger 'Who shot J.R.?' left the world guessing about a character on which prime-time soap opera?",
+    "a": "Dallas",
+    "accept": [],
+    "note": "The culprit turned out to be Kristin, his scheming sister-in-law.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-058",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which writer created, hosted and narrated the anthology series The Twilight Zone, which debuted in 1959?",
+    "a": "Rod Serling",
+    "accept": [],
+    "note": "He wrote a large share of the episodes himself, often smuggling social commentary past the censors.",
+    "era": "1950s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-059",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor played the loud-mouthed bigot Archie Bunker on the 1970s sitcom All in the Family?",
+    "a": "Carroll O'Connor",
+    "accept": [],
+    "note": "The series was adapted from the British sitcom Till Death Us Do Part.",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-060",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "What is the name of the New York advertising agency where Don Draper works in the early seasons of Mad Men, which premiered in 2007?",
+    "a": "Sterling Cooper",
+    "accept": [
+      "Sterling Cooper Draper Pryce"
+    ],
+    "note": "The firm is renamed several times across the series as partners arrive and depart.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-061",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "On the cover of the Beatles' 1969 album Abbey Road, what are the four members doing?",
+    "a": "Walking across a zebra crossing",
+    "accept": [
+      "Crossing the street",
+      "Walking across a crosswalk",
+      "Crossing a zebra crossing",
+      "Walking across the road"
+    ],
+    "note": "The London crossing was given protected landmark status in 2010.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-062",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of the Memphis mansion where Elvis Presley lived and is buried?",
+    "a": "Graceland",
+    "accept": [],
+    "note": "He bought it in 1957, when he was only 22 years old.",
+    "era": "timeless",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-063",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the title of Michael Jackson's 1982 album whose title track ends with a spoken passage by horror star Vincent Price?",
+    "a": "Thriller",
+    "accept": [],
+    "note": "Quincy Jones produced it, and its videos helped break the color barrier on early MTV.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-064",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Queen song from 1975 opens with the line 'Is this the real life? Is this just fantasy?'",
+    "a": "Bohemian Rhapsody",
+    "accept": [],
+    "note": "It runs close to six minutes, which radio programmers insisted was far too long for a single.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-065",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which band's 1991 single 'Smells Like Teen Spirit' pushed grunge into the mainstream?",
+    "a": "Nirvana",
+    "accept": [],
+    "note": "Kurt Cobain took the title from a friend's graffiti, not realizing it named a brand of deodorant.",
+    "era": "1990s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-066",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Swedish group won the 1974 Eurovision Song Contest with the song 'Waterloo'?",
+    "a": "ABBA",
+    "accept": [],
+    "note": "The name is an acronym built from the four members' first names.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-067",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1973 Pink Floyd album has a prism splitting white light into a rainbow on its cover?",
+    "a": "The Dark Side of the Moon",
+    "accept": [
+      "Dark Side of the Moon"
+    ],
+    "note": "The sleeve was designed by the art studio Hipgnosis and carries almost no text at all.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-068",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which American songwriter was awarded the Nobel Prize in Literature in 2016?",
+    "a": "Bob Dylan",
+    "accept": [],
+    "note": "He took weeks to acknowledge the prize and then skipped the ceremony altogether.",
+    "era": "2010s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-069",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which singer turned Otis Redding's song 'Respect' into a 1967 anthem?",
+    "a": "Aretha Franklin",
+    "accept": [],
+    "note": "Her version added the spelled-out chorus and the 'sock it to me' backing vocals sung by her sisters.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-070",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which Buggles song was the first music video played on MTV in 1981?",
+    "a": "Video Killed the Radio Star",
+    "accept": [],
+    "note": "MTV launched on August 1, 1981, and at first reached only a slice of New Jersey cable subscribers.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-071",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Whitney Houston's 1992 recording of 'I Will Always Love You' was written by which country singer?",
+    "a": "Dolly Parton",
+    "accept": [],
+    "note": "Parton took her own version to number one on the country chart back in 1974.",
+    "era": "1990s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-072",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which band recorded the 1977 album Rumours while its couples were breaking up?",
+    "a": "Fleetwood Mac",
+    "accept": [],
+    "note": "Two romances inside the band collapsed during the sessions, and the fallout became the songs.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-073",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the title of the Sugarhill Gang's 1979 single that first carried hip-hop onto mainstream radio?",
+    "a": "Rapper's Delight",
+    "accept": [
+      "Rappers Delight"
+    ],
+    "note": "Its backing track lifts the groove from Chic's disco hit 'Good Times.'",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-074",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the name of the 1985 charity concert staged simultaneously at Wembley Stadium and Philadelphia's JFK Stadium?",
+    "a": "Live Aid",
+    "accept": [],
+    "note": "Bob Geldof organized it to raise money for famine relief in Ethiopia.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-075",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which musician starred in and wrote the songs for the 1984 film Purple Rain?",
+    "a": "Prince",
+    "accept": [],
+    "note": "He won an Academy Award for the film's music.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-076",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Taylor Swift's 2014 album 1989 takes its title from what?",
+    "a": "The year she was born",
+    "accept": [
+      "Her birth year",
+      "The year of her birth"
+    ],
+    "note": "The record marked her deliberate move from country music to pop.",
+    "era": "2010s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-077",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Under what name was the singer Elton John born?",
+    "a": "Reginald Dwight",
+    "accept": [
+      "Reginald Kenneth Dwight",
+      "Reg Dwight"
+    ],
+    "note": "He borrowed the 'John' from Long John Baldry, a singer he played alongside in his early years.",
+    "era": "timeless",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-078",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "The 1969 Woodstock music festival was held on a dairy farm in which US state?",
+    "a": "New York",
+    "accept": [],
+    "note": "It took place on Max Yasgur's land near Bethel, not in the town of Woodstock at all.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-079",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which Detroit record label, founded by Berry Gordy in 1959, launched the Supremes and the Temptations?",
+    "a": "Motown",
+    "accept": [
+      "Motown Records",
+      "Tamla Motown"
+    ],
+    "note": "Its modest headquarters carried a sign reading Hitsville U.S.A.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-080",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "What was the name of the flame-haired alien rock star alter ego David Bowie adopted for his 1972 album?",
+    "a": "Ziggy Stardust",
+    "accept": [
+      "Ziggy"
+    ],
+    "note": "Bowie killed the character off from the stage in 1973, blindsiding both his fans and his own band.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-081",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played Indiana Jones in the 1981 film Raiders of the Lost Ark?",
+    "a": "Harrison Ford",
+    "accept": [],
+    "note": "Tom Selleck was the first choice but was tied up filming the television series Magnum, P.I.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-082",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the hotshot pilot Maverick in the 1986 film Top Gun?",
+    "a": "Tom Cruise",
+    "accept": [],
+    "note": "The US Navy reported a surge of interest from would-be pilots after the film opened.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-083",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which bodybuilder turned actor delivered the line 'I'll be back' in the 1984 film The Terminator?",
+    "a": "Arnold Schwarzenegger",
+    "accept": [],
+    "note": "He was elected governor of California nearly twenty years later, in 2003.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-084",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actress starred opposite Richard Gere in the 1990 romantic comedy Pretty Woman?",
+    "a": "Julia Roberts",
+    "accept": [],
+    "note": "The script began life as a far darker drama before it was rewritten as a fairy tale.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-085",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Scottish actor was the first to play James Bond on screen, in the 1962 film Dr. No?",
+    "a": "Sean Connery",
+    "accept": [],
+    "note": "Author Ian Fleming thought him wrong for the part at first and only came round after seeing the film.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-086",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which silent film star created the bowler-hatted, cane-twirling character known as the Little Tramp?",
+    "a": "Charlie Chaplin",
+    "accept": [
+      "Charles Chaplin"
+    ],
+    "note": "He helped found the studio United Artists in 1919 so that he could control his own films.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-087",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the rebellious patient Randle McMurphy in the 1975 film One Flew Over the Cuckoo's Nest?",
+    "a": "Jack Nicholson",
+    "accept": [],
+    "note": "It brought him the first of his three acting Oscars.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-088",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor improvised the line 'You talkin' to me?' as Travis Bickle in the 1976 film Taxi Driver?",
+    "a": "Robert De Niro",
+    "accept": [],
+    "note": "The screenplay said only that Bickle talks to himself in the mirror.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-089",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor both directed and starred in the 1992 western Unforgiven?",
+    "a": "Clint Eastwood",
+    "accept": [],
+    "note": "He held on to the script for years, waiting until he was old enough to play the worn-out gunfighter.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-090",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress played Holly Golightly in the 1961 film Breakfast at Tiffany's?",
+    "a": "Audrey Hepburn",
+    "accept": [],
+    "note": "She sang 'Moon River' herself, perched on a windowsill with a guitar.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-091",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress's white dress billowed up over a subway grate in the 1955 film The Seven Year Itch?",
+    "a": "Marilyn Monroe",
+    "accept": [],
+    "note": "The dress itself later sold at auction for millions of dollars.",
+    "era": "1950s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-092",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress became the first Black woman to win the Academy Award for Best Actress, for the 2001 film Monster's Ball?",
+    "a": "Halle Berry",
+    "accept": [],
+    "note": "Sidney Poitier was handed an honorary Oscar at the very same ceremony.",
+    "era": "2000s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-093",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which director made the 1979 Vietnam War epic Apocalypse Now?",
+    "a": "Francis Ford Coppola",
+    "accept": [
+      "Coppola"
+    ],
+    "note": "The shoot in the Philippines dragged on for more than a year and nearly bankrupted him.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-094",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which South Korean filmmaker won the Best Director Oscar for the 2019 film Parasite?",
+    "a": "Bong Joon-ho",
+    "accept": [
+      "Bong Joon Ho"
+    ],
+    "note": "Parasite also became the first film not in English to win Best Picture.",
+    "era": "2010s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-095",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which comic actor won the Best Supporting Actor Oscar for playing a grieving therapist in the 1997 film Good Will Hunting?",
+    "a": "Robin Williams",
+    "accept": [],
+    "note": "Matt Damon and Ben Affleck won that same year's screenwriting Oscar for the film.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-096",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which martial arts star died in 1973, a month before his film Enter the Dragon reached cinemas?",
+    "a": "Bruce Lee",
+    "accept": [],
+    "note": "He was only 32, and the film turned him into a global icon after his death.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-097",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which director slipped fleeting cameo appearances into most of his own films and never won a competitive Best Director Oscar?",
+    "a": "Alfred Hitchcock",
+    "accept": [
+      "Hitchcock"
+    ],
+    "note": "He was nominated five times and finally given an honorary award in 1968.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-098",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor became the first Black man to win the Best Actor Oscar, for the 1963 film Lilies of the Field?",
+    "a": "Sidney Poitier",
+    "accept": [],
+    "note": "He was knighted by Queen Elizabeth II in 1974.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-099",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actress won four Best Actress Oscars, the last of them for the 1981 film On Golden Pond?",
+    "a": "Katharine Hepburn",
+    "accept": [],
+    "note": "She never once turned up at the ceremony to collect any of them.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-100",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor starred in only three major films before dying in a 1955 car crash at the age of 24?",
+    "a": "James Dean",
+    "accept": [],
+    "note": "He became the first performer ever nominated for an acting Oscar after death.",
+    "era": "1950s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-101",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the Peanuts comic strip, what is the name of Charlie Brown's daydreaming beagle?",
+    "a": "Snoopy",
+    "accept": [],
+    "note": "Charles Schulz drew the strip almost single-handedly for fifty years.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-102",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of the van the gang drives in the cartoon Scooby-Doo, which began in 1969?",
+    "a": "The Mystery Machine",
+    "accept": [
+      "Mystery Machine"
+    ],
+    "note": "The show's original title was Scooby-Doo, Where Are You!",
+    "era": "1960s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-103",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1994 animated film The Lion King, what is the name of Simba's father?",
+    "a": "Mufasa",
+    "accept": [],
+    "note": "James Earl Jones, the voice of Darth Vader, supplied the voice.",
+    "era": "1990s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-104",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which chess piece moves in an L shape?",
+    "a": "The knight",
+    "accept": [
+      "Knight"
+    ],
+    "note": "It is the only piece allowed to jump over the pieces in its way.",
+    "era": "timeless",
+    "topic": "games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-105",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In Nintendo's Super Mario games, what job do the brothers Mario and Luigi have?",
+    "a": "Plumbers",
+    "accept": [
+      "Plumber",
+      "They are plumbers"
+    ],
+    "note": "Mario is said to be named after the landlord of Nintendo's American warehouse.",
+    "era": "timeless",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-106",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of Superman's destroyed home planet?",
+    "a": "Krypton",
+    "accept": [],
+    "note": "He first appeared in Action Comics No. 1 in 1938.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-107",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1995 Pixar release was the first feature film animated entirely on computers?",
+    "a": "Toy Story",
+    "accept": [],
+    "note": "Pixar had spent its early years selling computer hardware before it turned to making films.",
+    "era": "1990s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-108",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1937 film was Walt Disney's first full-length animated feature?",
+    "a": "Snow White and the Seven Dwarfs",
+    "accept": [
+      "Snow White"
+    ],
+    "note": "Hollywood nicknamed the project 'Disney's Folly' right up until it became a hit.",
+    "era": "1930s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-109",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the American edition of Monopoly, which is the most expensive property square on the board?",
+    "a": "Boardwalk",
+    "accept": [],
+    "note": "The British edition puts Mayfair in the same corner of the board.",
+    "era": "timeless",
+    "topic": "board-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-110",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "How many ghosts chase the player in the 1980 arcade game Pac-Man?",
+    "a": "Four",
+    "accept": [
+      "4"
+    ],
+    "note": "They are named Blinky, Pinky, Inky and Clyde.",
+    "era": "1980s",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-111",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The Rubik's Cube was invented in 1974 by Ernő Rubik, a teacher from which country?",
+    "a": "Hungary",
+    "accept": [],
+    "note": "Rubik taught architecture and built the cube to explain three-dimensional geometry to his students.",
+    "era": "1970s",
+    "topic": "games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-112",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In Marvel comics, what is the name of the teenager who becomes Spider-Man after a radioactive spider bite in 1962?",
+    "a": "Peter Parker",
+    "accept": [
+      "Peter Benjamin Parker"
+    ],
+    "note": "Stan Lee and Steve Ditko created him for the final issue of a title that was already being canceled.",
+    "era": "1960s",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-113",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The board game Trivial Pursuit was created in 1979 by two newspapermen from which country?",
+    "a": "Canada",
+    "accept": [],
+    "note": "Chris Haney and Scott Abbott dreamed it up in Montreal after finding pieces missing from their Scrabble set.",
+    "era": "1970s",
+    "topic": "board-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-114",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which puppeteer created the Muppets and performed Kermit the Frog himself?",
+    "a": "Jim Henson",
+    "accept": [],
+    "note": "He used his own hand and voice for Kermit from the 1950s until his death in 1990.",
+    "era": "timeless",
+    "topic": "pop-culture",
+    "pack": "core"
+  },
+  {
+    "id": "ent-115",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The puzzle game Tetris was created in 1984 by a programmer working in which country?",
+    "a": "The Soviet Union",
+    "accept": [
+      "Soviet Union",
+      "Russia",
+      "USSR"
+    ],
+    "note": "Alexey Pajitnov saw almost no money from it for years, because the Soviet state held the rights.",
+    "era": "1980s",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-116",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the Marvel comics and films, what fictional metal is Captain America’s shield made from?",
+    "a": "Vibranium",
+    "accept": [
+      "Vibranium alloy"
+    ],
+    "note": "In the stories it absorbs kinetic energy, which is why the shield can take a hit without transmitting the force.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-117",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1960 cartoon was the first animated series to air in American prime time?",
+    "a": "The Flintstones",
+    "accept": [
+      "Flintstones"
+    ],
+    "note": "Its bickering couples were modeled closely on the live-action sitcom The Honeymooners.",
+    "era": "1960s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-118",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 2001 Hayao Miyazaki film became the first Japanese animated feature to win an Academy Award?",
+    "a": "Spirited Away",
+    "accept": [],
+    "note": "Miyazaki stayed away from the ceremony in protest at the war in Iraq.",
+    "era": "2000s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-119",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which Belgian comic-strip reporter, created in 1929, travels the world with his small white dog Snowy?",
+    "a": "Tintin",
+    "accept": [],
+    "note": "His creator, Hergé, drew his adventures for more than fifty years.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-120",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "In which 1978 arcade game do players shoot at rows of aliens marching steadily down the screen?",
+    "a": "Space Invaders",
+    "accept": [],
+    "note": "Made by Taito in Japan, it helped launch the golden age of the video arcade.",
+    "era": "1970s",
+    "topic": "video-games",
+    "pack": "core"
+  }
+]

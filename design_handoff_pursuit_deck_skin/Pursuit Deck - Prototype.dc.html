@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Archivo:wght@400;500;600;700&display=swap"><style>body{margin:0;background:#f7f1e4;color:#1a1618;font-family:Archivo,system-ui,sans-serif;-webkit-text-size-adjust:100%}*{box-sizing:border-box}a{color:#c8462f}a:hover{color:#1a1618}input[type=range]{width:100%;accent-color:#c8462f;height:34px}</style></helmet>
+
+<div data-flood="{{ flood }}" style="min-height:100dvh;display:flex;justify-content:center">
+<div style="width:100%;max-width:460px;padding:22px 22px 30px;display:flex;flex-direction:column;gap:18px;position:relative">
+
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <section data-screen-label="Home" style="display:flex;flex-direction:column;gap:18px;flex:1;min-height:calc(100dvh - 52px)">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <h1 style="margin:0;font-family:'Lilita One',cursive;font-size:30px;line-height:1;color:#1a1618;text-transform:uppercase">Pursuit Deck</h1>
+      <button type="button" onClick="{{ openSheet }}" aria-label="Settings" style="width:46px;height:46px;flex:none;border-radius:50%;border:3px solid #14100f;background:#fff;color:#14100f;display:grid;place-items:center;cursor:pointer;padding:0" style-active="transform:translateY(2px)"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"></path><path d="M19.4 13a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2v.2a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.6 1.7 1.7 0 0 0-1.9.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9h-.2a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1.1 1.7 1.7 0 0 0-.4-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1A1.7 1.7 0 0 0 10 3.9v-.2a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 2-.4l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.6 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"></path></svg></button>
+    </div>
+
+    <p data-accent="{{ accent }}" style="margin:0;font-family:'Lilita One',cursive;font-size:17px;line-height:1.25;text-transform:uppercase">Where did you land?</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;flex:1">
+      <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="6">
+        <button type="button" onClick="{{ t.onPick }}" data-tile="{{ t.paint }}" style="min-height:120px;border:4px solid #14100f;border-radius:8px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:12px 13px;cursor:pointer;text-align:left;font-family:Archivo,system-ui;transition:transform 90ms ease,box-shadow 90ms ease" style-active="transform:translate(4px,4px)">
+          <span style="font-family:'Lilita One',cursive;font-size:44px;line-height:0.9">{{ t.code }}</span>
+          <span style="display:flex;align-items:baseline;gap:6px;width:100%">
+            <span style="font-weight:600;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ t.label }}</span>
+            <span style="margin-left:auto;font-family:'Lilita One',cursive;font-size:16px;opacity:0.75">{{ t.left }}</span>
+          </span>
+        </button>
+      </sc-for>
+    </div>
+
+    <div style="display:flex;align-items:baseline;gap:10px;padding-top:8px;border-top:3px solid #14100f">
+      <span style="font-family:'Lilita One',cursive;font-size:20px;color:#1a1618">{{ hubCount }} LEFT</span>
+      <span style="margin-left:auto;font:500 12px Archivo,system-ui;color:rgba(26,22,24,.62);font-variant-numeric:tabular-nums">{{ sessionLine }}</span>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ isQuestion }}" hint-placeholder-val="{{ false }}">
+  <section data-screen-label="Question" style="display:flex;flex-direction:column;gap:20px;flex:1;min-height:calc(100dvh - 52px)">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="font-family:'Lilita One',cursive;font-size:15px;letter-spacing:0.06em;padding:7px 12px;border-radius:999px;background:#14100f;color:#f7f1e4">{{ chipText }}</span>
+      <span style="margin-left:auto;display:flex;gap:5px">
+        <sc-for list="{{ pips }}" as="p" hint-placeholder-count="3">
+          <i data-tile="{{ p.paint }}" style="width:9px;height:9px;border-radius:50%;display:block;border:0"></i>
+        </sc-for>
+      </span>
+    </div>
+
+    <div style="background:#f7f1e4;border:4px solid #14100f;border-radius:6px;box-shadow:10px 10px 0 #14100f;padding:26px 22px 24px;transform:rotate(-1.4deg);display:flex;flex-direction:column;gap:16px;flex:1">
+      <p style="margin:0;font-family:'Lilita One',cursive;font-size:31px;line-height:1.16;color:#1a1618;text-wrap:pretty">{{ qText }}</p>
+      <p style="margin:auto 0 0;font:500 12.5px/1.45 Archivo,system-ui;color:rgba(26,22,24,.68)">Hold the phone yourself — the answer is one tap away.</p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button type="button" onClick="{{ reveal }}" style="min-height:60px;border:4px solid #14100f;border-radius:999px;background:#14100f;color:#f7f1e4;font-family:'Lilita One',cursive;font-size:22px;letter-spacing:0.02em;box-shadow:6px 6px 0 rgba(20,16,15,.35);cursor:pointer;transition:transform 90ms ease" style-active="transform:translate(3px,3px)">REVEAL ANSWER</button>
+      <div style="display:flex;gap:10px">
+        <button type="button" onClick="{{ skip }}" style="flex:1;min-height:50px;border:3px solid #14100f;border-radius:999px;background:transparent;color:#14100f;font:600 14px Archivo,system-ui;cursor:pointer" style-active="transform:translateY(2px)">Different question</button>
+        <button type="button" onClick="{{ back }}" style="flex:none;width:96px;min-height:50px;border:3px solid #14100f;border-radius:999px;background:transparent;color:#14100f;font:600 14px Archivo,system-ui;cursor:pointer" style-active="transform:translateY(2px)">Back</button>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ isAnswer }}" hint-placeholder-val="{{ false }}">
+  <section data-screen-label="Answer" style="display:flex;flex-direction:column;gap:20px;flex:1;min-height:calc(100dvh - 52px)">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="font-family:'Lilita One',cursive;font-size:15px;letter-spacing:0.06em;padding:7px 12px;border-radius:999px;background:#14100f;color:#f7f1e4">{{ chipText }}</span>
+    </div>
+
+    <div style="background:#f7f1e4;border:4px solid #14100f;border-radius:6px;box-shadow:10px 10px 0 #14100f;padding:24px 22px 24px;transform:rotate(-1.4deg);display:flex;flex-direction:column;gap:14px;flex:1">
+      <p style="margin:0;font:500 14.5px/1.42 Archivo,system-ui;color:rgba(26,22,24,.7)">{{ qText }}</p>
+      <p data-accent="{{ answerInk }}" style="margin:0;font-family:'Lilita One',cursive;font-size:40px;line-height:1.06;text-wrap:balance">{{ aText }}</p>
+      <sc-if value="{{ hasAccept }}" hint-placeholder-val="{{ true }}">
+        <p style="margin:-4px 0 0;font:400 13px/1.45 Archivo,system-ui;color:rgba(26,22,24,.72)"><b style="font-weight:700">Also accept: </b>{{ acceptText }}</p>
+      </sc-if>
+      <sc-if value="{{ hasNote }}" hint-placeholder-val="{{ true }}">
+        <p style="margin:auto 0 0;padding-top:14px;border-top:3px solid #14100f;font:500 13.5px/1.5 Archivo,system-ui;color:rgba(26,22,24,.78)">{{ noteText }}</p>
+      </sc-if>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <div style="display:flex;gap:10px">
+        <button type="button" onClick="{{ gotIt }}" style="flex:1;min-height:58px;border:4px solid #14100f;border-radius:999px;background:#14100f;color:#f7f1e4;font-family:'Lilita One',cursive;font-size:20px;box-shadow:5px 5px 0 rgba(20,16,15,.35);cursor:pointer;transition:transform 90ms ease" style-active="transform:translate(3px,3px)">GOT IT</button>
+        <button type="button" onClick="{{ missedIt }}" style="flex:1;min-height:58px;border:4px solid #14100f;border-radius:999px;background:transparent;color:#14100f;font-family:'Lilita One',cursive;font-size:20px;cursor:pointer;transition:transform 90ms ease" style-active="transform:translate(3px,3px)">MISSED IT</button>
+      </div>
+      <button type="button" onClick="{{ toggleFlag }}" data-accent="{{ flagInk }}" style="min-height:44px;border:0;background:transparent;font:600 13px Archivo,system-ui;cursor:pointer;text-decoration:underline;text-underline-offset:3px">{{ flagLabel }}</button>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ sheetOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeSheet }}" style="position:fixed;inset:0;background:rgba(20,16,15,.55);z-index:10"></div>
+    <aside data-screen-label="Settings" aria-label="Settings" style="position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(460px,100%);max-height:90dvh;overflow-y:auto;z-index:11;background:#f7f1e4;border:4px solid #14100f;border-bottom:0;border-radius:16px 16px 0 0;padding:20px 20px 34px;display:flex;flex-direction:column;gap:24px">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+        <h2 style="margin:0;font-family:'Lilita One',cursive;font-size:26px;text-transform:uppercase;color:#1a1618">Settings</h2>
+        <button type="button" onClick="{{ closeSheet }}" aria-label="Close settings" style="width:46px;height:46px;flex:none;border-radius:50%;border:3px solid #14100f;background:#fff;color:#14100f;font-family:'Lilita One',cursive;font-size:20px;cursor:pointer">✕</button>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font:700 11.5px Archivo,system-ui;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,22,24,.65)">Difficulty</span>
+        <div role="group" aria-label="Difficulty" style="display:flex;border:3px solid #14100f;border-radius:999px;overflow:hidden">
+          <sc-for list="{{ diffs }}" as="d" hint-placeholder-count="3">
+            <button type="button" onClick="{{ d.onPick }}" data-seg="{{ d.on }}" style="flex:1;min-height:48px;border:0;border-right:3px solid #14100f;background:transparent;font-family:'Lilita One',cursive;font-size:16px;cursor:pointer">{{ d.label }}</button>
+          </sc-for>
+        </div>
+        <p style="margin:0;font:500 12.5px/1.5 Archivo,system-ui;color:rgba(26,22,24,.66)">{{ diffHelp }}</p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <span style="font:700 11.5px Archivo,system-ui;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,22,24,.65);display:flex;justify-content:space-between;align-items:baseline;gap:8px">House questions <span style="font-family:'Lilita One',cursive;font-size:15px;letter-spacing:0;color:#1a1618">{{ housePct }}%</span></span>
+        <input type="range" min="0" max="100" step="5" value="{{ housePctNum }}" onChange="{{ setHouse }}" aria-label="House question mix">
+        <p style="margin:0;font:500 12.5px/1.5 Archivo,system-ui;color:rgba(26,22,24,.66)">How often a question comes from your own pack instead of the general deck.</p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font:700 11.5px Archivo,system-ui;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,22,24,.65)">Category names</span>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="6">
+            <label style="display:flex;align-items:center;gap:10px">
+              <span data-tile="{{ t.paint }}" style="width:34px;height:34px;flex:none;border:3px solid #14100f;border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Lilita One',cursive;font-size:14px">{{ t.code }}</span>
+              <input type="text" value="{{ t.label }}" onChange="{{ t.onRename }}" style="flex:1;min-width:0;min-height:46px;padding:10px 12px;border-radius:8px;border:3px solid #14100f;background:#fff;color:#1a1618;font:500 14px Archivo,system-ui">
+            </label>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font:700 11.5px Archivo,system-ui;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,22,24,.65)">This deck</span>
+        <p style="margin:0;font:500 12.5px/1.5 Archivo,system-ui;color:rgba(26,22,24,.66)">{{ bankSummary }}</p>
+        <div style="display:flex;gap:10px">
+          <button type="button" onClick="{{ reshuffle }}" style="flex:1;min-height:50px;border:3px solid #14100f;border-radius:999px;background:transparent;color:#14100f;font:600 14px Archivo,system-ui;cursor:pointer">Reshuffle the deck</button>
+          <button type="button" onClick="{{ copyFlags }}" style="flex:1;min-height:50px;border:3px solid #14100f;border-radius:999px;background:transparent;color:#14100f;font:600 14px Archivo,system-ui;cursor:pointer">Copy flagged</button>
+        </div>
+        <p style="margin:0;font:500 12.5px/1.5 Archivo,system-ui;color:rgba(26,22,24,.66)">{{ flagSummary }}</p>
+      </div>
+    </aside>
+  </sc-if>
+
+  <sc-if value="{{ hasToast }}" hint-placeholder-val="{{ false }}">
+    <p style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:20;margin:0;max-width:min(420px,calc(100% - 36px));padding:14px 18px;border-radius:999px;background:#14100f;color:#f7f1e4;font:600 13.5px/1.4 Archivo,system-ui;box-shadow:6px 6px 0 rgba(20,16,15,.3)">{{ toastText }}</p>
+  </sc-if>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:430,&quot;height&quot;:880},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#c8462f&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#c8462f&quot;,&quot;#1a5fa8&quot;,&quot;#7d4626&quot;,&quot;#24713a&quot;],&quot;section&quot;:&quot;Look&quot;},&quot;shadowStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;hard&quot;,&quot;options&quot;:[&quot;hard&quot;,&quot;flat&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Look&quot;},&quot;startDifficulty&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;all&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;easy&quot;,&quot;hard&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Play&quot;}}">
+const CATS = [
+  { id:'geography', code:'G', label:'Geography', fill:'#2f7fd1', ink:'#1a5fa8', on:'#ffffff' },
+  { id:'entertainment', code:'E', label:'Entertainment', fill:'#de5599', ink:'#b52d72', on:'#ffffff' },
+  { id:'history', code:'H', label:'History', fill:'#e3b32c', ink:'#8a6608', on:'#2b2210' },
+  { id:'arts', code:'AL', label:'Arts & Literature', fill:'#a9663f', ink:'#7d4626', on:'#ffffff' },
+  { id:'science', code:'SN', label:'Science & Nature', fill:'#3f9e58', ink:'#24713a', on:'#ffffff' },
+  { id:'sports', code:'SL', label:'Sports & Leisure', fill:'#e5752c', ink:'#b45210', on:'#ffffff' }
+];
+
+const DIFFICULTY = {
+  all:  { label:'Everything', set:[1,2,3], help:'The full spread — mostly fair, with a few that will stump you.' },
+  easy: { label:'Gentler', set:[1,2], help:'Easy and medium only. Faster turns, more questions actually answered.' },
+  hard: { label:'Tougher', set:[2,3], help:'Medium and hard only. Closer to the original box. Expect long turns.' }
+};
+
+const BANK = [
+  { id:'geo-001', category:'geography', difficulty:1, q:'What is the largest hot desert in the world?', a:'The Sahara', accept:['Sahara','Sahara Desert'], note:'The Sahara covers roughly the same area as the entire United States.' },
+  { id:'geo-002', category:'geography', difficulty:1, q:'Which mountain is the highest point on Earth above sea level?', a:'Mount Everest', accept:['Everest','Sagarmatha','Chomolungma'], note:'Its summit sits directly on the border between Nepal and China.' },
+  { id:'geo-003', category:'geography', difficulty:2, q:'Which is the largest island in the world?', a:'Greenland', accept:['Kalaallit Nunaat'], note:'' },
+  { id:'ent-001', category:'entertainment', difficulty:1, q:'In the 1939 film The Wizard of Oz, what color are the magic slippers Dorothy wears?', a:'Ruby red', accept:['Ruby','Red'], note:"They were silver in L. Frank Baum's novel, and MGM switched them to ruby to show off Technicolor." },
+  { id:'ent-002', category:'entertainment', difficulty:2, q:"In the 1977 film Star Wars, what is the name of Han Solo's battered freighter?", a:'The Millennium Falcon', accept:['Millennium Falcon'], note:'Han brags that it made the Kessel Run in less than twelve parsecs, a boast about distance rather than time.' },
+  { id:'his-001', category:'history', difficulty:1, q:'Which Egyptian queen was the last active pharaoh of the Ptolemaic Kingdom?', a:'Cleopatra VII', accept:['Cleopatra'], note:'She died in 30 BC, and Egypt was absorbed into the Roman Empire as a province.' },
+  { id:'his-002', category:'history', difficulty:2, q:'What was the name of the large public square at the centre of civic life in ancient Rome?', a:'The Forum', accept:['Forum','Roman Forum','Forum Romanum'], note:'Law courts, markets and public speeches all shared the same open ground.' },
+  { id:'art-001', category:'arts', difficulty:1, q:'Which novel by Harper Lee is narrated by a young girl nicknamed Scout?', a:'To Kill a Mockingbird', accept:['Mockingbird'], note:'Published in 1960, it won the Pulitzer Prize for Fiction the following year.' },
+  { id:'art-002', category:'arts', difficulty:2, q:'Which Herman Melville novel begins with the line "Call me Ishmael"?', a:'Moby-Dick', accept:['Moby Dick','Moby-Dick; or, The Whale'], note:"It sold poorly in Melville's lifetime and only became a classic decades after his death." },
+  { id:'sci-001', category:'science', difficulty:1, q:'How many bones are there in the typical adult human body?', a:'206', accept:['Two hundred and six','Two hundred six'], note:'A newborn has considerably more, because many bones start out as separate pieces and fuse together during childhood.' },
+  { id:'sci-002', category:'science', difficulty:1, q:'What is the largest organ of the human body?', a:'The skin', accept:['Skin'], note:'Its outer layer completely replaces itself roughly once a month.' },
+  { id:'spo-001', category:'sports', difficulty:1, q:'How many interlocking rings appear on the Olympic flag?', a:'Five', accept:['5'], note:'The six colours, counting the white background, were chosen because every national flag of the day contained at least one of them.' },
+  { id:'spo-002', category:'sports', difficulty:2, q:'Which city hosted the first modern Olympic Games, in 1896?', a:'Athens', accept:['Athens, Greece'], note:'Winners there were handed a silver medal and an olive branch, as gold for first place only arrived later.' }
+];
+
+class Component extends DCLogic {
+  state = {
+    view:'home', current:null, sheetOpen:false, toast:'',
+    asked:[], flagged:[], labels:{}, difficulty:null, housePct:15,
+    session:{ asked:0, got:0, missed:0 }
+  };
+
+  componentDidMount() { this.paint(); }
+  componentDidUpdate() { this.paint(); }
+
+  // Category colour is runtime state, so it is applied after render rather
+  // than through template holes (which would delay first paint).
+  paint() {
+    const root = this.el || document;
+    const shadow = (this.props.shadowStyle ?? 'hard') === 'hard';
+    root.querySelectorAll('[data-flood]').forEach(n => {
+      n.style.background = n.getAttribute('data-flood');
+      if (this.state.view === 'home') {
+        n.style.backgroundImage = 'radial-gradient(rgba(20,16,15,.11) 1.5px, rgba(0,0,0,0) 1.6px)';
+        n.style.backgroundSize = '16px 16px';
+      } else {
+        n.style.backgroundImage = 'repeating-linear-gradient(135deg,rgba(0,0,0,.07) 0 16px,rgba(0,0,0,0) 16px 32px)';
+        n.style.backgroundSize = 'auto';
+      }
+    });
+    root.querySelectorAll('[data-accent]').forEach(n => { n.style.color = n.getAttribute('data-accent'); });
+    root.querySelectorAll('[data-tile]').forEach(n => {
+      const v = n.getAttribute('data-tile').split('|');
+      n.style.background = v[0];
+      n.style.color = v[1] || '';
+      // A spent wedge reads dead before it is tapped, as .sector.is-empty does today.
+      const empty = v[2] === 'empty';
+      if (n.tagName === 'BUTTON') {
+        n.style.opacity = empty ? '0.34' : '1';
+        n.style.boxShadow = empty ? 'none' : (shadow ? '6px 6px 0 #14100f' : 'none');
+      }
+    });
+    root.querySelectorAll('[data-seg]').forEach(n => {
+      const on = n.getAttribute('data-seg') === 'true';
+      n.style.background = on ? '#14100f' : 'transparent';
+      n.style.color = on ? '#f7f1e4' : '#14100f';
+    });
+  }
+
+  get difficulty() { return this.state.difficulty || this.props.startDifficulty || 'all'; }
+  cat(id) { return CATS.find(c => c.id === id); }
+  labelFor(c) { const v = this.state.labels[c.id]; return (v && v.trim()) || c.label; }
+  pool(id) {
+    const set = DIFFICULTY[this.difficulty].set;
+    return BANK.filter(q => q.category === id && set.indexOf(q.difficulty) !== -1);
+  }
+  remaining(id) { return this.pool(id).filter(q => this.state.asked.indexOf(q.id) === -1).length; }
+
+  say(msg) {
+    this.setState({ toast: msg });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ toast: '' }), 3400);
+  }
+
+  pick(catId, excludeId) {
+    const pool = this.pool(catId);
+    if (!pool.length) {
+      this.say('No ' + this.labelFor(this.cat(catId)) + ' questions at this difficulty. Try "Everything" in settings.');
+      return;
+    }
+    let fresh = pool.filter(q => this.state.asked.indexOf(q.id) === -1 && q.id !== excludeId);
+    if (!fresh.length) {
+      this.setState({ asked: this.state.asked.filter(id => !pool.some(q => q.id === id)) });
+      this.say(this.labelFor(this.cat(catId)) + ' is reshuffled — you had been through all ' + pool.length + '.');
+      fresh = pool.filter(q => q.id !== excludeId);
+      if (!fresh.length) fresh = pool;
+    }
+    this.setState({ current: fresh[Math.floor(Math.random() * fresh.length)], view: 'question' });
+  }
+
+  settle(got) {
+    const q = this.state.current, s = this.state.session;
+    if (q) this.setState({
+      asked: this.state.asked.concat([q.id]),
+      session: { asked: s.asked + 1, got: s.got + (got ? 1 : 0), missed: s.missed + (got ? 0 : 1) }
+    });
+    this.setState({ current: null, view: 'home' });
+  }
+
+  renderVals() {
+    const st = this.state, q = st.current;
+    const c = q ? this.cat(q.category) : null;
+    const accent = this.props.accent ?? '#c8462f';
+    const total = CATS.reduce((n, cc) => n + this.remaining(cc.id), 0);
+    const flagged = !!(q && st.flagged.indexOf(q.id) !== -1);
+
+    return {
+      isHome: st.view === 'home', isQuestion: st.view === 'question', isAnswer: st.view === 'answer',
+      flood: c && st.view !== 'home' ? c.fill : '#f7f1e4',
+      accent,
+
+      tiles: CATS.map(cc => ({
+        code: cc.code, label: this.labelFor(cc), left: this.remaining(cc.id),
+        paint: cc.fill + '|' + cc.on + '|' + (this.remaining(cc.id) === 0 ? 'empty' : ''),
+        onPick: () => this.pick(cc.id),
+        onRename: e => this.setState({ labels: Object.assign({}, st.labels, { [cc.id]: e.target.value }) })
+      })),
+      hubCount: total,
+      sessionLine: st.session.asked === 0
+        ? BANK.length + ' questions in the deck'
+        : st.session.asked + ' asked · ' + st.session.got + ' got · ' + st.session.missed + ' missed',
+
+      chipText: c ? c.code + ' · ' + this.labelFor(c).toUpperCase() : '',
+      answerInk: c ? c.ink : '#1a1618',
+      qText: q ? q.q : '', aText: q ? q.a : '',
+      hasAccept: !!(q && q.accept && q.accept.length),
+      acceptText: q && q.accept ? q.accept.join(' · ') : '',
+      hasNote: !!(q && q.note), noteText: q ? q.note : '',
+      pips: [1, 2, 3].map(n => ({ paint: (q && n <= q.difficulty ? '#14100f' : 'rgba(20,16,15,.25)') + '|' })),
+
+      reveal: () => this.setState({ view: 'answer' }),
+      skip: () => { if (q) this.pick(q.category, q.id); },
+      back: () => this.setState({ current: null, view: 'home' }),
+      gotIt: () => this.settle(true), missedIt: () => this.settle(false),
+      flagLabel: flagged ? 'Flagged — tap to unflag' : 'Flag this question',
+      flagInk: flagged ? '#c8462f' : 'rgba(26,22,24,.7)',
+      toggleFlag: () => {
+        if (!q) return;
+        if (flagged) this.setState({ flagged: st.flagged.filter(id => id !== q.id) });
+        else { this.setState({ flagged: st.flagged.concat([q.id]) }); this.say('Flagged. Find the list in settings when you want to send them over.'); }
+      },
+
+      sheetOpen: st.sheetOpen,
+      openSheet: () => this.setState({ sheetOpen: true }),
+      closeSheet: () => this.setState({ sheetOpen: false }),
+      diffs: Object.keys(DIFFICULTY).map(k => ({
+        label: DIFFICULTY[k].label, on: k === this.difficulty, onPick: () => this.setState({ difficulty: k })
+      })),
+      diffHelp: DIFFICULTY[this.difficulty].help,
+      housePct: st.housePct, housePctNum: st.housePct,
+      setHouse: e => this.setState({ housePct: Number(e.target.value) }),
+      bankSummary: BANK.length + ' questions total · ' + st.asked.length + ' already asked',
+      flagSummary: st.flagged.length
+        ? st.flagged.length + ' flagged: ' + st.flagged.join(', ')
+        : 'Nothing flagged. Use the flag button on any question that is wrong or unfair.',
+      reshuffle: () => { this.setState({ asked: [], session: { asked:0, got:0, missed:0 } }); this.say('Deck reshuffled. Every question is back in play.'); },
+      copyFlags: () => this.say(st.flagged.length ? 'Copied ' + st.flagged.length + ' flagged question IDs.' : 'Nothing flagged yet.'),
+
+      hasToast: !!st.toast, toastText: st.toast
+    };
+  }
+}
+</script>
+</body>
+</html>

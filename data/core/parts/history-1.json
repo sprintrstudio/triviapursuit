@@ -1,0 +1,293 @@
+[
+  {
+    "id": "his-001",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Egyptian queen was the last active pharaoh of the Ptolemaic Kingdom?",
+    "a": "Cleopatra VII",
+    "accept": [
+      "Cleopatra"
+    ],
+    "note": "She died in 30 BC, and Egypt was absorbed into the Roman Empire as a province.",
+    "era": "timeless",
+    "topic": "ancient-egypt",
+    "pack": "core"
+  },
+  {
+    "id": "his-002",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What was the name of the large public square at the centre of civic life in ancient Rome?",
+    "a": "The Forum",
+    "accept": [
+      "Forum",
+      "Roman Forum",
+      "Forum Romanum"
+    ],
+    "note": "Law courts, markets and public speeches all shared the same open ground.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-003",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Macedonian king conquered the Persian Empire and died in Babylon in 323 BC?",
+    "a": "Alexander the Great",
+    "accept": [
+      "Alexander III of Macedon",
+      "Alexander III",
+      "Alexander"
+    ],
+    "note": "As a boy he was tutored by the philosopher Aristotle.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-004",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In ancient Rome, what kind of weapon was a gladius?",
+    "a": "A short sword",
+    "accept": [
+      "Short sword",
+      "Sword"
+    ],
+    "note": "Roman foot soldiers fought at close quarters with it; the word gladiator comes from the same root.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-005",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In Greek legend, which city was besieged for ten years and finally taken by means of a wooden horse?",
+    "a": "Troy",
+    "accept": [
+      "Ilium",
+      "Ilion"
+    ],
+    "note": "Heinrich Schliemann's 19th-century digs in northwestern Turkey are generally identified as the site.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-006",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Roman general crossed the Rubicon river with his army in 49 BC, triggering a civil war?",
+    "a": "Julius Caesar",
+    "accept": [
+      "Caesar",
+      "Gaius Julius Caesar"
+    ],
+    "note": "Bringing an army across that river toward Rome was, by law, an act of war against the state.",
+    "era": "timeless",
+    "topic": "roman-republic",
+    "pack": "core"
+  },
+  {
+    "id": "his-007",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What is the name of the Roman defensive wall begun in AD 122 across northern Britain?",
+    "a": "Hadrian's Wall",
+    "accept": [
+      "Hadrians Wall"
+    ],
+    "note": "It ran roughly 73 miles coast to coast, and long stretches of it still stand.",
+    "era": "timeless",
+    "topic": "roman-britain",
+    "pack": "core"
+  },
+  {
+    "id": "his-008",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Greek city-state trained its boys in a rigorous state system called the agoge?",
+    "a": "Sparta",
+    "accept": [
+      "Lacedaemon"
+    ],
+    "note": "Spartan boys entered the agoge at about the age of seven.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-009",
+    "category": "history",
+    "difficulty": 2,
+    "q": "At which narrow pass did King Leonidas and a small Greek force hold off the Persian army in 480 BC?",
+    "a": "Thermopylae",
+    "accept": [
+      "The Battle of Thermopylae",
+      "Battle of Thermopylae"
+    ],
+    "note": "The Greeks were finally outflanked by a mountain path revealed to the Persians by a local man.",
+    "era": "timeless",
+    "topic": "greco-persian-wars",
+    "pack": "core"
+  },
+  {
+    "id": "his-010",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Carthaginian general crossed the Alps with war elephants to invade Italy in 218 BC?",
+    "a": "Hannibal",
+    "accept": [
+      "Hannibal Barca"
+    ],
+    "note": "He crushed a Roman army at Cannae in 216 BC but never captured Rome itself.",
+    "era": "timeless",
+    "topic": "punic-wars",
+    "pack": "core"
+  },
+  {
+    "id": "his-011",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Athenian philosopher was condemned to death in 399 BC and died by drinking hemlock?",
+    "a": "Socrates",
+    "accept": [],
+    "note": "He wrote nothing himself, so nearly everything known about him comes from his students Plato and Xenophon.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-012",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Who was the first emperor of Rome?",
+    "a": "Augustus",
+    "accept": [
+      "Octavian",
+      "Caesar Augustus",
+      "Gaius Octavius"
+    ],
+    "note": "Born Gaius Octavius, he was granted the honorific name Augustus by the Senate in 27 BC.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-013",
+    "category": "history",
+    "difficulty": 2,
+    "q": "The Great Pyramid at Giza was built as a tomb for which pharaoh?",
+    "a": "Khufu",
+    "accept": [
+      "Cheops"
+    ],
+    "note": "It stood as the tallest structure built by humans for roughly 3,800 years.",
+    "era": "timeless",
+    "topic": "ancient-egypt",
+    "pack": "core"
+  },
+  {
+    "id": "his-014",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which ancient empire was founded by Cyrus the Great and later ruled by Darius I?",
+    "a": "The Persian Empire",
+    "accept": [
+      "Persia",
+      "Achaemenid Empire",
+      "Achaemenid Persia",
+      "Persian Empire"
+    ],
+    "note": "Cyrus is remembered for permitting exiled peoples, including the Jews, to return to their homelands.",
+    "era": "timeless",
+    "topic": "ancient-persia",
+    "pack": "core"
+  },
+  {
+    "id": "his-015",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Roman emperor, jointly with Licinius, issued the Edict of Milan in AD 313 granting toleration to Christians?",
+    "a": "Constantine",
+    "accept": [
+      "Constantine the Great",
+      "Constantine I"
+    ],
+    "note": "He later founded a new capital, Constantinople, on the site of the old Greek city of Byzantium.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-016",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Chinese dynasty was founded by Qin Shi Huang, whose tomb is guarded by the Terracotta Army?",
+    "a": "The Qin dynasty",
+    "accept": [
+      "Qin",
+      "Ch'in",
+      "Qin Dynasty"
+    ],
+    "note": "The buried army lay undisturbed until farmers digging a well uncovered it in 1974.",
+    "era": "timeless",
+    "topic": "ancient-china",
+    "pack": "core"
+  },
+  {
+    "id": "his-017",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Athenian statesman led the city during the building of the Parthenon in the 400s BC?",
+    "a": "Pericles",
+    "accept": [],
+    "note": "The cultural high point of classical Athens is often called the Age of Pericles after him.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-018",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which ancient people of southern Mesopotamia developed the wedge-shaped writing called cuneiform?",
+    "a": "The Sumerians",
+    "accept": [
+      "Sumerians",
+      "Sumer"
+    ],
+    "note": "Cuneiform was pressed into wet clay with a reed stylus and stayed in use for some three thousand years.",
+    "era": "timeless",
+    "topic": "mesopotamia",
+    "pack": "core"
+  },
+  {
+    "id": "his-019",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Roman emperor wrote the Stoic private notebook known as the Meditations?",
+    "a": "Marcus Aurelius",
+    "accept": [],
+    "note": "He wrote it in Greek, largely while on military campaign along the Danube frontier.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-020",
+    "category": "history",
+    "difficulty": 3,
+    "q": "In what year is the Western Roman Empire traditionally said to have fallen, when its last emperor was deposed?",
+    "a": "AD 476",
+    "accept": [
+      "476"
+    ],
+    "note": "The deposed emperor, Romulus Augustulus, was still a boy and was allowed to live out his life on a pension.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  }
+]

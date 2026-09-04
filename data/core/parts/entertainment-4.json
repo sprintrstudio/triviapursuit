@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ent-061",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "On the cover of the Beatles' 1969 album Abbey Road, what are the four members doing?",
+    "a": "Walking across a zebra crossing",
+    "accept": [
+      "Crossing the street",
+      "Walking across a crosswalk",
+      "Crossing a zebra crossing",
+      "Walking across the road"
+    ],
+    "note": "The London crossing was given protected landmark status in 2010.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-062",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of the Memphis mansion where Elvis Presley lived and is buried?",
+    "a": "Graceland",
+    "accept": [],
+    "note": "He bought it in 1957, when he was only 22 years old.",
+    "era": "timeless",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-063",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the title of Michael Jackson's 1982 album whose title track ends with a spoken passage by horror star Vincent Price?",
+    "a": "Thriller",
+    "accept": [],
+    "note": "Quincy Jones produced it, and its videos helped break the color barrier on early MTV.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-064",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Queen song from 1975 opens with the line 'Is this the real life? Is this just fantasy?'",
+    "a": "Bohemian Rhapsody",
+    "accept": [],
+    "note": "It runs close to six minutes, which radio programmers insisted was far too long for a single.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-065",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which band's 1991 single 'Smells Like Teen Spirit' pushed grunge into the mainstream?",
+    "a": "Nirvana",
+    "accept": [],
+    "note": "Kurt Cobain took the title from a friend's graffiti, not realizing it named a brand of deodorant.",
+    "era": "1990s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-066",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Swedish group won the 1974 Eurovision Song Contest with the song 'Waterloo'?",
+    "a": "ABBA",
+    "accept": [],
+    "note": "The name is an acronym built from the four members' first names.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-067",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1973 Pink Floyd album has a prism splitting white light into a rainbow on its cover?",
+    "a": "The Dark Side of the Moon",
+    "accept": [
+      "Dark Side of the Moon"
+    ],
+    "note": "The sleeve was designed by the art studio Hipgnosis and carries almost no text at all.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-068",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which American songwriter was awarded the Nobel Prize in Literature in 2016?",
+    "a": "Bob Dylan",
+    "accept": [],
+    "note": "He took weeks to acknowledge the prize and then skipped the ceremony altogether.",
+    "era": "2010s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-069",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which singer turned Otis Redding's song 'Respect' into a 1967 anthem?",
+    "a": "Aretha Franklin",
+    "accept": [],
+    "note": "Her version added the spelled-out chorus and the 'sock it to me' backing vocals sung by her sisters.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-070",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which Buggles song was the first music video played on MTV in 1981?",
+    "a": "Video Killed the Radio Star",
+    "accept": [],
+    "note": "MTV launched on August 1, 1981, and at first reached only a slice of New Jersey cable subscribers.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-071",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Whitney Houston's 1992 recording of 'I Will Always Love You' was written by which country singer?",
+    "a": "Dolly Parton",
+    "accept": [],
+    "note": "Parton took her own version to number one on the country chart back in 1974.",
+    "era": "1990s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-072",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which band recorded the 1977 album Rumours while its couples were breaking up?",
+    "a": "Fleetwood Mac",
+    "accept": [],
+    "note": "Two romances inside the band collapsed during the sessions, and the fallout became the songs.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-073",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the title of the Sugarhill Gang's 1979 single that first carried hip-hop onto mainstream radio?",
+    "a": "Rapper's Delight",
+    "accept": [
+      "Rappers Delight"
+    ],
+    "note": "Its backing track lifts the groove from Chic's disco hit 'Good Times.'",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-074",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the name of the 1985 charity concert staged simultaneously at Wembley Stadium and Philadelphia's JFK Stadium?",
+    "a": "Live Aid",
+    "accept": [],
+    "note": "Bob Geldof organized it to raise money for famine relief in Ethiopia.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-075",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which musician starred in and wrote the songs for the 1984 film Purple Rain?",
+    "a": "Prince",
+    "accept": [],
+    "note": "He won an Academy Award for the film's music.",
+    "era": "1980s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-076",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Taylor Swift's 2014 album 1989 takes its title from what?",
+    "a": "The year she was born",
+    "accept": [
+      "Her birth year",
+      "The year of her birth"
+    ],
+    "note": "The record marked her deliberate move from country music to pop.",
+    "era": "2010s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-077",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Under what name was the singer Elton John born?",
+    "a": "Reginald Dwight",
+    "accept": [
+      "Reginald Kenneth Dwight",
+      "Reg Dwight"
+    ],
+    "note": "He borrowed the 'John' from Long John Baldry, a singer he played alongside in his early years.",
+    "era": "timeless",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-078",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "The 1969 Woodstock music festival was held on a dairy farm in which US state?",
+    "a": "New York",
+    "accept": [],
+    "note": "It took place on Max Yasgur's land near Bethel, not in the town of Woodstock at all.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-079",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which Detroit record label, founded by Berry Gordy in 1959, launched the Supremes and the Temptations?",
+    "a": "Motown",
+    "accept": [
+      "Motown Records",
+      "Tamla Motown"
+    ],
+    "note": "Its modest headquarters carried a sign reading Hitsville U.S.A.",
+    "era": "1960s",
+    "topic": "popular-music",
+    "pack": "core"
+  },
+  {
+    "id": "ent-080",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "What was the name of the flame-haired alien rock star alter ego David Bowie adopted for his 1972 album?",
+    "a": "Ziggy Stardust",
+    "accept": [
+      "Ziggy"
+    ],
+    "note": "Bowie killed the character off from the stage in 1973, blindsiding both his fans and his own band.",
+    "era": "1970s",
+    "topic": "popular-music",
+    "pack": "core"
+  }
+]

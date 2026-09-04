@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ent-021",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the penniless artist Jack Dawson in the 1997 film Titanic?",
+    "a": "Leonardo DiCaprio",
+    "accept": [],
+    "note": "The film won eleven Academy Awards, tying the record set by the 1959 epic Ben-Hur.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-022",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1999 film The Matrix, what color pill does Neo swallow to learn the truth?",
+    "a": "The red pill",
+    "accept": [
+      "Red"
+    ],
+    "note": "Its slow-motion 'bullet time' shots were made with a ring of still cameras firing in sequence.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-023",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1994 film Forrest Gump, Forrest says that life is like a box of what?",
+    "a": "Chocolates",
+    "accept": [
+      "A box of chocolates"
+    ],
+    "note": "Tom Hanks won Best Actor for the role, his second win in a row after Philadelphia.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-024",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1990 comedy Home Alone, what is the first name of the boy left behind when his family flies to Paris?",
+    "a": "Kevin",
+    "accept": [
+      "Kevin McCallister"
+    ],
+    "note": "John Hughes wrote the screenplay after wondering what might happen if he forgot one of his own children on a trip.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-025",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 2001 film Harry Potter and the Sorcerer's Stone, what is the name of the school Harry is invited to attend?",
+    "a": "Hogwarts",
+    "accept": [
+      "Hogwarts School of Witchcraft and Wizardry"
+    ],
+    "note": "Outside North America the same film was released as Harry Potter and the Philosopher's Stone.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-026",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the Joker in the 2008 film The Dark Knight?",
+    "a": "Heath Ledger",
+    "accept": [],
+    "note": "He died before the film opened and won a posthumous Oscar for Best Supporting Actor.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-027",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1993 film Jurassic Park, what is the name of the island where the dinosaur park is built?",
+    "a": "Isla Nublar",
+    "accept": [
+      "Nublar"
+    ],
+    "note": "Michael Crichton wrote the 1990 novel and then co-wrote the screenplay.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-028",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Who wrote and directed the 1994 crime film Pulp Fiction?",
+    "a": "Quentin Tarantino",
+    "accept": [],
+    "note": "It won the Palme d'Or at Cannes and the Academy Award for Best Original Screenplay.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-029",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1994 film The Shawshank Redemption, what does Andy Dufresne hang on his cell wall to hide his escape tunnel?",
+    "a": "A poster",
+    "accept": [
+      "A pin-up poster",
+      "A movie poster",
+      "A poster of Rita Hayworth",
+      "Rita Hayworth poster"
+    ],
+    "note": "The film barely made its money back in cinemas and became a favorite only through television reruns and video.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-030",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played Hannibal Lecter in the 1991 film The Silence of the Lambs?",
+    "a": "Anthony Hopkins",
+    "accept": [],
+    "note": "The film swept the top five Oscars, something only two other films have ever managed.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-031",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The opening sequence of the 1998 film Saving Private Ryan re-creates the D-Day landing on which Normandy beach?",
+    "a": "Omaha Beach",
+    "accept": [
+      "Omaha"
+    ],
+    "note": "The landing was actually filmed on a stretch of Irish coast in County Wexford.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-032",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the Roman general Maximus in the 2000 film Gladiator?",
+    "a": "Russell Crowe",
+    "accept": [],
+    "note": "The film took Best Picture and Crowe took Best Actor.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-033",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 2001 film The Lord of the Rings: The Fellowship of the Ring, which hobbit is given the task of carrying the One Ring?",
+    "a": "Frodo Baggins",
+    "accept": [
+      "Frodo"
+    ],
+    "note": "Peter Jackson shot all three installments back to back in New Zealand.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-034",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "On which lush alien moon is the 2009 film Avatar set?",
+    "a": "Pandora",
+    "accept": [],
+    "note": "Pandora is a moon orbiting a gas giant, not a planet in its own right.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-035",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the hidden African nation ruled by T'Challa in the 2018 film Black Panther?",
+    "a": "Wakanda",
+    "accept": [],
+    "note": "It became the first superhero film ever nominated for the Best Picture Oscar.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-036",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 2016 musical was mistakenly announced as the Best Picture winner before Moonlight was named the real winner?",
+    "a": "La La Land",
+    "accept": [],
+    "note": "The presenters had been handed a duplicate Best Actress envelope, which Emma Stone had just won for that same film.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-037",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "In Steven Spielberg's otherwise black-and-white 1993 film Schindler's List, what color is the coat worn by a small girl in the ghetto?",
+    "a": "Red",
+    "accept": [
+      "The red coat"
+    ],
+    "note": "The film won Spielberg his first Academy Award for Best Director.",
+    "era": "1990s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-038",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which pair of filmmaking brothers wrote and directed the 2007 Best Picture winner No Country for Old Men?",
+    "a": "The Coen brothers",
+    "accept": [
+      "Joel and Ethan Coen",
+      "Coen brothers",
+      "The Coens"
+    ],
+    "note": "Javier Bardem won Best Supporting Actor as the coin-flipping killer Anton Chigurh.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-039",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 2000 Christopher Nolan thriller tells the story of a man with no short-term memory largely in reverse order?",
+    "a": "Memento",
+    "accept": [],
+    "note": "It grew out of a short story written by the director's brother, Jonathan Nolan.",
+    "era": "2000s",
+    "topic": "modern-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-040",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which comedian wrote and directed the 2017 horror film Get Out, winning an Oscar for its screenplay?",
+    "a": "Jordan Peele",
+    "accept": [],
+    "note": "He was already well known for the sketch series Key & Peele.",
+    "era": "2010s",
+    "topic": "modern-film",
+    "pack": "core"
+  }
+]

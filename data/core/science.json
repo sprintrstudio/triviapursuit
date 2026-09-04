@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "sci-001",
+    "category": "science",
+    "difficulty": 1,
+    "q": "How many bones are there in the typical adult human body?",
+    "a": "206",
+    "accept": [
+      "Two hundred and six",
+      "Two hundred six"
+    ],
+    "note": "A newborn has considerably more, because many bones start out as separate pieces and fuse together during childhood.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-002",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the largest organ of the human body?",
+    "a": "The skin",
+    "accept": [
+      "Skin"
+    ],
+    "note": "Its outer layer completely replaces itself roughly once a month.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-003",
+    "category": "science",
+    "difficulty": 1,
+    "q": "How many chambers does the human heart have?",
+    "a": "Four",
+    "accept": [
+      "4"
+    ],
+    "note": "The two atria on top collect incoming blood and the two ventricles below pump it back out.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-004",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which type of blood cell carries oxygen around the body?",
+    "a": "Red blood cells",
+    "accept": [
+      "Red cells",
+      "Erythrocytes",
+      "Red blood cell"
+    ],
+    "note": "They do it using hemoglobin, the iron-rich protein that also gives blood its color.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-005",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which vitamin does the body manufacture when skin is exposed to sunlight?",
+    "a": "Vitamin D",
+    "accept": [
+      "D"
+    ],
+    "note": "It helps the body absorb calcium, which is why a serious shortage causes the bone disease rickets.",
+    "era": "timeless",
+    "topic": "medicine",
+    "pack": "core"
+  },
+  {
+    "id": "sci-006",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the longest bone in the human body?",
+    "a": "The femur",
+    "accept": [
+      "Femur",
+      "Thigh bone",
+      "Thighbone"
+    ],
+    "note": "It is also the strongest, and it accounts for roughly a quarter of a person's height.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-007",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the medical term for the kneecap?",
+    "a": "The patella",
+    "accept": [
+      "Patella"
+    ],
+    "note": "It is the body's largest sesamoid bone, meaning it grew inside a tendon rather than joining two bones together.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-008",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which organ produces the hormone insulin?",
+    "a": "The pancreas",
+    "accept": [
+      "Pancreas"
+    ],
+    "note": "Insulin comes from small clusters of cells inside it called the islets of Langerhans.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-009",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the smallest bone in the human body?",
+    "a": "The stapes",
+    "accept": [
+      "Stapes",
+      "The stirrup",
+      "Stirrup"
+    ],
+    "note": "It sits in the middle ear, is only about three millimeters long, and is shaped like a stirrup.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-010",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which colored part of the eye controls the size of the pupil?",
+    "a": "The iris",
+    "accept": [
+      "Iris"
+    ],
+    "note": "Its ring of muscle opens and closes the pupil much like the aperture of a camera.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-011",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the medical name for the voice box?",
+    "a": "The larynx",
+    "accept": [
+      "Larynx"
+    ],
+    "note": "It holds the vocal folds, which vibrate as air is pushed up between them.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-012",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the largest artery in the human body?",
+    "a": "The aorta",
+    "accept": [
+      "Aorta"
+    ],
+    "note": "It carries freshly oxygenated blood out of the heart's left ventricle and arches over the top of the heart.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-013",
+    "category": "science",
+    "difficulty": 2,
+    "q": "How many pairs of ribs does a typical adult human have?",
+    "a": "Twelve pairs",
+    "accept": [
+      "12",
+      "Twelve",
+      "24 ribs",
+      "Twenty-four ribs"
+    ],
+    "note": "The bottom two pairs are called floating ribs because they attach to the spine but not to the breastbone.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-014",
+    "category": "science",
+    "difficulty": 2,
+    "q": "A lack of which vitamin causes the disease scurvy?",
+    "a": "Vitamin C",
+    "accept": [
+      "C",
+      "Ascorbic acid"
+    ],
+    "note": "Naval surgeon James Lind showed in 1747 that citrus fruit could cure it, long before anyone understood why.",
+    "era": "timeless",
+    "topic": "medicine",
+    "pack": "core"
+  },
+  {
+    "id": "sci-015",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the pale yellow liquid that blood cells float in called?",
+    "a": "Plasma",
+    "accept": [
+      "Blood plasma"
+    ],
+    "note": "It makes up a little over half of blood by volume and is itself mostly water.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-016",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which pea-sized gland at the base of the brain is often called the body's master gland?",
+    "a": "The pituitary gland",
+    "accept": [
+      "Pituitary",
+      "The pituitary"
+    ],
+    "note": "It releases hormones that tell the thyroid, the adrenal glands and others when to do their jobs.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-017",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which is the only bone in the human body that is not joined to any other bone?",
+    "a": "The hyoid bone",
+    "accept": [
+      "Hyoid",
+      "The hyoid"
+    ],
+    "note": "It sits in the throat held by muscle and ligament alone, and it anchors the tongue.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-018",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the spiral, fluid-filled part of the inner ear that turns sound into nerve signals?",
+    "a": "The cochlea",
+    "accept": [
+      "Cochlea"
+    ],
+    "note": "Its name comes from the Greek word for snail, which is more or less exactly what it looks like.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-019",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the clear liquid that surrounds and cushions the brain and spinal cord called?",
+    "a": "Cerebrospinal fluid",
+    "accept": [
+      "CSF",
+      "Spinal fluid"
+    ],
+    "note": "The brain effectively floats in it, which cuts its apparent weight to a small fraction of the real thing.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-020",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the longest and thickest nerve in the human body?",
+    "a": "The sciatic nerve",
+    "accept": [
+      "Sciatic nerve",
+      "Sciatic"
+    ],
+    "note": "It runs from the lower back down through each leg, and pressure on it is what produces sciatica.",
+    "era": "timeless",
+    "topic": "human-body",
+    "pack": "core"
+  },
+  {
+    "id": "sci-021",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the largest animal on Earth?",
+    "a": "The blue whale",
+    "accept": [
+      "Blue whale"
+    ],
+    "note": "A newborn calf is already around seven meters long and puts on weight faster than almost any other animal.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-022",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the fastest land animal?",
+    "a": "The cheetah",
+    "accept": [
+      "Cheetah"
+    ],
+    "note": "It accelerates like a sports car but can only hold a full sprint for about half a minute before overheating.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-023",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which gas do plants take in from the air in order to make their food?",
+    "a": "Carbon dioxide",
+    "accept": [
+      "CO2"
+    ],
+    "note": "It enters through tiny pores on the leaves called stomata, and oxygen leaves the same way as a by-product.",
+    "era": "timeless",
+    "topic": "biology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-024",
+    "category": "science",
+    "difficulty": 1,
+    "q": "How many legs does a spider have?",
+    "a": "Eight",
+    "accept": [
+      "8"
+    ],
+    "note": "That is one of the things that separates spiders from insects, which have six.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-025",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the tallest living land animal?",
+    "a": "The giraffe",
+    "accept": [
+      "Giraffe"
+    ],
+    "note": "Its towering neck contains exactly the same number of vertebrae as a human neck: seven.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-026",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which is the only mammal capable of true, sustained flight?",
+    "a": "The bat",
+    "accept": [
+      "Bat",
+      "Bats"
+    ],
+    "note": "Other so-called flying mammals, such as flying squirrels, can only glide.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-027",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the collective name for a group of lions?",
+    "a": "A pride",
+    "accept": [
+      "Pride"
+    ],
+    "note": "A pride is normally built around a group of related females, while the males come and go.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-028",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which family of birds is able to fly backwards?",
+    "a": "Hummingbirds",
+    "accept": [
+      "The hummingbird",
+      "Hummingbird"
+    ],
+    "note": "They can also hover on the spot, beating their wings dozens of times every second.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-029",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which is the largest of the big cats?",
+    "a": "The tiger",
+    "accept": [
+      "Tiger"
+    ],
+    "note": "Every tiger's stripe pattern is unique, and the stripes are in the skin as well as the fur.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-030",
+    "category": "science",
+    "difficulty": 2,
+    "q": "How many hearts does an octopus have?",
+    "a": "Three",
+    "accept": [
+      "3"
+    ],
+    "note": "Two push blood through the gills and one serves the rest of the body, and that blood is blue because it uses copper rather than iron.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-031",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does DNA stand for?",
+    "a": "Deoxyribonucleic acid",
+    "accept": [
+      "Deoxyribose nucleic acid"
+    ],
+    "note": "Its famous twisted-ladder shape is known as a double helix.",
+    "era": "timeless",
+    "topic": "biology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-032",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which part of a living cell is known as its powerhouse, producing most of its energy?",
+    "a": "The mitochondria",
+    "accept": [
+      "Mitochondria",
+      "Mitochondrion"
+    ],
+    "note": "They carry their own small, separate set of DNA, passed down only from the mother.",
+    "era": "timeless",
+    "topic": "biology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-033",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which bird reaches the highest speed of any animal by diving on its prey?",
+    "a": "The peregrine falcon",
+    "accept": [
+      "Peregrine falcon",
+      "Peregrine"
+    ],
+    "note": "In a full hunting dive it exceeds 300 kilometers an hour, faster than any other creature on Earth.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-034",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the largest living species of reptile?",
+    "a": "The saltwater crocodile",
+    "accept": [
+      "Saltwater crocodile",
+      "Estuarine crocodile"
+    ],
+    "note": "Large males can exceed six meters and will happily swim far out to sea.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-035",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which land animal has the longest pregnancy?",
+    "a": "The elephant",
+    "accept": [
+      "Elephant",
+      "African elephant"
+    ],
+    "note": "It lasts around 22 months, and the calf can weigh about 100 kilograms at birth.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-036",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the scientific study of insects called?",
+    "a": "Entomology",
+    "accept": [
+      "Entomology"
+    ],
+    "note": "The word comes from a Greek term meaning cut into, a nod to an insect's segmented body.",
+    "era": "timeless",
+    "topic": "biology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-037",
+    "category": "science",
+    "difficulty": 3,
+    "q": "A narwhal's long spiral tusk is actually an overgrown what?",
+    "a": "A tooth",
+    "accept": [
+      "Tooth",
+      "A canine tooth",
+      "Canine"
+    ],
+    "note": "It is a single canine that grows out through the animal's lip and is packed with nerve endings.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-038",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the dance honeybees perform to tell the rest of the hive where food is?",
+    "a": "The waggle dance",
+    "accept": [
+      "Waggle dance",
+      "Waggle"
+    ],
+    "note": "The angle of the dance points toward the food and its length signals how far away it is.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-039",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Insects have no lungs, and instead take in air through small holes in their body called what?",
+    "a": "Spiracles",
+    "accept": [
+      "Spiracle"
+    ],
+    "note": "Oxygen then reaches the tissues directly through a branching network of tubes, with no need for blood to carry it.",
+    "era": "timeless",
+    "topic": "animals",
+    "pack": "core"
+  },
+  {
+    "id": "sci-040",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the term for the process in which an insect or a snake sheds its outer skin?",
+    "a": "Molting",
+    "accept": [
+      "Moulting",
+      "Ecdysis",
+      "Shedding"
+    ],
+    "note": "An insect's hard outer casing cannot stretch, so it has to be thrown away entirely for the animal to grow.",
+    "era": "timeless",
+    "topic": "biology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-041",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the chemical symbol for gold?",
+    "a": "Au",
+    "accept": [
+      "A U"
+    ],
+    "note": "The symbol comes from aurum, the Latin word for gold.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-042",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the chemical formula for water?",
+    "a": "H2O",
+    "accept": [
+      "H two O"
+    ],
+    "note": "The molecule is bent rather than straight, and that lopsided shape is what makes water such a good solvent.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-043",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which metal has the chemical symbol Fe?",
+    "a": "Iron",
+    "accept": [
+      "Fe"
+    ],
+    "note": "It comes from ferrum, the Latin name, which also gives us words like ferrous and farrier.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-044",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the hardest naturally occurring substance on Earth?",
+    "a": "Diamond",
+    "accept": [
+      "A diamond",
+      "Diamonds"
+    ],
+    "note": "It is pure carbon, the same element as the soft graphite in a pencil, just packed together differently.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-045",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the chemical name for ordinary table salt?",
+    "a": "Sodium chloride",
+    "accept": [
+      "NaCl"
+    ],
+    "note": "In mineral form it is called halite, making it more or less the only rock that people routinely eat.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-046",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which element is first on the periodic table and the lightest of them all?",
+    "a": "Hydrogen",
+    "accept": [
+      "H"
+    ],
+    "note": "It is also by far the most abundant element in the universe.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-047",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which metal has the chemical symbol Pb?",
+    "a": "Lead",
+    "accept": [
+      "Pb"
+    ],
+    "note": "It comes from the Latin plumbum, which is also the root of the word plumber.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-048",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which is the only metal that is liquid at ordinary room temperature?",
+    "a": "Mercury",
+    "accept": [
+      "Hg",
+      "Quicksilver"
+    ],
+    "note": "It was long known as quicksilver, and it is so dense that an iron ball will float on it.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-049",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does the pH scale measure?",
+    "a": "How acidic or alkaline something is",
+    "accept": [
+      "Acidity",
+      "Acidity or alkalinity",
+      "Acidity and alkalinity",
+      "How acidic something is",
+      "Alkalinity"
+    ],
+    "note": "Seven is neutral, lower is acidic and higher is alkaline, and every single step is a tenfold change.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-050",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which gas, the second lightest of all, is used to make party balloons float?",
+    "a": "Helium",
+    "accept": [
+      "He"
+    ],
+    "note": "It was spotted in the light of the Sun in 1868, years before anyone managed to find any on Earth.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-051",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which acid does the human stomach produce to help digest food?",
+    "a": "Hydrochloric acid",
+    "accept": [
+      "HCl"
+    ],
+    "note": "It is strong enough to attack metal, so the stomach lining constantly renews itself to cope.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-052",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the term for a solid turning straight into a gas without becoming a liquid first?",
+    "a": "Sublimation",
+    "accept": [
+      "Subliming"
+    ],
+    "note": "Dry ice does exactly this at everyday temperatures, which is why it makes fog instead of a puddle.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-053",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the name for a substance that speeds up a chemical reaction without being used up itself?",
+    "a": "A catalyst",
+    "accept": [
+      "Catalyst"
+    ],
+    "note": "The catalytic converter in a car uses precious metals this way to clean up exhaust gases.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-054",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which metal is the best conductor of electricity?",
+    "a": "Silver",
+    "accept": [
+      "Ag"
+    ],
+    "note": "Copper is used for wiring instead purely because it is so much cheaper.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-055",
+    "category": "science",
+    "difficulty": 2,
+    "q": "In the periodic table, what does an element's atomic number tell you?",
+    "a": "The number of protons in its nucleus",
+    "accept": [
+      "Number of protons",
+      "Protons",
+      "How many protons it has"
+    ],
+    "note": "Change the number of protons and you have changed the element itself, which is why they are ordered this way.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-056",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which metal is extracted from the ore bauxite?",
+    "a": "Aluminum",
+    "accept": [
+      "Aluminium",
+      "Al"
+    ],
+    "note": "It was once more precious than gold, until cheap electricity made smelting it straightforward.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-057",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which metal, prized for its extremely high melting point, has the chemical symbol W?",
+    "a": "Tungsten",
+    "accept": [
+      "Wolfram"
+    ],
+    "note": "The symbol comes from its other name, wolfram, and it melts at a higher temperature than any other metal.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-058",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What name is given to the group of very unreactive gases in the far-right column of the periodic table?",
+    "a": "The noble gases",
+    "accept": [
+      "Noble gases",
+      "Inert gases"
+    ],
+    "note": "Their outer electron shells are already full, so they have almost no interest in bonding with anything.",
+    "era": "timeless",
+    "topic": "elements",
+    "pack": "core"
+  },
+  {
+    "id": "sci-059",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which acid gives vinegar its sour taste and sharp smell?",
+    "a": "Acetic acid",
+    "accept": [
+      "Ethanoic acid"
+    ],
+    "note": "Ordinary vinegar is only about five percent acetic acid, with the rest being mostly water.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-060",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Stainless steel is iron and carbon mixed with which other element to stop it rusting?",
+    "a": "Chromium",
+    "accept": [
+      "Cr"
+    ],
+    "note": "The chromium forms an invisible oxide layer that seals the surface and reforms whenever it is scratched.",
+    "era": "timeless",
+    "topic": "chemistry",
+    "pack": "core"
+  },
+  {
+    "id": "sci-061",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which is the largest planet in our solar system?",
+    "a": "Jupiter",
+    "accept": [],
+    "note": "It is more than twice as massive as every other planet in the solar system put together.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-062",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which planet is known as the Red Planet?",
+    "a": "Mars",
+    "accept": [],
+    "note": "The color comes from iron oxide in its soil, which is essentially rust.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-063",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What force pulls objects toward the center of the Earth?",
+    "a": "Gravity",
+    "accept": [
+      "Gravitation"
+    ],
+    "note": "It is by far the weakest of the fundamental forces, but unlike the others its reach is unlimited.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-064",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the nearest star to Earth?",
+    "a": "The Sun",
+    "accept": [
+      "Sun",
+      "Sol"
+    ],
+    "note": "The next nearest, Proxima Centauri, is more than four light years away.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-065",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name of the galaxy that contains our solar system?",
+    "a": "The Milky Way",
+    "accept": [
+      "Milky Way"
+    ],
+    "note": "The hazy band you can see on a dark night is our own galaxy, viewed edge-on from the inside.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-066",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which planet is famous for its bright system of rings?",
+    "a": "Saturn",
+    "accept": [],
+    "note": "The rings are made mostly of water ice and, despite spanning a vast width, are astonishingly thin.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-067",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What name is given to the distance light travels in one year?",
+    "a": "A light year",
+    "accept": [
+      "Light year",
+      "Light-year"
+    ],
+    "note": "It is a measure of distance rather than time, and works out at almost ten trillion kilometers.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-068",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which English scientist set out the three laws of motion?",
+    "a": "Isaac Newton",
+    "accept": [
+      "Newton",
+      "Sir Isaac Newton"
+    ],
+    "note": "He published them in 1687 in the Principia, alongside his law of universal gravitation.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-069",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the name for the explosion of a massive star at the end of its life?",
+    "a": "A supernova",
+    "accept": [
+      "Supernova"
+    ],
+    "note": "For a few weeks one can outshine the entire galaxy it sits in.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-070",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the term for heat travelling through a material by direct contact, such as a spoon warming in hot soup?",
+    "a": "Conduction",
+    "accept": [
+      "Thermal conduction"
+    ],
+    "note": "Metals do it well because their loosely held electrons ferry energy through the material quickly.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-071",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the bending of light as it passes from one material into another called?",
+    "a": "Refraction",
+    "accept": [],
+    "note": "It is exactly why a straw appears to snap in half at the surface of a glass of water.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-072",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the boundary around a black hole beyond which nothing can escape called?",
+    "a": "The event horizon",
+    "accept": [
+      "Event horizon"
+    ],
+    "note": "It is not a solid surface but a point of no return, where the speed needed to escape exceeds the speed of light.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-073",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which is the hottest planet in our solar system?",
+    "a": "Venus",
+    "accept": [],
+    "note": "Its thick carbon dioxide atmosphere traps heat so effectively that the surface is hot enough to melt lead.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-074",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is it called when the Moon passes directly between the Earth and the Sun?",
+    "a": "A solar eclipse",
+    "accept": [
+      "Solar eclipse",
+      "Eclipse of the Sun"
+    ],
+    "note": "It works so neatly because the Sun is about 400 times wider than the Moon and about 400 times further away.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-075",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which property of a wave is measured in hertz?",
+    "a": "Frequency",
+    "accept": [
+      "Its frequency"
+    ],
+    "note": "One hertz is one cycle per second, named for Heinrich Hertz, who proved radio waves exist.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-076",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the name of the region between the orbits of Mars and Jupiter where most asteroids are found?",
+    "a": "The asteroid belt",
+    "accept": [
+      "Asteroid belt",
+      "The main belt"
+    ],
+    "note": "Films make it look crowded, but the objects in it are so far apart that spacecraft sail straight through.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-077",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the giant, long-lived storm on the surface of Jupiter?",
+    "a": "The Great Red Spot",
+    "accept": [
+      "Great Red Spot",
+      "Red Spot"
+    ],
+    "note": "Astronomers have been watching it for centuries, and it is still wider than the Earth.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-078",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name for the change in a wave's pitch as its source moves toward or away from you?",
+    "a": "The Doppler effect",
+    "accept": [
+      "Doppler effect",
+      "Doppler shift"
+    ],
+    "note": "It is why a siren drops in pitch the moment an ambulance passes you, and it also tells astronomers how galaxies are moving.",
+    "era": "timeless",
+    "topic": "physics",
+    "pack": "core"
+  },
+  {
+    "id": "sci-079",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the point in a planet's orbit where it comes closest to the Sun called?",
+    "a": "Perihelion",
+    "accept": [
+      "Its perihelion"
+    ],
+    "note": "The opposite point, furthest from the Sun, is called aphelion.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-080",
+    "category": "science",
+    "difficulty": 3,
+    "q": "A comet's tail always points away from the Sun because it is blown back by what?",
+    "a": "The solar wind",
+    "accept": [
+      "Solar wind",
+      "Solar radiation",
+      "Radiation pressure"
+    ],
+    "note": "That means a comet heading away from the Sun is actually travelling tail first.",
+    "era": "timeless",
+    "topic": "space",
+    "pack": "core"
+  },
+  {
+    "id": "sci-081",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is molten rock called once it reaches the surface and flows out of a volcano?",
+    "a": "Lava",
+    "accept": [],
+    "note": "The very same material is called magma while it is still underground.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-082",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the largest ocean on Earth?",
+    "a": "The Pacific Ocean",
+    "accept": [
+      "Pacific",
+      "The Pacific"
+    ],
+    "note": "It covers roughly a third of the planet's surface, which is more than all the land put together.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-083",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for a scientist who studies the weather?",
+    "a": "A meteorologist",
+    "accept": [
+      "Meteorologist"
+    ],
+    "note": "The name has nothing to do with meteors, and comes from a Greek word for anything high in the sky.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-084",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for molten rock once it has reached the Earth’s surface?",
+    "a": "Lava",
+    "accept": [],
+    "note": "The same material is called magma while it is still underground.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-085",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the main cause of the ocean's tides?",
+    "a": "The gravitational pull of the Moon",
+    "accept": [
+      "The Moon",
+      "Moon",
+      "The Moon's gravity",
+      "The Moon and the Sun"
+    ],
+    "note": "The Sun tugs as well, and when the two line up you get the extra-large spring tides.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-086",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for a violently rotating column of air that reaches the ground?",
+    "a": "A tornado",
+    "accept": [
+      "Tornado",
+      "Twister"
+    ],
+    "note": "When the same thing forms over water it is called a waterspout instead.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-087",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which gas makes up roughly 78 percent of the Earth's atmosphere?",
+    "a": "Nitrogen",
+    "accept": [
+      "N2"
+    ],
+    "note": "Oxygen accounts for about 21 percent, and everything else shares the small remainder.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-088",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What instrument is used to detect and record the shaking of an earthquake?",
+    "a": "A seismograph",
+    "accept": [
+      "Seismograph",
+      "Seismometer"
+    ],
+    "note": "An early Chinese version, built in the second century, signalled a distant quake by dropping a ball from a dragon's mouth.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-089",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What type of rock is formed when molten rock cools and hardens?",
+    "a": "Igneous rock",
+    "accept": [
+      "Igneous"
+    ],
+    "note": "The name comes from ignis, the Latin word for fire, and granite is a familiar example.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-090",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the Earth's thin, solid outermost layer called?",
+    "a": "The crust",
+    "accept": [
+      "Crust"
+    ],
+    "note": "Beneath the oceans it can be as little as five kilometers thick, far thinner than under the continents.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-091",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the process called when water vapor cools and turns back into a liquid?",
+    "a": "Condensation",
+    "accept": [
+      "Condensing"
+    ],
+    "note": "It is what forms clouds in the sky and beads of water on the outside of a cold glass.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-092",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which instrument measures atmospheric pressure?",
+    "a": "A barometer",
+    "accept": [
+      "Barometer"
+    ],
+    "note": "A sharp fall in pressure usually means unsettled weather is on the way.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-093",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the theory that the Earth's outer shell is broken into large, slowly moving slabs called?",
+    "a": "Plate tectonics",
+    "accept": [
+      "Tectonic plate theory",
+      "Continental drift"
+    ],
+    "note": "The plates creep along at roughly the speed your fingernails grow.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-094",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What name is given to the supercontinent that geologists believe existed around 250 million years ago?",
+    "a": "Pangaea",
+    "accept": [
+      "Pangea"
+    ],
+    "note": "It began breaking apart in the Jurassic, eventually producing the continents we have now.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-095",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Marble forms when limestone is heated and squeezed underground, making it which of the three main rock types?",
+    "a": "Metamorphic rock",
+    "accept": [
+      "Metamorphic"
+    ],
+    "note": "The word means changed in form, and slate is made from shale in much the same way.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-096",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the name for a huge ocean wave set off by an undersea earthquake or landslide?",
+    "a": "A tsunami",
+    "accept": [
+      "Tsunami"
+    ],
+    "note": "Out in deep water it can pass under a ship almost unnoticed, only rearing up as it reaches shallow coast.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-097",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the towering, anvil-topped cloud that brings thunderstorms?",
+    "a": "Cumulonimbus",
+    "accept": [
+      "Cumulonimbus cloud"
+    ],
+    "note": "It can climb more than ten kilometers, flattening out at the top when it hits the ceiling of the lower atmosphere.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-098",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which layer of the atmosphere contains the ozone layer?",
+    "a": "The stratosphere",
+    "accept": [
+      "Stratosphere"
+    ],
+    "note": "It sits above almost all the weather, which is why airliners like to cruise at its lower edge.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-099",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What name is given to the ancient supercontinent in which today's landmasses were all joined together?",
+    "a": "Pangaea",
+    "accept": [
+      "Pangea"
+    ],
+    "note": "It began breaking apart roughly 175 million years ago, and the pieces are still drifting today.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-100",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the scale used to rank the hardness of minerals, running from talc up to diamond?",
+    "a": "The Mohs scale",
+    "accept": [
+      "Mohs scale",
+      "Mohs"
+    ],
+    "note": "It is a ranking rather than a measurement, so the gap between nine and ten is enormous.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-101",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which physicist developed the theory of relativity?",
+    "a": "Albert Einstein",
+    "accept": [
+      "Einstein"
+    ],
+    "note": "His Nobel Prize was awarded not for relativity but for explaining the photoelectric effect.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-102",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which Scottish bacteriologist discovered penicillin in 1928?",
+    "a": "Alexander Fleming",
+    "accept": [
+      "Fleming",
+      "Sir Alexander Fleming"
+    ],
+    "note": "He noticed it by accident, when mold drifted into a dish he had left out while away on holiday.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-103",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What do the letters www stand for in a web address?",
+    "a": "World Wide Web",
+    "accept": [
+      "The World Wide Web"
+    ],
+    "note": "It was created at CERN, the particle physics laboratory, as a way for scientists to share documents.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-104",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which naturalist set out the theory of evolution by natural selection in On the Origin of Species?",
+    "a": "Charles Darwin",
+    "accept": [
+      "Darwin"
+    ],
+    "note": "Alfred Russel Wallace reached the same idea independently, which is what finally pushed Darwin to publish.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-105",
+    "category": "science",
+    "difficulty": 1,
+    "q": "The unit of power called the watt is named after which Scottish engineer?",
+    "a": "James Watt",
+    "accept": [
+      "Watt"
+    ],
+    "note": "His improvements to the steam engine in the 1770s made it efficient enough to power factories.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  },
+  {
+    "id": "sci-106",
+    "category": "science",
+    "difficulty": 1,
+    "q": "In computing, what does the abbreviation CPU stand for?",
+    "a": "Central processing unit",
+    "accept": [
+      "Central processor unit"
+    ],
+    "note": "It is the part that actually carries out a program's instructions, one step after another.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-107",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which scientist won Nobel Prizes in both physics and chemistry?",
+    "a": "Marie Curie",
+    "accept": [
+      "Curie",
+      "Madame Curie",
+      "Marie Sklodowska-Curie"
+    ],
+    "note": "She remains the only person ever to have won Nobel Prizes in two different sciences.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-108",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Russian chemist created the first widely accepted periodic table of the elements?",
+    "a": "Dmitri Mendeleev",
+    "accept": [
+      "Mendeleev",
+      "Mendeleyev"
+    ],
+    "note": "He left gaps for elements nobody had found yet, and correctly predicted what they would turn out to be like.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-109",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Italian astronomer discovered the four largest moons of Jupiter with an early telescope?",
+    "a": "Galileo Galilei",
+    "accept": [
+      "Galileo"
+    ],
+    "note": "Watching objects circle something other than the Earth badly undermined the idea that everything revolved around us.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-110",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Austrian monk founded the study of genetics through experiments with pea plants?",
+    "a": "Gregor Mendel",
+    "accept": [
+      "Mendel"
+    ],
+    "note": "His results were ignored for decades and only rediscovered around 1900, well after his death.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-111",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Who was granted the first United States patent for the telephone, in 1876?",
+    "a": "Alexander Graham Bell",
+    "accept": [
+      "Bell",
+      "Graham Bell"
+    ],
+    "note": "A rival inventor, Elisha Gray, filed a competing claim at the same patent office on the very same day.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  },
+  {
+    "id": "sci-112",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does the word laser originally stand for?",
+    "a": "Light amplification by stimulated emission of radiation",
+    "accept": [
+      "Light amplification by the stimulated emission of radiation"
+    ],
+    "note": "The physics behind it was worked out in theory decades before the first working laser was built in 1960.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-113",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Who developed the first successful polio vaccine, announced in 1955?",
+    "a": "Jonas Salk",
+    "accept": [
+      "Salk"
+    ],
+    "note": "Asked who held the patent, he replied that the people did, and never took a penny in royalties.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-114",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does GPS stand for?",
+    "a": "Global Positioning System",
+    "accept": [
+      "Global Position System"
+    ],
+    "note": "It times satellite signals so precisely that the system has to correct for the effects of relativity.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-115",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which ancient Greek thinker is said to have leapt from his bath shouting Eureka?",
+    "a": "Archimedes",
+    "accept": [],
+    "note": "The rule about floating bodies he is credited with still bears his name today.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-116",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What was the name of the first artificial satellite, launched in 1957?",
+    "a": "Sputnik 1",
+    "accept": [
+      "Sputnik"
+    ],
+    "note": "It was roughly the size of a beach ball and did nothing but transmit a steady radio beep.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-117",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which German physicist discovered X-rays in 1895?",
+    "a": "Wilhelm Röntgen",
+    "accept": [
+      "Rontgen",
+      "Röntgen",
+      "Roentgen",
+      "Wilhelm Rontgen",
+      "Wilhelm Roentgen"
+    ],
+    "note": "He received the very first Nobel Prize in Physics for the discovery in 1901.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-118",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which nineteenth-century mathematician is often called the first computer programmer?",
+    "a": "Ada Lovelace",
+    "accept": [
+      "Lovelace",
+      "Ada Byron",
+      "Augusta Ada King"
+    ],
+    "note": "Her notes on Charles Babbage's Analytical Engine described how a machine could work through a sequence of steps.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-119",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Whose X-ray image, known as Photo 51, was crucial to working out the structure of DNA?",
+    "a": "Rosalind Franklin",
+    "accept": [
+      "Franklin"
+    ],
+    "note": "The photograph was produced in her laboratory at King's College London and showed the molecule's helical shape.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-120",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which Swedish chemist invented dynamite and left his fortune to found a famous set of prizes?",
+    "a": "Alfred Nobel",
+    "accept": [
+      "Nobel"
+    ],
+    "note": "A newspaper mistakenly ran his obituary while he was still alive, calling him a merchant of death.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  }
+]

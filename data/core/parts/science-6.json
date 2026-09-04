@@ -1,0 +1,291 @@
+[
+  {
+    "id": "sci-101",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which physicist developed the theory of relativity?",
+    "a": "Albert Einstein",
+    "accept": [
+      "Einstein"
+    ],
+    "note": "His Nobel Prize was awarded not for relativity but for explaining the photoelectric effect.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-102",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which Scottish bacteriologist discovered penicillin in 1928?",
+    "a": "Alexander Fleming",
+    "accept": [
+      "Fleming",
+      "Sir Alexander Fleming"
+    ],
+    "note": "He noticed it by accident, when mold drifted into a dish he had left out while away on holiday.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-103",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What do the letters www stand for in a web address?",
+    "a": "World Wide Web",
+    "accept": [
+      "The World Wide Web"
+    ],
+    "note": "It was created at CERN, the particle physics laboratory, as a way for scientists to share documents.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-104",
+    "category": "science",
+    "difficulty": 1,
+    "q": "Which naturalist set out the theory of evolution by natural selection in On the Origin of Species?",
+    "a": "Charles Darwin",
+    "accept": [
+      "Darwin"
+    ],
+    "note": "Alfred Russel Wallace reached the same idea independently, which is what finally pushed Darwin to publish.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-105",
+    "category": "science",
+    "difficulty": 1,
+    "q": "The unit of power called the watt is named after which Scottish engineer?",
+    "a": "James Watt",
+    "accept": [
+      "Watt"
+    ],
+    "note": "His improvements to the steam engine in the 1770s made it efficient enough to power factories.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  },
+  {
+    "id": "sci-106",
+    "category": "science",
+    "difficulty": 1,
+    "q": "In computing, what does the abbreviation CPU stand for?",
+    "a": "Central processing unit",
+    "accept": [
+      "Central processor unit"
+    ],
+    "note": "It is the part that actually carries out a program's instructions, one step after another.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-107",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which scientist won Nobel Prizes in both physics and chemistry?",
+    "a": "Marie Curie",
+    "accept": [
+      "Curie",
+      "Madame Curie",
+      "Marie Sklodowska-Curie"
+    ],
+    "note": "She remains the only person ever to have won Nobel Prizes in two different sciences.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-108",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Russian chemist created the first widely accepted periodic table of the elements?",
+    "a": "Dmitri Mendeleev",
+    "accept": [
+      "Mendeleev",
+      "Mendeleyev"
+    ],
+    "note": "He left gaps for elements nobody had found yet, and correctly predicted what they would turn out to be like.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-109",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Italian astronomer discovered the four largest moons of Jupiter with an early telescope?",
+    "a": "Galileo Galilei",
+    "accept": [
+      "Galileo"
+    ],
+    "note": "Watching objects circle something other than the Earth badly undermined the idea that everything revolved around us.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-110",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which Austrian monk founded the study of genetics through experiments with pea plants?",
+    "a": "Gregor Mendel",
+    "accept": [
+      "Mendel"
+    ],
+    "note": "His results were ignored for decades and only rediscovered around 1900, well after his death.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-111",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Who was granted the first United States patent for the telephone, in 1876?",
+    "a": "Alexander Graham Bell",
+    "accept": [
+      "Bell",
+      "Graham Bell"
+    ],
+    "note": "A rival inventor, Elisha Gray, filed a competing claim at the same patent office on the very same day.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  },
+  {
+    "id": "sci-112",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does the word laser originally stand for?",
+    "a": "Light amplification by stimulated emission of radiation",
+    "accept": [
+      "Light amplification by the stimulated emission of radiation"
+    ],
+    "note": "The physics behind it was worked out in theory decades before the first working laser was built in 1960.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-113",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Who developed the first successful polio vaccine, announced in 1955?",
+    "a": "Jonas Salk",
+    "accept": [
+      "Salk"
+    ],
+    "note": "Asked who held the patent, he replied that the people did, and never took a penny in royalties.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-114",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What does GPS stand for?",
+    "a": "Global Positioning System",
+    "accept": [
+      "Global Position System"
+    ],
+    "note": "It times satellite signals so precisely that the system has to correct for the effects of relativity.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-115",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which ancient Greek thinker is said to have leapt from his bath shouting Eureka?",
+    "a": "Archimedes",
+    "accept": [],
+    "note": "The rule about floating bodies he is credited with still bears his name today.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-116",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What was the name of the first artificial satellite, launched in 1957?",
+    "a": "Sputnik 1",
+    "accept": [
+      "Sputnik"
+    ],
+    "note": "It was roughly the size of a beach ball and did nothing but transmit a steady radio beep.",
+    "era": "timeless",
+    "topic": "technology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-117",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which German physicist discovered X-rays in 1895?",
+    "a": "Wilhelm Röntgen",
+    "accept": [
+      "Rontgen",
+      "Röntgen",
+      "Roentgen",
+      "Wilhelm Rontgen",
+      "Wilhelm Roentgen"
+    ],
+    "note": "He received the very first Nobel Prize in Physics for the discovery in 1901.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-118",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which nineteenth-century mathematician is often called the first computer programmer?",
+    "a": "Ada Lovelace",
+    "accept": [
+      "Lovelace",
+      "Ada Byron",
+      "Augusta Ada King"
+    ],
+    "note": "Her notes on Charles Babbage's Analytical Engine described how a machine could work through a sequence of steps.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-119",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Whose X-ray image, known as Photo 51, was crucial to working out the structure of DNA?",
+    "a": "Rosalind Franklin",
+    "accept": [
+      "Franklin"
+    ],
+    "note": "The photograph was produced in her laboratory at King's College London and showed the molecule's helical shape.",
+    "era": "timeless",
+    "topic": "scientists",
+    "pack": "core"
+  },
+  {
+    "id": "sci-120",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which Swedish chemist invented dynamite and left his fortune to found a famous set of prizes?",
+    "a": "Alfred Nobel",
+    "accept": [
+      "Nobel"
+    ],
+    "note": "A newspaper mistakenly ran his obituary while he was still alive, calling him a merchant of death.",
+    "era": "timeless",
+    "topic": "inventions",
+    "pack": "core"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "ent-081",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played Indiana Jones in the 1981 film Raiders of the Lost Ark?",
+    "a": "Harrison Ford",
+    "accept": [],
+    "note": "Tom Selleck was the first choice but was tied up filming the television series Magnum, P.I.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-082",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actor played the hotshot pilot Maverick in the 1986 film Top Gun?",
+    "a": "Tom Cruise",
+    "accept": [],
+    "note": "The US Navy reported a surge of interest from would-be pilots after the film opened.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-083",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which bodybuilder turned actor delivered the line 'I'll be back' in the 1984 film The Terminator?",
+    "a": "Arnold Schwarzenegger",
+    "accept": [],
+    "note": "He was elected governor of California nearly twenty years later, in 2003.",
+    "era": "1980s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-084",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actress starred opposite Richard Gere in the 1990 romantic comedy Pretty Woman?",
+    "a": "Julia Roberts",
+    "accept": [],
+    "note": "The script began life as a far darker drama before it was rewritten as a fairy tale.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-085",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which Scottish actor was the first to play James Bond on screen, in the 1962 film Dr. No?",
+    "a": "Sean Connery",
+    "accept": [],
+    "note": "Author Ian Fleming thought him wrong for the part at first and only came round after seeing the film.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-086",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which silent film star created the bowler-hatted, cane-twirling character known as the Little Tramp?",
+    "a": "Charlie Chaplin",
+    "accept": [
+      "Charles Chaplin"
+    ],
+    "note": "He helped found the studio United Artists in 1919 so that he could control his own films.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-087",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the rebellious patient Randle McMurphy in the 1975 film One Flew Over the Cuckoo's Nest?",
+    "a": "Jack Nicholson",
+    "accept": [],
+    "note": "It brought him the first of his three acting Oscars.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-088",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor improvised the line 'You talkin' to me?' as Travis Bickle in the 1976 film Taxi Driver?",
+    "a": "Robert De Niro",
+    "accept": [],
+    "note": "The screenplay said only that Bickle talks to himself in the mirror.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-089",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor both directed and starred in the 1992 western Unforgiven?",
+    "a": "Clint Eastwood",
+    "accept": [],
+    "note": "He held on to the script for years, waiting until he was old enough to play the worn-out gunfighter.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-090",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress played Holly Golightly in the 1961 film Breakfast at Tiffany's?",
+    "a": "Audrey Hepburn",
+    "accept": [],
+    "note": "She sang 'Moon River' herself, perched on a windowsill with a guitar.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-091",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress's white dress billowed up over a subway grate in the 1955 film The Seven Year Itch?",
+    "a": "Marilyn Monroe",
+    "accept": [],
+    "note": "The dress itself later sold at auction for millions of dollars.",
+    "era": "1950s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-092",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actress became the first Black woman to win the Academy Award for Best Actress, for the 2001 film Monster's Ball?",
+    "a": "Halle Berry",
+    "accept": [],
+    "note": "Sidney Poitier was handed an honorary Oscar at the very same ceremony.",
+    "era": "2000s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-093",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which director made the 1979 Vietnam War epic Apocalypse Now?",
+    "a": "Francis Ford Coppola",
+    "accept": [
+      "Coppola"
+    ],
+    "note": "The shoot in the Philippines dragged on for more than a year and nearly bankrupted him.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-094",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which South Korean filmmaker won the Best Director Oscar for the 2019 film Parasite?",
+    "a": "Bong Joon-ho",
+    "accept": [
+      "Bong Joon Ho"
+    ],
+    "note": "Parasite also became the first film not in English to win Best Picture.",
+    "era": "2010s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-095",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which comic actor won the Best Supporting Actor Oscar for playing a grieving therapist in the 1997 film Good Will Hunting?",
+    "a": "Robin Williams",
+    "accept": [],
+    "note": "Matt Damon and Ben Affleck won that same year's screenwriting Oscar for the film.",
+    "era": "1990s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-096",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which martial arts star died in 1973, a month before his film Enter the Dragon reached cinemas?",
+    "a": "Bruce Lee",
+    "accept": [],
+    "note": "He was only 32, and the film turned him into a global icon after his death.",
+    "era": "1970s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-097",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which director slipped fleeting cameo appearances into most of his own films and never won a competitive Best Director Oscar?",
+    "a": "Alfred Hitchcock",
+    "accept": [
+      "Hitchcock"
+    ],
+    "note": "He was nominated five times and finally given an honorary award in 1968.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-098",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor became the first Black man to win the Best Actor Oscar, for the 1963 film Lilies of the Field?",
+    "a": "Sidney Poitier",
+    "accept": [],
+    "note": "He was knighted by Queen Elizabeth II in 1974.",
+    "era": "1960s",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-099",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actress won four Best Actress Oscars, the last of them for the 1981 film On Golden Pond?",
+    "a": "Katharine Hepburn",
+    "accept": [],
+    "note": "She never once turned up at the ceremony to collect any of them.",
+    "era": "timeless",
+    "topic": "actors-directors",
+    "pack": "core"
+  },
+  {
+    "id": "ent-100",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor starred in only three major films before dying in a 1955 car crash at the age of 24?",
+    "a": "James Dean",
+    "accept": [],
+    "note": "He became the first performer ever nominated for an acting Oscar after death.",
+    "era": "1950s",
+    "topic": "actors-directors",
+    "pack": "core"
+  }
+]

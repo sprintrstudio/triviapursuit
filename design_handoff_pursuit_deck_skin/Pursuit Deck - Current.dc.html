@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"><style>body{margin:0;background:#141118;color:#f3eff8;font-family:"Archivo","Helvetica Neue",Arial,system-ui,sans-serif;-webkit-text-size-adjust:100%}*{box-sizing:border-box}a{color:#9d8cff}a:hover{color:#f3eff8}input[type=range]{width:100%;accent-color:#9d8cff;height:30px}</style></helmet>
+<div style="max-width:460px;margin:0 auto;padding:14px 18px 32px;display:flex;flex-direction:column;gap:18px;min-height:100dvh;position:relative">
+
+  <header style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <h1 style="margin:0;font-family:Fraunces,Georgia,serif;font-weight:700;font-size:17px;letter-spacing:0.01em;color:#f3eff8">Pursuit&nbsp;Deck</h1>
+    <button type="button" onClick="{{ openSheet }}" aria-label="Settings" style="width:42px;height:42px;display:grid;place-items:center;border:1px solid #342d41;border-radius:50%;background:#1e1a24;color:#a79fb5;cursor:pointer;padding:0">
+      <svg viewBox="0 0 24 24" aria-hidden="true" style="width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"></path><path d="M19.4 13a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2v.2a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.6 1.7 1.7 0 0 0-1.9.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9h-.2a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1.1 1.7 1.7 0 0 0-.4-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1A1.7 1.7 0 0 0 10 3.9v-.2a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 2-.4l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.6 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"></path></svg>
+    </button>
+  </header>
+
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <section data-screen-label="Home" style="display:flex;flex-direction:column;gap:18px;flex:1">
+    <p style="margin:0;font-size:14px;line-height:1.45;color:#a79fb5;text-wrap:balance">Roll, move your piece, then tap the wedge you landed on.</p>
+
+    <div style="display:grid;place-items:center">
+      <div style="position:relative;width:100%;max-width:320px;aspect-ratio:1">
+        <svg viewBox="0 0 320 320" role="group" aria-label="Pick a category" style="width:100%;height:100%;display:block">
+          <sc-for list="{{ sectors }}" as="s" hint-placeholder-count="6">
+            <g role="button" tabindex="0" onClick="{{ s.onPick }}" style="cursor:pointer">
+              <title>{{ s.label }}</title>
+              <path d="{{ s.d }}" fill="{{ s.fill }}" stroke="#141118" stroke-width="2.5" opacity="{{ s.opacity }}"></path>
+            </g>
+          </sc-for>
+          <circle cx="160" cy="160" r="52" fill="#141118"></circle>
+        </svg>
+        <span style="position:absolute;left:calc(50% + 15.78%);top:calc(50% - 27.34%);transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:30px;line-height:1;color:#ffffff;pointer-events:none">G</span>
+        <span style="position:absolute;left:calc(50% + 31.56%);top:50%;transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:30px;line-height:1;color:#ffffff;pointer-events:none">E</span>
+        <span style="position:absolute;left:calc(50% + 15.78%);top:calc(50% + 27.34%);transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:30px;line-height:1;color:#2b2210;pointer-events:none">H</span>
+        <span style="position:absolute;left:calc(50% - 15.78%);top:calc(50% + 27.34%);transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:22px;line-height:1;color:#ffffff;pointer-events:none">AL</span>
+        <span style="position:absolute;left:calc(50% - 31.56%);top:50%;transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:22px;line-height:1;color:#ffffff;pointer-events:none">SN</span>
+        <span style="position:absolute;left:calc(50% - 15.78%);top:calc(50% - 27.34%);transform:translate(-50%,-50%);font-family:Fraunces,Georgia,serif;font-weight:700;font-size:22px;line-height:1;color:#ffffff;pointer-events:none">SL</span>
+        <span style="position:absolute;left:50%;top:calc(50% - 3px);transform:translate(-50%,-50%);font-family:Archivo,sans-serif;font-weight:700;font-size:25px;line-height:1;font-variant-numeric:tabular-nums;color:#f3eff8;pointer-events:none">{{ hubCount }}</span>
+        <span style="position:absolute;left:50%;top:calc(50% + 18px);transform:translate(-50%,-50%);font-family:Archivo,sans-serif;font-weight:500;font-size:9px;letter-spacing:0.14em;color:#746d85;pointer-events:none">LEFT</span>
+      </div>
+    </div>
+
+    <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 16px">
+      <sc-for list="{{ legend }}" as="l" hint-placeholder-count="6">
+        <li style="display:flex;align-items:center;gap:8px;padding:5px 0;font-size:12.5px;min-width:0">
+          <span style="width:9px;height:9px;border-radius:2px;flex:none" data-bg="{{ l.fill }}"></span>
+          <span style="color:#a79fb5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ l.label }}</span>
+          <span style="margin-left:auto;color:#746d85;font-variant-numeric:tabular-nums;flex:none">{{ l.left }}</span>
+        </li>
+      </sc-for>
+    </ul>
+
+    <p style="margin:0;padding-top:4px;font-size:12.5px;color:#746d85;border-top:1px solid #342d41;font-variant-numeric:tabular-nums">{{ sessionLine }}</p>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ isQuestion }}" hint-placeholder-val="{{ false }}">
+  <section data-screen-label="Question" style="display:flex;flex-direction:column;gap:18px;flex:1">
+    <div style="background:#1e1a24;border:1px solid #342d41;border-radius:14px;padding:20px 18px 22px;display:flex;flex-direction:column;gap:14px;flex:1" data-borner="{{ catColor }}">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-family:Fraunces,Georgia,serif;font-weight:700;font-size:12px;line-height:1;padding:5px 7px;border-radius:5px;flex:none" data-chip="{{ chipStyle }}">{{ code }}</span>
+        <span style="font-family:Fraunces,Georgia,serif;font-weight:600;font-size:12.5px;letter-spacing:0.09em;text-transform:uppercase" data-ink="{{ catInk }}">{{ catLabel }}</span>
+        <span style="margin-left:auto;display:flex;gap:3px;flex:none" aria-hidden="true">
+          <sc-for list="{{ pips }}" as="p" hint-placeholder-count="3">
+            <i style="width:5px;height:5px;border-radius:50%;display:block" data-bg="{{ p.fill }}"></i>
+          </sc-for>
+        </span>
+      </div>
+      <p style="margin:0;font-size:clamp(21px,5.6vw,27px);font-weight:500;line-height:1.34;letter-spacing:-0.005em;text-wrap:pretty">{{ qText }}</p>
+      <p style="margin:auto 0 0;font-size:12px;color:#746d85;line-height:1.4">Hold the phone yourself — the answer is one tap away.</p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:9px">
+      <button type="button" onClick="{{ reveal }}" data-fill="{{ chipStyle }}" style="min-height:52px;padding:14px 16px;border-radius:10px;border:1px solid transparent;font-family:Archivo,sans-serif;font-size:16px;font-weight:600;cursor:pointer">Reveal answer</button>
+      <div style="display:flex;gap:9px">
+        <button type="button" onClick="{{ skip }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;border:1px solid #342d41;background:transparent;color:#a79fb5;font-family:Archivo,sans-serif;font-size:15px;font-weight:500;cursor:pointer">Different question</button>
+        <button type="button" onClick="{{ back }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;border:1px solid #342d41;background:transparent;color:#a79fb5;font-family:Archivo,sans-serif;font-size:15px;font-weight:500;cursor:pointer">Back</button>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ isAnswer }}" hint-placeholder-val="{{ false }}">
+  <section data-screen-label="Answer" style="display:flex;flex-direction:column;gap:18px;flex:1">
+    <div style="background:#1e1a24;border:1px solid #342d41;border-radius:14px;padding:20px 18px 22px;display:flex;flex-direction:column;gap:14px;flex:1" data-borner="{{ catColor }}">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-family:Fraunces,Georgia,serif;font-weight:700;font-size:12px;line-height:1;padding:5px 7px;border-radius:5px;flex:none" data-chip="{{ chipStyle }}">{{ code }}</span>
+        <span style="font-family:Fraunces,Georgia,serif;font-weight:600;font-size:12.5px;letter-spacing:0.09em;text-transform:uppercase" data-ink="{{ catInk }}">{{ catLabel }}</span>
+      </div>
+      <p style="margin:0;font-size:14.5px;line-height:1.42;color:#a79fb5">{{ qText }}</p>
+      <p style="margin:0;font-family:Fraunces,Georgia,serif;font-weight:700;font-size:clamp(27px,7.6vw,37px);line-height:1.16;text-wrap:balance" data-ink="{{ catInk }}">{{ aText }}</p>
+      <sc-if value="{{ hasAccept }}" hint-placeholder-val="{{ true }}">
+        <p style="margin:-6px 0 0;font-size:13px;line-height:1.45;color:#a79fb5"><b style="font-weight:600;color:#746d85">Also accept: </b>{{ acceptText }}</p>
+      </sc-if>
+      <sc-if value="{{ hasNote }}" hint-placeholder-val="{{ true }}">
+        <p style="margin:4px 0 0;padding-top:13px;border-top:1px solid #342d41;font-size:13.5px;line-height:1.5;color:#a79fb5">{{ noteText }}</p>
+      </sc-if>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:9px">
+      <div style="display:flex;gap:9px">
+        <button type="button" onClick="{{ gotIt }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;background:transparent;border:1px solid rgba(78,194,122,0.45);color:#4ec27a;font-family:Archivo,sans-serif;font-size:15px;font-weight:600;cursor:pointer">Got it</button>
+        <button type="button" onClick="{{ missedIt }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;background:transparent;border:1px solid rgba(232,112,95,0.45);color:#e8705f;font-family:Archivo,sans-serif;font-size:15px;font-weight:600;cursor:pointer">Missed it</button>
+      </div>
+      <button type="button" onClick="{{ toggleFlag }}" data-flagink="{{ flagColor }}" style="background:transparent;border:1px solid transparent;font-family:Archivo,sans-serif;font-weight:500;font-size:13px;min-height:42px;padding:10px;border-radius:10px;cursor:pointer">{{ flagLabel }}</button>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ sheetOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeSheet }}" style="position:fixed;inset:0;background:rgba(8,6,12,0.6);z-index:10"></div>
+    <aside data-screen-label="Settings" aria-label="Settings" style="position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(460px,100%);max-height:88dvh;overflow-y:auto;z-index:11;background:#1e1a24;border:1px solid #342d41;border-radius:18px 18px 0 0;padding:18px 18px 30px;display:flex;flex-direction:column;gap:22px">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h2 style="margin:0;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:19px">Settings</h2>
+        <button type="button" onClick="{{ closeSheet }}" aria-label="Close settings" style="width:42px;height:42px;display:grid;place-items:center;border:1px solid #342d41;border-radius:50%;background:#1e1a24;color:#a79fb5;cursor:pointer;padding:0">
+          <svg viewBox="0 0 24 24" aria-hidden="true" style="width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <span style="font-size:11.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#746d85;display:flex;justify-content:space-between;align-items:baseline;gap:8px">Difficulty</span>
+        <div role="group" aria-label="Difficulty" style="display:flex;border:1px solid #342d41;border-radius:10px;overflow:hidden">
+          <sc-for list="{{ diffs }}" as="d" hint-placeholder-count="3">
+            <button type="button" onClick="{{ d.onPick }}" data-seg="{{ d.on }}" style="flex:1;min-height:46px;border:0;border-right:1px solid #342d41;background:transparent;color:#a79fb5;font-family:Archivo,sans-serif;font-size:14px;font-weight:500;cursor:pointer">{{ d.label }}</button>
+          </sc-for>
+        </div>
+        <p style="margin:0;font-size:12.5px;line-height:1.5;color:#746d85">{{ diffHelp }}</p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <span style="font-size:11.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#746d85;display:flex;justify-content:space-between;align-items:baseline;gap:8px">House questions <span style="font-variant-numeric:tabular-nums;letter-spacing:0;color:#a79fb5;text-transform:none;font-size:12.5px">{{ housePct }}%</span></span>
+        <input type="range" min="0" max="100" step="5" value="{{ housePctNum }}" onChange="{{ setHouse }}" aria-label="House question mix">
+        <p style="margin:0;font-size:12.5px;line-height:1.5;color:#746d85">How often a question comes from your own pack instead of the general deck.</p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <span style="font-size:11.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#746d85">Category names</span>
+        <div style="display:flex;flex-direction:column;gap:7px">
+          <sc-for list="{{ legend }}" as="l" hint-placeholder-count="6">
+            <label style="display:flex;align-items:center;gap:9px">
+              <span style="width:9px;height:9px;border-radius:2px;flex:none" data-bg="{{ l.fill }}"></span>
+              <input type="text" value="{{ l.label }}" onChange="{{ l.onRename }}" style="flex:1;min-width:0;min-height:40px;padding:8px 11px;border-radius:8px;border:1px solid #342d41;background:#141118;color:#f3eff8;font-family:Archivo,sans-serif;font-size:14px">
+            </label>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <span style="font-size:11.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#746d85">This deck</span>
+        <p style="margin:0;font-size:12.5px;line-height:1.5;color:#746d85">{{ bankSummary }}</p>
+        <div style="display:flex;gap:9px">
+          <button type="button" onClick="{{ reshuffle }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;border:1px solid #342d41;background:transparent;color:#a79fb5;font-family:Archivo,sans-serif;font-size:15px;font-weight:500;cursor:pointer">Reshuffle the deck</button>
+          <button type="button" onClick="{{ copyFlags }}" style="flex:1;min-height:52px;padding:14px 16px;border-radius:10px;border:1px solid #342d41;background:transparent;color:#a79fb5;font-family:Archivo,sans-serif;font-size:15px;font-weight:500;cursor:pointer">Copy flagged</button>
+        </div>
+        <p style="margin:0;font-size:12.5px;line-height:1.5;color:#746d85">{{ flagSummary }}</p>
+      </div>
+    </aside>
+  </sc-if>
+
+  <sc-if value="{{ hasToast }}" hint-placeholder-val="{{ false }}">
+    <p style="position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:20;margin:0;max-width:min(420px,calc(100% - 36px));padding:12px 16px;border-radius:10px;background:#272231;border:1px solid #342d41;color:#f3eff8;font-size:13.5px;line-height:1.45;box-shadow:0 8px 28px rgba(0,0,0,0.32)">{{ toastText }}</p>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:460,&quot;height&quot;:860}}">
+const CATS = [
+  { id:'geography', code:'G', label:'Geography', fill:'#2f7fd1', ink:'#74b6ef' },
+  { id:'entertainment', code:'E', label:'Entertainment', fill:'#de5599', ink:'#f28abe' },
+  { id:'history', code:'H', label:'History', fill:'#e3b32c', ink:'#efc95d', onLight:true },
+  { id:'arts', code:'AL', label:'Arts & Literature', fill:'#a9663f', ink:'#d5966b' },
+  { id:'science', code:'SN', label:'Science & Nature', fill:'#3f9e58', ink:'#72cc89' },
+  { id:'sports', code:'SL', label:'Sports & Leisure', fill:'#e5752c', ink:'#f59d5f' }
+];
+
+const DIFFICULTY = {
+  all:  { label:'Everything', set:[1,2,3], help:'The full spread — mostly fair, with a few that will stump you.' },
+  easy: { label:'Gentler', set:[1,2], help:'Easy and medium only. Faster turns, more questions actually answered.' },
+  hard: { label:'Tougher', set:[2,3], help:'Medium and hard only. Closer to the original box. Expect long turns.' }
+};
+
+const BANK = [
+  { id:'geo-001', category:'geography', difficulty:1, q:'What is the largest hot desert in the world?', a:'The Sahara', accept:['Sahara','Sahara Desert'], note:'The Sahara covers roughly the same area as the entire United States.' },
+  { id:'geo-002', category:'geography', difficulty:1, q:'Which mountain is the highest point on Earth above sea level?', a:'Mount Everest', accept:['Everest','Sagarmatha','Chomolungma'], note:'Its summit sits directly on the border between Nepal and China.' },
+  { id:'geo-003', category:'geography', difficulty:2, q:'Which is the largest island in the world?', a:'Greenland', accept:['Kalaallit Nunaat'], note:'' },
+  { id:'ent-001', category:'entertainment', difficulty:1, q:'In the 1939 film The Wizard of Oz, what color are the magic slippers Dorothy wears?', a:'Ruby red', accept:['Ruby','Red'], note:"They were silver in L. Frank Baum's novel, and MGM switched them to ruby to show off Technicolor." },
+  { id:'ent-002', category:'entertainment', difficulty:2, q:"In the 1977 film Star Wars, what is the name of Han Solo's battered freighter?", a:'The Millennium Falcon', accept:['Millennium Falcon'], note:'Han brags that it made the Kessel Run in less than twelve parsecs, a boast about distance rather than time.' },
+  { id:'his-001', category:'history', difficulty:1, q:'Which Egyptian queen was the last active pharaoh of the Ptolemaic Kingdom?', a:'Cleopatra VII', accept:['Cleopatra'], note:'She died in 30 BC, and Egypt was absorbed into the Roman Empire as a province.' },
+  { id:'his-002', category:'history', difficulty:2, q:'What was the name of the large public square at the centre of civic life in ancient Rome?', a:'The Forum', accept:['Forum','Roman Forum','Forum Romanum'], note:'Law courts, markets and public speeches all shared the same open ground.' },
+  { id:'art-001', category:'arts', difficulty:1, q:'Which novel by Harper Lee is narrated by a young girl nicknamed Scout?', a:'To Kill a Mockingbird', accept:['Mockingbird'], note:'Published in 1960, it won the Pulitzer Prize for Fiction the following year.' },
+  { id:'art-002', category:'arts', difficulty:2, q:'Which Herman Melville novel begins with the line "Call me Ishmael"?', a:'Moby-Dick', accept:['Moby Dick','Moby-Dick; or, The Whale'], note:"It sold poorly in Melville's lifetime and only became a classic decades after his death." },
+  { id:'sci-001', category:'science', difficulty:1, q:'How many bones are there in the typical adult human body?', a:'206', accept:['Two hundred and six','Two hundred six'], note:'A newborn has considerably more, because many bones start out as separate pieces and fuse together during childhood.' },
+  { id:'sci-002', category:'science', difficulty:1, q:'What is the largest organ of the human body?', a:'The skin', accept:['Skin'], note:'Its outer layer completely replaces itself roughly once a month.' },
+  { id:'spo-001', category:'sports', difficulty:1, q:'How many interlocking rings appear on the Olympic flag?', a:'Five', accept:['5'], note:'The six colours, counting the white background, were chosen because every national flag of the day contained at least one of them.' },
+  { id:'spo-002', category:'sports', difficulty:2, q:'Which city hosted the first modern Olympic Games, in 1896?', a:'Athens', accept:['Athens, Greece'], note:'Winners there were handed a silver medal and an olive branch, as gold for first place only arrived later.' }
+];
+
+const CX = 160, CY = 160, R_OUT = 148, R_IN = 54;
+function polar(r, deg) { const rad = (deg - 90) * Math.PI / 180; return [CX + r * Math.cos(rad), CY + r * Math.sin(rad)]; }
+function sectorPath(a0, a1) {
+  const a = polar(R_OUT, a0), b = polar(R_OUT, a1), c = polar(R_IN, a1), d = polar(R_IN, a0);
+  return ['M', a[0].toFixed(2), a[1].toFixed(2), 'A', R_OUT, R_OUT, 0, 0, 1, b[0].toFixed(2), b[1].toFixed(2),
+    'L', c[0].toFixed(2), c[1].toFixed(2), 'A', R_IN, R_IN, 0, 0, 0, d[0].toFixed(2), d[1].toFixed(2), 'Z'].join(' ');
+}
+
+class Component extends DCLogic {
+  state = {
+    view: 'home', current: null, sheetOpen: false, toast: '',
+    asked: [], flagged: [], labels: {}, difficulty: 'all', housePct: 15,
+    session: { asked: 0, got: 0, missed: 0 }
+  };
+
+  componentDidMount() { this.applyBorders(); }
+  componentDidUpdate() { this.applyBorders(); }
+
+  // The source CSS paints category color through custom properties on the card
+  // and buttons; do the same after render so those literals stay out of holes.
+  applyBorders() {
+    const root = this.el || document;
+    root.querySelectorAll('[data-borner]').forEach(n => { n.style.borderTop = '4px solid ' + n.getAttribute('data-borner'); });
+    root.querySelectorAll('[data-bg]').forEach(n => { n.style.background = n.getAttribute('data-bg'); });
+    root.querySelectorAll('[data-ink]').forEach(n => { n.style.color = n.getAttribute('data-ink'); });
+    root.querySelectorAll('[data-flagink]').forEach(n => { n.style.color = n.getAttribute('data-flagink'); });
+    root.querySelectorAll('[data-chip],[data-fill]').forEach(n => {
+      const v = (n.getAttribute('data-chip') || n.getAttribute('data-fill') || '').split('|');
+      n.style.background = v[0]; n.style.color = v[1];
+    });
+    root.querySelectorAll('[data-seg]').forEach(n => {
+      const on = n.getAttribute('data-seg') === 'true';
+      n.style.background = on ? '#272231' : 'transparent';
+      n.style.color = on ? '#f3eff8' : '#a79fb5';
+      n.style.fontWeight = on ? '600' : '500';
+    });
+  }
+
+  cat(id) { return CATS.find(c => c.id === id); }
+  labelFor(c) { const v = this.state.labels[c.id]; return (v && v.trim()) || c.label; }
+  pool(id) {
+    const set = DIFFICULTY[this.state.difficulty].set;
+    return BANK.filter(q => q.category === id && set.indexOf(q.difficulty) !== -1);
+  }
+  remaining(id) { return this.pool(id).filter(q => this.state.asked.indexOf(q.id) === -1).length; }
+
+  say(msg) {
+    this.setState({ toast: msg });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ toast: '' }), 3400);
+  }
+
+  draw(catId, excludeId) {
+    const pool = this.pool(catId);
+    if (!pool.length) return null;
+    let fresh = pool.filter(q => this.state.asked.indexOf(q.id) === -1 && q.id !== excludeId);
+    if (!fresh.length) {
+      this.setState({ asked: this.state.asked.filter(id => !pool.some(q => q.id === id)) });
+      this.say(this.labelFor(this.cat(catId)) + ' is reshuffled — you had been through all ' + pool.length + '.');
+      fresh = pool.filter(q => q.id !== excludeId);
+      if (!fresh.length) fresh = pool;
+    }
+    return fresh[Math.floor(Math.random() * fresh.length)];
+  }
+
+  pick(catId, excludeId) {
+    const pool = this.pool(catId);
+    if (!pool.length) {
+      this.say('No ' + this.labelFor(this.cat(catId)) + ' questions at this difficulty. Try "Everything" in settings.');
+      return;
+    }
+    const q = this.draw(catId, excludeId);
+    if (q) this.setState({ current: q, view: 'question' });
+  }
+
+  settle(got) {
+    const q = this.state.current;
+    const s = this.state.session;
+    if (q) {
+      this.setState({
+        asked: this.state.asked.concat([q.id]),
+        session: { asked: s.asked + 1, got: s.got + (got ? 1 : 0), missed: s.missed + (got ? 0 : 1) }
+      });
+    }
+    this.setState({ current: null, view: 'home' });
+  }
+
+  renderVals() {
+    const st = this.state;
+    const q = st.current;
+    const c = q ? this.cat(q.category) : CATS[0];
+    const onCat = c.onLight ? '#2b2210' : '#ffffff';
+    const total = CATS.reduce((n, cc) => n + this.remaining(cc.id), 0);
+    const flagged = q && st.flagged.indexOf(q.id) !== -1;
+    const step = 60;
+
+    return {
+      isHome: st.view === 'home', isQuestion: st.view === 'question', isAnswer: st.view === 'answer',
+      sectors: CATS.map((cc, i) => {
+        const mid = i * step + step / 2;
+        const at = polar((R_OUT + R_IN) / 2, mid);
+        return {
+          d: sectorPath(i * step, i * step + step), fill: cc.fill, code: cc.code, label: this.labelFor(cc),
+          tx: at[0].toFixed(2), ty: at[1].toFixed(2), fontSize: cc.code.length > 1 ? 22 : 30,
+          codeFill: cc.onLight ? '#2b2210' : '#ffffff',
+          opacity: this.remaining(cc.id) === 0 ? 0.28 : 0.92,
+          onPick: () => this.pick(cc.id)
+        };
+      }),
+      legend: CATS.map(cc => ({
+        fill: cc.fill, label: this.labelFor(cc), left: this.remaining(cc.id),
+        onRename: e => this.setState({ labels: Object.assign({}, st.labels, { [cc.id]: e.target.value }) })
+      })),
+      hubCount: total,
+      sessionLine: st.session.asked === 0
+        ? BANK.length + ' questions in the deck.'
+        : 'This game — ' + st.session.asked + ' asked · ' + st.session.got + ' got · ' + st.session.missed + ' missed',
+
+      code: c.code, catLabel: this.labelFor(c), catColor: c.fill, catInk: c.ink,
+      chipStyle: c.fill + '|' + onCat,
+      qText: q ? q.q : '', aText: q ? q.a : '',
+      hasAccept: !!(q && q.accept && q.accept.length), acceptText: q && q.accept ? q.accept.join(' · ') : '',
+      hasNote: !!(q && q.note), noteText: q ? q.note : '',
+      pips: [1, 2, 3].map(n => ({ fill: q && n <= q.difficulty ? c.ink : '#342d41' })),
+
+      reveal: () => this.setState({ view: 'answer' }),
+      skip: () => { if (q) this.pick(q.category, q.id); },
+      back: () => this.setState({ current: null, view: 'home' }),
+      gotIt: () => this.settle(true), missedIt: () => this.settle(false),
+      flagLabel: flagged ? 'Flagged — tap to unflag' : 'Flag this question',
+      flagColor: flagged ? '#e8705f' : '#746d85',
+      toggleFlag: () => {
+        if (!q) return;
+        if (flagged) this.setState({ flagged: st.flagged.filter(id => id !== q.id) });
+        else { this.setState({ flagged: st.flagged.concat([q.id]) }); this.say('Flagged. Find the list in settings when you want to send them over.'); }
+      },
+
+      sheetOpen: st.sheetOpen,
+      openSheet: () => this.setState({ sheetOpen: true }),
+      closeSheet: () => this.setState({ sheetOpen: false }),
+      diffs: Object.keys(DIFFICULTY).map(k => ({
+        label: DIFFICULTY[k].label, on: k === st.difficulty, onPick: () => this.setState({ difficulty: k })
+      })),
+      diffHelp: DIFFICULTY[st.difficulty].help,
+      housePct: st.housePct, housePctNum: st.housePct,
+      setHouse: e => this.setState({ housePct: Number(e.target.value) }),
+      bankSummary: BANK.length + ' questions total · ' + st.asked.length + ' already asked',
+      flagSummary: st.flagged.length
+        ? st.flagged.length + ' flagged: ' + st.flagged.join(', ')
+        : 'Nothing flagged. Use the flag button on any question that is wrong or unfair.',
+      reshuffle: () => { this.setState({ asked: [], session: { asked: 0, got: 0, missed: 0 } }); this.say('Deck reshuffled. Every question is back in play.'); },
+      copyFlags: () => this.say(st.flagged.length ? 'Copied ' + st.flagged.length + ' flagged question IDs.' : 'Nothing flagged yet.'),
+
+      hasToast: !!st.toast, toastText: st.toast
+    };
+  }
+}
+</script>
+</body>
+</html>

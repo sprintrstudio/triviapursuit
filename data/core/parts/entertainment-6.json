@@ -1,0 +1,263 @@
+[
+  {
+    "id": "ent-101",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the Peanuts comic strip, what is the name of Charlie Brown's daydreaming beagle?",
+    "a": "Snoopy",
+    "accept": [],
+    "note": "Charles Schulz drew the strip almost single-handedly for fifty years.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-102",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of the van the gang drives in the cartoon Scooby-Doo, which began in 1969?",
+    "a": "The Mystery Machine",
+    "accept": [
+      "Mystery Machine"
+    ],
+    "note": "The show's original title was Scooby-Doo, Where Are You!",
+    "era": "1960s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-103",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1994 animated film The Lion King, what is the name of Simba's father?",
+    "a": "Mufasa",
+    "accept": [],
+    "note": "James Earl Jones, the voice of Darth Vader, supplied the voice.",
+    "era": "1990s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-104",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which chess piece moves in an L shape?",
+    "a": "The knight",
+    "accept": [
+      "Knight"
+    ],
+    "note": "It is the only piece allowed to jump over the pieces in its way.",
+    "era": "timeless",
+    "topic": "games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-105",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In Nintendo's Super Mario games, what job do the brothers Mario and Luigi have?",
+    "a": "Plumbers",
+    "accept": [
+      "Plumber",
+      "They are plumbers"
+    ],
+    "note": "Mario is said to be named after the landlord of Nintendo's American warehouse.",
+    "era": "timeless",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-106",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the name of Superman's destroyed home planet?",
+    "a": "Krypton",
+    "accept": [],
+    "note": "He first appeared in Action Comics No. 1 in 1938.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-107",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1995 Pixar release was the first feature film animated entirely on computers?",
+    "a": "Toy Story",
+    "accept": [],
+    "note": "Pixar had spent its early years selling computer hardware before it turned to making films.",
+    "era": "1990s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-108",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1937 film was Walt Disney's first full-length animated feature?",
+    "a": "Snow White and the Seven Dwarfs",
+    "accept": [
+      "Snow White"
+    ],
+    "note": "Hollywood nicknamed the project 'Disney's Folly' right up until it became a hit.",
+    "era": "1930s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-109",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the American edition of Monopoly, which is the most expensive property square on the board?",
+    "a": "Boardwalk",
+    "accept": [],
+    "note": "The British edition puts Mayfair in the same corner of the board.",
+    "era": "timeless",
+    "topic": "board-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-110",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "How many ghosts chase the player in the 1980 arcade game Pac-Man?",
+    "a": "Four",
+    "accept": [
+      "4"
+    ],
+    "note": "They are named Blinky, Pinky, Inky and Clyde.",
+    "era": "1980s",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-111",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The Rubik's Cube was invented in 1974 by Ernő Rubik, a teacher from which country?",
+    "a": "Hungary",
+    "accept": [],
+    "note": "Rubik taught architecture and built the cube to explain three-dimensional geometry to his students.",
+    "era": "1970s",
+    "topic": "games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-112",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In Marvel comics, what is the name of the teenager who becomes Spider-Man after a radioactive spider bite in 1962?",
+    "a": "Peter Parker",
+    "accept": [
+      "Peter Benjamin Parker"
+    ],
+    "note": "Stan Lee and Steve Ditko created him for the final issue of a title that was already being canceled.",
+    "era": "1960s",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-113",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The board game Trivial Pursuit was created in 1979 by two newspapermen from which country?",
+    "a": "Canada",
+    "accept": [],
+    "note": "Chris Haney and Scott Abbott dreamed it up in Montreal after finding pieces missing from their Scrabble set.",
+    "era": "1970s",
+    "topic": "board-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-114",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which puppeteer created the Muppets and performed Kermit the Frog himself?",
+    "a": "Jim Henson",
+    "accept": [],
+    "note": "He used his own hand and voice for Kermit from the 1950s until his death in 1990.",
+    "era": "timeless",
+    "topic": "pop-culture",
+    "pack": "core"
+  },
+  {
+    "id": "ent-115",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "The puzzle game Tetris was created in 1984 by a programmer working in which country?",
+    "a": "The Soviet Union",
+    "accept": [
+      "Soviet Union",
+      "Russia",
+      "USSR"
+    ],
+    "note": "Alexey Pajitnov saw almost no money from it for years, because the Soviet state held the rights.",
+    "era": "1980s",
+    "topic": "video-games",
+    "pack": "core"
+  },
+  {
+    "id": "ent-116",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the Marvel comics and films, what fictional metal is Captain America’s shield made from?",
+    "a": "Vibranium",
+    "accept": [
+      "Vibranium alloy"
+    ],
+    "note": "In the stories it absorbs kinetic energy, which is why the shield can take a hit without transmitting the force.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-117",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1960 cartoon was the first animated series to air in American prime time?",
+    "a": "The Flintstones",
+    "accept": [
+      "Flintstones"
+    ],
+    "note": "Its bickering couples were modeled closely on the live-action sitcom The Honeymooners.",
+    "era": "1960s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-118",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 2001 Hayao Miyazaki film became the first Japanese animated feature to win an Academy Award?",
+    "a": "Spirited Away",
+    "accept": [],
+    "note": "Miyazaki stayed away from the ceremony in protest at the war in Iraq.",
+    "era": "2000s",
+    "topic": "animation",
+    "pack": "core"
+  },
+  {
+    "id": "ent-119",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which Belgian comic-strip reporter, created in 1929, travels the world with his small white dog Snowy?",
+    "a": "Tintin",
+    "accept": [],
+    "note": "His creator, Hergé, drew his adventures for more than fifty years.",
+    "era": "timeless",
+    "topic": "comics",
+    "pack": "core"
+  },
+  {
+    "id": "ent-120",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "In which 1978 arcade game do players shoot at rows of aliens marching steadily down the screen?",
+    "a": "Space Invaders",
+    "accept": [],
+    "note": "Made by Taito in Japan, it helped launch the golden age of the video arcade.",
+    "era": "1970s",
+    "topic": "video-games",
+    "pack": "core"
+  }
+]

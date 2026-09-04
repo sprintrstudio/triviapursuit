@@ -1,0 +1,143 @@
+<title>Pursuit Deck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Archivo:wght@400;500;600;700&display=swap">
+<!-- @styles -->
+
+<main class="app">
+
+  <header class="topbar">
+    <h1 class="wordmark">Pursuit Deck</h1>
+    <button type="button" class="icon-btn" id="open-settings" aria-label="Settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/><path d="M19.4 13a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2v.2a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.6 1.7 1.7 0 0 0-1.9.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9h-.2a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1.1 1.7 1.7 0 0 0-.4-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1A1.7 1.7 0 0 0 10 3.9v-.2a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 2-.4l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.6 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>
+    </button>
+  </header>
+
+  <!-- ══ HOME ══ -->
+  <section class="view" id="view-home">
+    <p class="prompt">Where did you land?</p>
+
+    <div class="players" id="players" hidden></div>
+
+    <div class="tiles" id="tiles"></div>
+
+    <div class="tally">
+      <span class="tally-count" id="tally-count"></span>
+      <span class="tally-note" id="session-line"></span>
+    </div>
+  </section>
+
+  <!-- ══ QUESTION ══ -->
+  <section class="view view-flood" id="view-question" hidden>
+    <div class="chip-row">
+      <span class="chip" id="q-chip"></span>
+      <span class="pips" id="q-pips" aria-hidden="true"></span>
+    </div>
+
+    <div class="card">
+      <p class="q-text" id="q-text"></p>
+      <p class="reader-hint">Hold the phone yourself — the answer is one tap away.</p>
+    </div>
+
+    <div class="actions">
+      <button type="button" class="btn-primary" id="btn-reveal">Reveal answer</button>
+      <div class="actions-row">
+        <button type="button" class="btn-ghost" id="btn-skip">Different question</button>
+        <button type="button" class="btn-ghost btn-back" id="btn-home-q">Back</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ANSWER ══ -->
+  <section class="view view-flood" id="view-answer" hidden>
+    <div class="chip-row">
+      <span class="chip" id="a-chip"></span>
+    </div>
+
+    <div class="card">
+      <p class="q-recap" id="a-question"></p>
+      <p class="a-text" id="a-text"></p>
+      <p class="a-accept" id="a-accept" hidden></p>
+      <p class="a-note" id="a-note"></p>
+    </div>
+
+    <div class="actions">
+      <button type="button" class="scoring-for" id="scoring-for" hidden></button>
+      <div class="actions-row">
+        <button type="button" class="btn-got" id="btn-got">Got it</button>
+        <button type="button" class="btn-miss" id="btn-missed">Missed it</button>
+      </div>
+      <button type="button" class="btn-flag" id="btn-flag">
+        <span id="flag-label">Flag this question</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ══ SETTINGS ══ -->
+  <div class="sheet-scrim" id="sheet-scrim" hidden></div>
+  <aside class="sheet" id="sheet" hidden aria-label="Settings">
+    <div class="sheet-head">
+      <h2>Settings</h2>
+      <button type="button" class="icon-btn" id="close-settings" aria-label="Close settings">✕</button>
+    </div>
+
+    <div class="field">
+      <span class="field-label">Difficulty</span>
+      <div class="seg" id="seg-difficulty" role="group" aria-label="Difficulty">
+        <button type="button" data-diff="all">Everything</button>
+        <button type="button" data-diff="easy">Gentler</button>
+        <button type="button" data-diff="hard">Tougher</button>
+      </div>
+      <p class="field-help" id="diff-help"></p>
+    </div>
+
+    <div class="field">
+      <span class="field-label">
+        Players
+        <button type="button" class="link-btn" id="add-player">Add player</button>
+      </span>
+      <div class="players-edit" id="players-edit"></div>
+      <p class="field-help">A wrong answer passes the turn to the next player, the way the board game does. Tap any player to take the turn back.</p>
+      <button type="button" class="btn-ghost" id="btn-new-game">End session &amp; start a new game</button>
+    </div>
+
+    <div class="field" id="house-field">
+      <span class="field-label">House questions <span class="pct" id="house-pct"></span></span>
+      <input type="range" id="house-range" min="0" max="100" step="5" aria-label="House question mix">
+      <p class="field-help" id="house-help"></p>
+    </div>
+
+    <div class="field">
+      <span class="field-label">Category names</span>
+      <div class="labels-grid" id="labels-grid"></div>
+    </div>
+
+    <div class="field">
+      <span class="field-label">This deck</span>
+      <p class="field-help" id="bank-summary"></p>
+      <div class="actions-row">
+        <button type="button" class="btn-ghost" id="btn-reset-asked">Reshuffle the deck</button>
+        <button type="button" class="btn-ghost" id="btn-copy-flags">Copy flagged</button>
+      </div>
+      <p class="field-help" id="flag-summary"></p>
+    </div>
+  </aside>
+
+  <!-- ══ WHO'S PLAYING ══ -->
+  <div class="dialog-scrim" id="start-scrim" hidden></div>
+  <aside class="dialog" id="start-dialog" hidden aria-label="Who is playing">
+    <h2>Who's playing?</h2>
+    <p class="field-help">Two minimum, six maximum. Names can be changed later in settings, and this only resets the score — the deck keeps track of what you've already been asked.</p>
+    <div class="players-edit" id="start-players"></div>
+    <button type="button" class="link-btn" id="start-add">Add player</button>
+    <div class="dialog-actions">
+      <button type="button" class="btn-primary" id="start-go">Start game</button>
+      <button type="button" class="btn-ghost" id="start-cancel" hidden>Cancel</button>
+    </div>
+  </aside>
+
+  <p class="toast" id="toast" hidden></p>
+</main>
+
+<!-- @bank -->
+<!-- @app -->

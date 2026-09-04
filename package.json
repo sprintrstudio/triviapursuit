@@ -1,0 +1,13 @@
+{
+  "name": "triviapursuit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A phone-friendly card deck for playing Trivial Pursuit on a physical board.",
+  "type": "module",
+  "scripts": {
+    "merge": "node tools/merge.mjs",
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "all": "node tools/merge.mjs && node tools/validate.mjs && node tools/build.mjs"
+  }
+}

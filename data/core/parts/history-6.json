@@ -1,0 +1,295 @@
+[
+  {
+    "id": "his-101",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In what year did Christopher Columbus first cross the Atlantic and reach the Americas?",
+    "a": "1492",
+    "accept": [],
+    "note": "He made four voyages in all and went to his grave insisting he had found a route to Asia.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-102",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which pair of brothers made the first powered airplane flight in 1903?",
+    "a": "The Wright brothers",
+    "accept": [
+      "Wright brothers",
+      "Orville and Wilbur Wright",
+      "The Wrights"
+    ],
+    "note": "Their first hop at Kitty Hawk lasted about twelve seconds and covered less than the wingspan of a modern airliner.",
+    "era": "timeless",
+    "topic": "aviation",
+    "pack": "core"
+  },
+  {
+    "id": "his-103",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Who was the first person to walk on the Moon?",
+    "a": "Neil Armstrong",
+    "accept": [
+      "Armstrong"
+    ],
+    "note": "Buzz Aldrin followed him down the ladder about twenty minutes later.",
+    "era": "timeless",
+    "topic": "space-race",
+    "pack": "core"
+  },
+  {
+    "id": "his-104",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which German craftsman introduced movable-type printing to Europe around 1450?",
+    "a": "Johannes Gutenberg",
+    "accept": [
+      "Gutenberg",
+      "Johann Gutenberg"
+    ],
+    "note": "His famous Bible was printed at Mainz in the 1450s, and fewer than fifty copies survive.",
+    "era": "timeless",
+    "topic": "printing",
+    "pack": "core"
+  },
+  {
+    "id": "his-105",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Who received a US patent for the telephone in 1876?",
+    "a": "Alexander Graham Bell",
+    "accept": [
+      "Bell",
+      "Alexander Bell"
+    ],
+    "note": "Both his mother and his wife were deaf, and he spent much of his life teaching speech to deaf students.",
+    "era": "timeless",
+    "topic": "invention",
+    "pack": "core"
+  },
+  {
+    "id": "his-106",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which canal, opened in 1914, links the Atlantic and Pacific Oceans?",
+    "a": "The Panama Canal",
+    "accept": [
+      "Panama Canal"
+    ],
+    "note": "An earlier French attempt in the 1880s collapsed after enormous losses to disease and debt.",
+    "era": "timeless",
+    "topic": "engineering",
+    "pack": "core"
+  },
+  {
+    "id": "his-107",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Portuguese navigator commanded the expedition that first sailed around the world, though he did not survive the voyage?",
+    "a": "Ferdinand Magellan",
+    "accept": [
+      "Magellan",
+      "Fernao de Magalhaes"
+    ],
+    "note": "He was killed in the Philippines in 1521, and Juan Sebastian Elcano brought one ship home.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-108",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which inscribed slab, found in Egypt in 1799, gave scholars the key to reading hieroglyphs?",
+    "a": "The Rosetta Stone",
+    "accept": [
+      "Rosetta Stone"
+    ],
+    "note": "Jean-Francois Champollion finally cracked the script in 1822, working from the Greek text carved alongside it.",
+    "era": "timeless",
+    "topic": "archaeology",
+    "pack": "core"
+  },
+  {
+    "id": "his-109",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which British navigator charted much of the Pacific on three voyages in the 1760s and 1770s?",
+    "a": "Captain James Cook",
+    "accept": [
+      "James Cook",
+      "Captain Cook",
+      "Cook"
+    ],
+    "note": "He was killed in a confrontation on a beach in Hawaii in 1779.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-110",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which two men led the American expedition that reached the Pacific coast overland between 1804 and 1806?",
+    "a": "Lewis and Clark",
+    "accept": [
+      "Meriwether Lewis and William Clark",
+      "Lewis & Clark"
+    ],
+    "note": "A Shoshone woman named Sacagawea traveled with them as interpreter and guide, carrying an infant much of the way.",
+    "era": "timeless",
+    "topic": "exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-111",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Norwegian explorer's party was first to reach the South Pole, in December 1911?",
+    "a": "Roald Amundsen",
+    "accept": [
+      "Amundsen"
+    ],
+    "note": "Robert Falcon Scott's party arrived about a month later and died on the journey back.",
+    "era": "timeless",
+    "topic": "polar-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-112",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Scottish engineer's improvements to the steam engine helped power the Industrial Revolution?",
+    "a": "James Watt",
+    "accept": [
+      "Watt"
+    ],
+    "note": "The unit of power used to rate everything from light bulbs to engines is named after him.",
+    "era": "timeless",
+    "topic": "industrial-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-113",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What was completed at Promontory Summit, Utah, in 1869 when a golden spike was driven?",
+    "a": "The first transcontinental railroad",
+    "accept": [
+      "Transcontinental railroad",
+      "The transcontinental railroad"
+    ],
+    "note": "Two companies had been building toward each other for years, one east from Sacramento and one west from Omaha.",
+    "era": "timeless",
+    "topic": "railroads",
+    "pack": "core"
+  },
+  {
+    "id": "his-114",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which English naturalist published \"On the Origin of Species\" in 1859?",
+    "a": "Charles Darwin",
+    "accept": [
+      "Darwin"
+    ],
+    "note": "He had sat on the theory for two decades, and only a letter from a rival naturalist pushed him into print.",
+    "era": "timeless",
+    "topic": "science-history",
+    "pack": "core"
+  },
+  {
+    "id": "his-115",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Polish astronomer argued in a 1543 book that the Earth travels around the Sun?",
+    "a": "Nicolaus Copernicus",
+    "accept": [
+      "Copernicus",
+      "Nicholas Copernicus"
+    ],
+    "note": "The book was published in the year he died, which spared him the argument that followed.",
+    "era": "timeless",
+    "topic": "science-history",
+    "pack": "core"
+  },
+  {
+    "id": "his-116",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which of the Seven Wonders of the Ancient World was a lighthouse that guided ships into an Egyptian harbour?",
+    "a": "The Pharos of Alexandria",
+    "accept": [
+      "Pharos",
+      "Lighthouse of Alexandria",
+      "The Lighthouse of Alexandria"
+    ],
+    "note": "It stood for roughly 1,600 years before earthquakes brought it down.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "his-117",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Chinese admiral commanded huge treasure fleets across the Indian Ocean in the early 1400s?",
+    "a": "Zheng He",
+    "accept": [
+      "Cheng Ho"
+    ],
+    "note": "His fleets reached East Africa decades before Portuguese ships rounded the southern tip of the continent.",
+    "era": "timeless",
+    "topic": "ming-china",
+    "pack": "core"
+  },
+  {
+    "id": "his-118",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Norse explorer is credited in the sagas with reaching North America around the year 1000?",
+    "a": "Leif Erikson",
+    "accept": [
+      "Leif Eriksson",
+      "Leif Ericson",
+      "Leif Ericsson"
+    ],
+    "note": "Norse ruins at L'Anse aux Meadows in Newfoundland confirm that Vikings did reach the continent.",
+    "era": "timeless",
+    "topic": "vikings",
+    "pack": "core"
+  },
+  {
+    "id": "his-119",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Italian navigator gave his name to two continents?",
+    "a": "Amerigo Vespucci",
+    "accept": [
+      "Vespucci",
+      "Americus Vespucius"
+    ],
+    "note": "A German mapmaker labeled the new lands \"America\" on a 1507 map, and the name stuck.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-120",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which English doctor pioneered vaccination against smallpox in 1796?",
+    "a": "Edward Jenner",
+    "accept": [
+      "Jenner"
+    ],
+    "note": "The word \"vaccine\" comes from the Latin for cow, after the cowpox he used to confer protection.",
+    "era": "timeless",
+    "topic": "medicine-history",
+    "pack": "core"
+  }
+]

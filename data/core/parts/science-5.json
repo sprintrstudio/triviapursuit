@@ -1,0 +1,286 @@
+[
+  {
+    "id": "sci-081",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is molten rock called once it reaches the surface and flows out of a volcano?",
+    "a": "Lava",
+    "accept": [],
+    "note": "The very same material is called magma while it is still underground.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-082",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the largest ocean on Earth?",
+    "a": "The Pacific Ocean",
+    "accept": [
+      "Pacific",
+      "The Pacific"
+    ],
+    "note": "It covers roughly a third of the planet's surface, which is more than all the land put together.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-083",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for a scientist who studies the weather?",
+    "a": "A meteorologist",
+    "accept": [
+      "Meteorologist"
+    ],
+    "note": "The name has nothing to do with meteors, and comes from a Greek word for anything high in the sky.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-084",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for molten rock once it has reached the Earth’s surface?",
+    "a": "Lava",
+    "accept": [],
+    "note": "The same material is called magma while it is still underground.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-085",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the main cause of the ocean's tides?",
+    "a": "The gravitational pull of the Moon",
+    "accept": [
+      "The Moon",
+      "Moon",
+      "The Moon's gravity",
+      "The Moon and the Sun"
+    ],
+    "note": "The Sun tugs as well, and when the two line up you get the extra-large spring tides.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-086",
+    "category": "science",
+    "difficulty": 1,
+    "q": "What is the name for a violently rotating column of air that reaches the ground?",
+    "a": "A tornado",
+    "accept": [
+      "Tornado",
+      "Twister"
+    ],
+    "note": "When the same thing forms over water it is called a waterspout instead.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-087",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which gas makes up roughly 78 percent of the Earth's atmosphere?",
+    "a": "Nitrogen",
+    "accept": [
+      "N2"
+    ],
+    "note": "Oxygen accounts for about 21 percent, and everything else shares the small remainder.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-088",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What instrument is used to detect and record the shaking of an earthquake?",
+    "a": "A seismograph",
+    "accept": [
+      "Seismograph",
+      "Seismometer"
+    ],
+    "note": "An early Chinese version, built in the second century, signalled a distant quake by dropping a ball from a dragon's mouth.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-089",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What type of rock is formed when molten rock cools and hardens?",
+    "a": "Igneous rock",
+    "accept": [
+      "Igneous"
+    ],
+    "note": "The name comes from ignis, the Latin word for fire, and granite is a familiar example.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-090",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the Earth's thin, solid outermost layer called?",
+    "a": "The crust",
+    "accept": [
+      "Crust"
+    ],
+    "note": "Beneath the oceans it can be as little as five kilometers thick, far thinner than under the continents.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-091",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the process called when water vapor cools and turns back into a liquid?",
+    "a": "Condensation",
+    "accept": [
+      "Condensing"
+    ],
+    "note": "It is what forms clouds in the sky and beads of water on the outside of a cold glass.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-092",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Which instrument measures atmospheric pressure?",
+    "a": "A barometer",
+    "accept": [
+      "Barometer"
+    ],
+    "note": "A sharp fall in pressure usually means unsettled weather is on the way.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-093",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the theory that the Earth's outer shell is broken into large, slowly moving slabs called?",
+    "a": "Plate tectonics",
+    "accept": [
+      "Tectonic plate theory",
+      "Continental drift"
+    ],
+    "note": "The plates creep along at roughly the speed your fingernails grow.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-094",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What name is given to the supercontinent that geologists believe existed around 250 million years ago?",
+    "a": "Pangaea",
+    "accept": [
+      "Pangea"
+    ],
+    "note": "It began breaking apart in the Jurassic, eventually producing the continents we have now.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-095",
+    "category": "science",
+    "difficulty": 2,
+    "q": "Marble forms when limestone is heated and squeezed underground, making it which of the three main rock types?",
+    "a": "Metamorphic rock",
+    "accept": [
+      "Metamorphic"
+    ],
+    "note": "The word means changed in form, and slate is made from shale in much the same way.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-096",
+    "category": "science",
+    "difficulty": 2,
+    "q": "What is the name for a huge ocean wave set off by an undersea earthquake or landslide?",
+    "a": "A tsunami",
+    "accept": [
+      "Tsunami"
+    ],
+    "note": "Out in deep water it can pass under a ship almost unnoticed, only rearing up as it reaches shallow coast.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-097",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the towering, anvil-topped cloud that brings thunderstorms?",
+    "a": "Cumulonimbus",
+    "accept": [
+      "Cumulonimbus cloud"
+    ],
+    "note": "It can climb more than ten kilometers, flattening out at the top when it hits the ceiling of the lower atmosphere.",
+    "era": "timeless",
+    "topic": "weather",
+    "pack": "core"
+  },
+  {
+    "id": "sci-098",
+    "category": "science",
+    "difficulty": 3,
+    "q": "Which layer of the atmosphere contains the ozone layer?",
+    "a": "The stratosphere",
+    "accept": [
+      "Stratosphere"
+    ],
+    "note": "It sits above almost all the weather, which is why airliners like to cruise at its lower edge.",
+    "era": "timeless",
+    "topic": "earth-science",
+    "pack": "core"
+  },
+  {
+    "id": "sci-099",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What name is given to the ancient supercontinent in which today's landmasses were all joined together?",
+    "a": "Pangaea",
+    "accept": [
+      "Pangea"
+    ],
+    "note": "It began breaking apart roughly 175 million years ago, and the pieces are still drifting today.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  },
+  {
+    "id": "sci-100",
+    "category": "science",
+    "difficulty": 3,
+    "q": "What is the name of the scale used to rank the hardness of minerals, running from talc up to diamond?",
+    "a": "The Mohs scale",
+    "accept": [
+      "Mohs scale",
+      "Mohs"
+    ],
+    "note": "It is a ranking rather than a measurement, so the gap between nine and ten is enormous.",
+    "era": "timeless",
+    "topic": "geology",
+    "pack": "core"
+  }
+]

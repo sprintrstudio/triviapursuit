@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "his-001",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Egyptian queen was the last active pharaoh of the Ptolemaic Kingdom?",
+    "a": "Cleopatra VII",
+    "accept": [
+      "Cleopatra"
+    ],
+    "note": "She died in 30 BC, and Egypt was absorbed into the Roman Empire as a province.",
+    "era": "timeless",
+    "topic": "ancient-egypt",
+    "pack": "core"
+  },
+  {
+    "id": "his-002",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What was the name of the large public square at the centre of civic life in ancient Rome?",
+    "a": "The Forum",
+    "accept": [
+      "Forum",
+      "Roman Forum",
+      "Forum Romanum"
+    ],
+    "note": "Law courts, markets and public speeches all shared the same open ground.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-003",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Macedonian king conquered the Persian Empire and died in Babylon in 323 BC?",
+    "a": "Alexander the Great",
+    "accept": [
+      "Alexander III of Macedon",
+      "Alexander III",
+      "Alexander"
+    ],
+    "note": "As a boy he was tutored by the philosopher Aristotle.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-004",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In ancient Rome, what kind of weapon was a gladius?",
+    "a": "A short sword",
+    "accept": [
+      "Short sword",
+      "Sword"
+    ],
+    "note": "Roman foot soldiers fought at close quarters with it; the word gladiator comes from the same root.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-005",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In Greek legend, which city was besieged for ten years and finally taken by means of a wooden horse?",
+    "a": "Troy",
+    "accept": [
+      "Ilium",
+      "Ilion"
+    ],
+    "note": "Heinrich Schliemann's 19th-century digs in northwestern Turkey are generally identified as the site.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-006",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Roman general crossed the Rubicon river with his army in 49 BC, triggering a civil war?",
+    "a": "Julius Caesar",
+    "accept": [
+      "Caesar",
+      "Gaius Julius Caesar"
+    ],
+    "note": "Bringing an army across that river toward Rome was, by law, an act of war against the state.",
+    "era": "timeless",
+    "topic": "roman-republic",
+    "pack": "core"
+  },
+  {
+    "id": "his-007",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What is the name of the Roman defensive wall begun in AD 122 across northern Britain?",
+    "a": "Hadrian's Wall",
+    "accept": [
+      "Hadrians Wall"
+    ],
+    "note": "It ran roughly 73 miles coast to coast, and long stretches of it still stand.",
+    "era": "timeless",
+    "topic": "roman-britain",
+    "pack": "core"
+  },
+  {
+    "id": "his-008",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Greek city-state trained its boys in a rigorous state system called the agoge?",
+    "a": "Sparta",
+    "accept": [
+      "Lacedaemon"
+    ],
+    "note": "Spartan boys entered the agoge at about the age of seven.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-009",
+    "category": "history",
+    "difficulty": 2,
+    "q": "At which narrow pass did King Leonidas and a small Greek force hold off the Persian army in 480 BC?",
+    "a": "Thermopylae",
+    "accept": [
+      "The Battle of Thermopylae",
+      "Battle of Thermopylae"
+    ],
+    "note": "The Greeks were finally outflanked by a mountain path revealed to the Persians by a local man.",
+    "era": "timeless",
+    "topic": "greco-persian-wars",
+    "pack": "core"
+  },
+  {
+    "id": "his-010",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Carthaginian general crossed the Alps with war elephants to invade Italy in 218 BC?",
+    "a": "Hannibal",
+    "accept": [
+      "Hannibal Barca"
+    ],
+    "note": "He crushed a Roman army at Cannae in 216 BC but never captured Rome itself.",
+    "era": "timeless",
+    "topic": "punic-wars",
+    "pack": "core"
+  },
+  {
+    "id": "his-011",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Athenian philosopher was condemned to death in 399 BC and died by drinking hemlock?",
+    "a": "Socrates",
+    "accept": [],
+    "note": "He wrote nothing himself, so nearly everything known about him comes from his students Plato and Xenophon.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-012",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Who was the first emperor of Rome?",
+    "a": "Augustus",
+    "accept": [
+      "Octavian",
+      "Caesar Augustus",
+      "Gaius Octavius"
+    ],
+    "note": "Born Gaius Octavius, he was granted the honorific name Augustus by the Senate in 27 BC.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-013",
+    "category": "history",
+    "difficulty": 2,
+    "q": "The Great Pyramid at Giza was built as a tomb for which pharaoh?",
+    "a": "Khufu",
+    "accept": [
+      "Cheops"
+    ],
+    "note": "It stood as the tallest structure built by humans for roughly 3,800 years.",
+    "era": "timeless",
+    "topic": "ancient-egypt",
+    "pack": "core"
+  },
+  {
+    "id": "his-014",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which ancient empire was founded by Cyrus the Great and later ruled by Darius I?",
+    "a": "The Persian Empire",
+    "accept": [
+      "Persia",
+      "Achaemenid Empire",
+      "Achaemenid Persia",
+      "Persian Empire"
+    ],
+    "note": "Cyrus is remembered for permitting exiled peoples, including the Jews, to return to their homelands.",
+    "era": "timeless",
+    "topic": "ancient-persia",
+    "pack": "core"
+  },
+  {
+    "id": "his-015",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Roman emperor, jointly with Licinius, issued the Edict of Milan in AD 313 granting toleration to Christians?",
+    "a": "Constantine",
+    "accept": [
+      "Constantine the Great",
+      "Constantine I"
+    ],
+    "note": "He later founded a new capital, Constantinople, on the site of the old Greek city of Byzantium.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-016",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Chinese dynasty was founded by Qin Shi Huang, whose tomb is guarded by the Terracotta Army?",
+    "a": "The Qin dynasty",
+    "accept": [
+      "Qin",
+      "Ch'in",
+      "Qin Dynasty"
+    ],
+    "note": "The buried army lay undisturbed until farmers digging a well uncovered it in 1974.",
+    "era": "timeless",
+    "topic": "ancient-china",
+    "pack": "core"
+  },
+  {
+    "id": "his-017",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Athenian statesman led the city during the building of the Parthenon in the 400s BC?",
+    "a": "Pericles",
+    "accept": [],
+    "note": "The cultural high point of classical Athens is often called the Age of Pericles after him.",
+    "era": "timeless",
+    "topic": "ancient-greece",
+    "pack": "core"
+  },
+  {
+    "id": "his-018",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which ancient people of southern Mesopotamia developed the wedge-shaped writing called cuneiform?",
+    "a": "The Sumerians",
+    "accept": [
+      "Sumerians",
+      "Sumer"
+    ],
+    "note": "Cuneiform was pressed into wet clay with a reed stylus and stayed in use for some three thousand years.",
+    "era": "timeless",
+    "topic": "mesopotamia",
+    "pack": "core"
+  },
+  {
+    "id": "his-019",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Roman emperor wrote the Stoic private notebook known as the Meditations?",
+    "a": "Marcus Aurelius",
+    "accept": [],
+    "note": "He wrote it in Greek, largely while on military campaign along the Danube frontier.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-020",
+    "category": "history",
+    "difficulty": 3,
+    "q": "In what year is the Western Roman Empire traditionally said to have fallen, when its last emperor was deposed?",
+    "a": "AD 476",
+    "accept": [
+      "476"
+    ],
+    "note": "The deposed emperor, Romulus Augustulus, was still a boy and was allowed to live out his life on a pension.",
+    "era": "timeless",
+    "topic": "roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-021",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In what year was the Battle of Hastings fought?",
+    "a": "1066",
+    "accept": [
+      "AD 1066"
+    ],
+    "note": "William of Normandy's victory permanently reshaped England's ruling class and its language.",
+    "era": "timeless",
+    "topic": "norman-conquest",
+    "pack": "core"
+  },
+  {
+    "id": "his-022",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What name is given to the plague that swept across Europe in the mid-1300s?",
+    "a": "The Black Death",
+    "accept": [
+      "Black Death",
+      "The Plague",
+      "Bubonic plague"
+    ],
+    "note": "It reached European ports around 1347 aboard ships arriving from the Black Sea.",
+    "era": "timeless",
+    "topic": "black-death",
+    "pack": "core"
+  },
+  {
+    "id": "his-023",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which English king had six wives and broke with the Roman Catholic Church?",
+    "a": "Henry VIII",
+    "accept": [
+      "Henry the Eighth",
+      "King Henry VIII"
+    ],
+    "note": "His break with Rome brought the Church of England into being with the monarch at its head.",
+    "era": "timeless",
+    "topic": "tudor-england",
+    "pack": "core"
+  },
+  {
+    "id": "his-024",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which charter, sealed by King John in 1215, placed limits on the power of the English crown?",
+    "a": "Magna Carta",
+    "accept": [
+      "The Great Charter",
+      "The Magna Carta"
+    ],
+    "note": "It was sealed in a meadow at Runnymede beside the Thames, and John repudiated it within months.",
+    "era": "timeless",
+    "topic": "medieval-england",
+    "pack": "core"
+  },
+  {
+    "id": "his-025",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which French peasant girl led troops during the Hundred Years' War and was burned at the stake in 1431?",
+    "a": "Joan of Arc",
+    "accept": [
+      "Jeanne d'Arc",
+      "Saint Joan"
+    ],
+    "note": "The Catholic Church formally declared her a saint in 1920, nearly five centuries after her death.",
+    "era": "timeless",
+    "topic": "hundred-years-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-026",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which German monk's Ninety-five Theses of 1517 helped launch the Protestant Reformation?",
+    "a": "Martin Luther",
+    "accept": [
+      "Luther"
+    ],
+    "note": "His German translation of the Bible did as much to shape the modern German language as it did German religion.",
+    "era": "timeless",
+    "topic": "reformation",
+    "pack": "core"
+  },
+  {
+    "id": "his-027",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which city fell to the Ottoman Turks in 1453, bringing the Byzantine Empire to an end?",
+    "a": "Constantinople",
+    "accept": [
+      "Istanbul",
+      "Byzantium"
+    ],
+    "note": "The sultan who took it, Mehmed II, was only 21 years old at the time.",
+    "era": "timeless",
+    "topic": "byzantine-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-028",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which leader united the Mongol tribes and was proclaimed their ruler in 1206?",
+    "a": "Genghis Khan",
+    "accept": [
+      "Chinggis Khan",
+      "Temujin",
+      "Jenghis Khan"
+    ],
+    "note": "Under his sons and grandsons the Mongol realm became the largest contiguous land empire in history.",
+    "era": "timeless",
+    "topic": "mongol-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-029",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What was the name of the Spanish fleet that failed in its attempt to invade England in 1588?",
+    "a": "The Spanish Armada",
+    "accept": [
+      "Spanish Armada",
+      "The Armada"
+    ],
+    "note": "Storms on the long voyage home around Scotland and Ireland destroyed more ships than the English navy did.",
+    "era": "timeless",
+    "topic": "elizabethan-england",
+    "pack": "core"
+  },
+  {
+    "id": "his-030",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which European war, begun in 1618, was ended by the Peace of Westphalia in 1648?",
+    "a": "The Thirty Years' War",
+    "accept": [
+      "Thirty Years War",
+      "Thirty Years' War"
+    ],
+    "note": "The Westphalia treaties are often cited as the beginning of the modern system of sovereign states.",
+    "era": "timeless",
+    "topic": "thirty-years-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-031",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which queen ruled England from 1558 to 1603 as the last monarch of the Tudor line?",
+    "a": "Elizabeth I",
+    "accept": [
+      "Queen Elizabeth I",
+      "Elizabeth Tudor",
+      "Elizabeth the First"
+    ],
+    "note": "She died unmarried and childless, and the crown passed to James VI of Scotland, the son of her cousin.",
+    "era": "timeless",
+    "topic": "tudor-england",
+    "pack": "core"
+  },
+  {
+    "id": "his-032",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which English king was tried and executed in 1649 after losing the English Civil War?",
+    "a": "Charles I",
+    "accept": [
+      "King Charles I",
+      "Charles the First"
+    ],
+    "note": "England then spent eleven years without a monarch, governed largely by Oliver Cromwell.",
+    "era": "timeless",
+    "topic": "english-civil-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-033",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Italian astronomer was tried by the Roman Inquisition in 1633 for teaching that the Earth moves around the Sun?",
+    "a": "Galileo Galilei",
+    "accept": [
+      "Galileo"
+    ],
+    "note": "He spent his last years under house arrest at his villa outside Florence, going blind but still writing.",
+    "era": "timeless",
+    "topic": "scientific-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-034",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which French king, known as the Sun King, turned Versailles into the seat of his court?",
+    "a": "Louis XIV",
+    "accept": [
+      "Louis the Fourteenth",
+      "The Sun King",
+      "Louis 14"
+    ],
+    "note": "His reign of 72 years is the longest of any sovereign monarch in European history.",
+    "era": "timeless",
+    "topic": "bourbon-france",
+    "pack": "core"
+  },
+  {
+    "id": "his-035",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which family held the shogunate and ruled Japan from 1603 until 1868?",
+    "a": "The Tokugawa",
+    "accept": [
+      "Tokugawa",
+      "Tokugawa shogunate",
+      "Tokugawa clan"
+    ],
+    "note": "Their capital, Edo, was renamed Tokyo when imperial rule was restored in 1868.",
+    "era": "timeless",
+    "topic": "edo-japan",
+    "pack": "core"
+  },
+  {
+    "id": "his-036",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which wealthy West African empire was ruled by Mansa Musa in the 14th century?",
+    "a": "The Mali Empire",
+    "accept": [
+      "Mali",
+      "Empire of Mali"
+    ],
+    "note": "His pilgrimage to Mecca in 1324 was so lavish that it reportedly unsettled the price of gold in Cairo.",
+    "era": "timeless",
+    "topic": "west-africa",
+    "pack": "core"
+  },
+  {
+    "id": "his-037",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which 1494 treaty divided newly encountered lands outside Europe between Spain and Portugal?",
+    "a": "The Treaty of Tordesillas",
+    "accept": [
+      "Tordesillas",
+      "Treaty of Tordesillas"
+    ],
+    "note": "The line it drew across the Atlantic is the reason Brazil ended up Portuguese-speaking.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-038",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Aztec ruler received Hernan Cortes when the Spanish reached Tenochtitlan in 1519?",
+    "a": "Moctezuma II",
+    "accept": [
+      "Montezuma",
+      "Moctezuma",
+      "Montezuma II"
+    ],
+    "note": "Tenochtitlan stood on an island in a lake, on ground now occupied by Mexico City.",
+    "era": "timeless",
+    "topic": "aztec-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-039",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Byzantine emperor ordered the building of the Hagia Sophia, completed in 537?",
+    "a": "Justinian I",
+    "accept": [
+      "Justinian",
+      "Justinian the Great"
+    ],
+    "note": "He also had Roman law gathered and reorganized into the code that bears his name.",
+    "era": "timeless",
+    "topic": "byzantine-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-040",
+    "category": "history",
+    "difficulty": 3,
+    "q": "What name is given to the 15th-century English civil wars fought between the houses of Lancaster and York?",
+    "a": "The Wars of the Roses",
+    "accept": [
+      "Wars of the Roses",
+      "War of the Roses"
+    ],
+    "note": "They ended in 1485 when Henry Tudor defeated Richard III at Bosworth Field.",
+    "era": "timeless",
+    "topic": "medieval-england",
+    "pack": "core"
+  },
+  {
+    "id": "his-041",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In what year did the American colonies adopt the Declaration of Independence?",
+    "a": "1776",
+    "accept": [],
+    "note": "Congress voted for independence on July 2 and approved the wording of the document on July 4.",
+    "era": "timeless",
+    "topic": "american-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-042",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Who was the first President of the United States?",
+    "a": "George Washington",
+    "accept": [
+      "Washington"
+    ],
+    "note": "He is the only president ever elected unanimously by the Electoral College, and it happened twice.",
+    "era": "timeless",
+    "topic": "us-presidents",
+    "pack": "core"
+  },
+  {
+    "id": "his-043",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which American founding document opens with the words \"We the People\"?",
+    "a": "The Constitution",
+    "accept": [
+      "The United States Constitution",
+      "US Constitution",
+      "Constitution"
+    ],
+    "note": "It was drafted in Philadelphia during the summer of 1787 and took effect in 1789.",
+    "era": "timeless",
+    "topic": "us-constitution",
+    "pack": "core"
+  },
+  {
+    "id": "his-044",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which US president issued the Emancipation Proclamation?",
+    "a": "Abraham Lincoln",
+    "accept": [
+      "Lincoln"
+    ],
+    "note": "It took effect on January 1, 1863, and applied to the states then in rebellion.",
+    "era": "timeless",
+    "topic": "us-civil-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-045",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What 1773 protest is remembered for colonists dumping chests of tea into a harbor?",
+    "a": "The Boston Tea Party",
+    "accept": [
+      "Boston Tea Party"
+    ],
+    "note": "The tea belonged to the British East India Company, and 342 chests went over the side.",
+    "era": "timeless",
+    "topic": "american-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-046",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What was the name of the ship that carried the Pilgrims to Plymouth in 1620?",
+    "a": "The Mayflower",
+    "accept": [
+      "Mayflower"
+    ],
+    "note": "Before going ashore the passengers signed the Mayflower Compact, agreeing to govern themselves by majority rule.",
+    "era": "timeless",
+    "topic": "colonial-america",
+    "pack": "core"
+  },
+  {
+    "id": "his-047",
+    "category": "history",
+    "difficulty": 2,
+    "q": "In which Pennsylvania town was the largest battle of the American Civil War fought in July 1863?",
+    "a": "Gettysburg",
+    "accept": [
+      "Battle of Gettysburg"
+    ],
+    "note": "Lincoln's address dedicating the cemetery there, four months later, took about two minutes to deliver.",
+    "era": "timeless",
+    "topic": "us-civil-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-048",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1803 land deal with France roughly doubled the size of the United States?",
+    "a": "The Louisiana Purchase",
+    "accept": [
+      "Louisiana Purchase"
+    ],
+    "note": "The United States paid about 15 million dollars for territory spanning some 828,000 square miles.",
+    "era": "timeless",
+    "topic": "westward-expansion",
+    "pack": "core"
+  },
+  {
+    "id": "his-049",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What name is given to the period from 1920 to 1933 when alcohol was banned in the United States?",
+    "a": "Prohibition",
+    "accept": [
+      "The Prohibition era"
+    ],
+    "note": "It ended when the Twenty-first Amendment repealed the Eighteenth, the only amendment ever undone that way.",
+    "era": "timeless",
+    "topic": "prohibition",
+    "pack": "core"
+  },
+  {
+    "id": "his-050",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which amendment to the US Constitution, ratified in 1920, gave American women the right to vote?",
+    "a": "The Nineteenth Amendment",
+    "accept": [
+      "19th Amendment",
+      "Nineteenth Amendment",
+      "Nineteenth"
+    ],
+    "note": "Tennessee cast the deciding 36th ratification, and the vote there turned on a single legislator changing his mind.",
+    "era": "timeless",
+    "topic": "womens-suffrage",
+    "pack": "core"
+  },
+  {
+    "id": "his-051",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1929 financial event is regarded as the start of the Great Depression in the United States?",
+    "a": "The Wall Street Crash",
+    "accept": [
+      "The stock market crash",
+      "Black Tuesday",
+      "The Crash of 1929",
+      "Stock market crash of 1929"
+    ],
+    "note": "The worst single day, Black Tuesday, fell on October 29, 1929.",
+    "era": "timeless",
+    "topic": "great-depression",
+    "pack": "core"
+  },
+  {
+    "id": "his-052",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What name was given to Franklin Roosevelt's program of relief and public works launched in the 1930s?",
+    "a": "The New Deal",
+    "accept": [
+      "New Deal"
+    ],
+    "note": "It built roads, dams, schools and post offices, and created Social Security along the way.",
+    "era": "timeless",
+    "topic": "great-depression",
+    "pack": "core"
+  },
+  {
+    "id": "his-053",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which overland route carried thousands of settlers from Missouri to the Pacific Northwest in the 1840s?",
+    "a": "The Oregon Trail",
+    "accept": [
+      "Oregon Trail"
+    ],
+    "note": "Most emigrants walked the roughly 2,000 miles beside their wagons rather than riding in them.",
+    "era": "timeless",
+    "topic": "westward-expansion",
+    "pack": "core"
+  },
+  {
+    "id": "his-054",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Whose refusal to give up a bus seat in Montgomery, Alabama, in 1955 set off a yearlong bus boycott?",
+    "a": "Rosa Parks",
+    "accept": [
+      "Parks"
+    ],
+    "note": "The boycott ran 381 days and brought a young minister named Martin Luther King Jr. to national attention.",
+    "era": "timeless",
+    "topic": "civil-rights-movement",
+    "pack": "core"
+  },
+  {
+    "id": "his-055",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which US state was bought from Russia in 1867?",
+    "a": "Alaska",
+    "accept": [],
+    "note": "At roughly two cents an acre the purchase was mocked at the time as \"Seward's Folly.\"",
+    "era": "timeless",
+    "topic": "westward-expansion",
+    "pack": "core"
+  },
+  {
+    "id": "his-056",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which British general surrendered at Yorktown in 1781, effectively ending the fighting in the American Revolution?",
+    "a": "Lord Cornwallis",
+    "accept": [
+      "Cornwallis",
+      "Charles Cornwallis"
+    ],
+    "note": "A French fleet and French troops were essential to sealing him off by land and sea.",
+    "era": "timeless",
+    "topic": "american-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-057",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which 1803 Supreme Court case established the principle of judicial review?",
+    "a": "Marbury v. Madison",
+    "accept": [
+      "Marbury vs Madison",
+      "Marbury versus Madison",
+      "Marbury"
+    ],
+    "note": "Chief Justice John Marshall's opinion claimed for the Court the power to strike down acts of Congress.",
+    "era": "timeless",
+    "topic": "supreme-court",
+    "pack": "core"
+  },
+  {
+    "id": "his-058",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which war was ended by the Treaty of Guadalupe Hidalgo in 1848?",
+    "a": "The Mexican-American War",
+    "accept": [
+      "Mexican American War",
+      "Mexican-American War",
+      "The Mexican War"
+    ],
+    "note": "The treaty transferred California and most of the present-day American Southwest to the United States.",
+    "era": "timeless",
+    "topic": "mexican-american-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-059",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which 1854 act let settlers in two western territories decide the slavery question for themselves?",
+    "a": "The Kansas-Nebraska Act",
+    "accept": [
+      "Kansas Nebraska Act",
+      "Kansas-Nebraska Act"
+    ],
+    "note": "By undoing the Missouri Compromise line it set off the violent struggle known as Bleeding Kansas.",
+    "era": "timeless",
+    "topic": "antebellum-america",
+    "pack": "core"
+  },
+  {
+    "id": "his-060",
+    "category": "history",
+    "difficulty": 3,
+    "q": "What is the name of the 1786 uprising by indebted Massachusetts farmers that alarmed America's founders?",
+    "a": "Shays' Rebellion",
+    "accept": [
+      "Shays Rebellion",
+      "Shays's Rebellion"
+    ],
+    "note": "It helped convince leaders that the Articles of Confederation were too weak, hastening the Constitutional Convention.",
+    "era": "timeless",
+    "topic": "early-republic",
+    "pack": "core"
+  },
+  {
+    "id": "his-061",
+    "category": "history",
+    "difficulty": 1,
+    "q": "The assassination of which archduke in Sarajevo in 1914 helped set off the First World War?",
+    "a": "Archduke Franz Ferdinand",
+    "accept": [
+      "Franz Ferdinand",
+      "Francis Ferdinand"
+    ],
+    "note": "He was the heir to the throne of Austria-Hungary, and his death triggered a chain of alliance obligations.",
+    "era": "timeless",
+    "topic": "world-war-i",
+    "pack": "core"
+  },
+  {
+    "id": "his-062",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which 1941 attack on a naval base in Hawaii brought the United States into the Second World War?",
+    "a": "The attack on Pearl Harbor",
+    "accept": [
+      "Pearl Harbor",
+      "Pearl Harbour"
+    ],
+    "note": "Congress declared war on Japan the following day, December 8, 1941.",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-063",
+    "category": "history",
+    "difficulty": 1,
+    "q": "What name is given to the Allied landings in Normandy on June 6, 1944?",
+    "a": "D-Day",
+    "accept": [
+      "Operation Overlord",
+      "The Normandy landings",
+      "D Day"
+    ],
+    "note": "Roughly 156,000 Allied troops came ashore or landed by air along fifty miles of coast that day.",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-064",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which wall divided a German city from 1961 until 1989?",
+    "a": "The Berlin Wall",
+    "accept": [
+      "Berlin Wall"
+    ],
+    "note": "It was opened on the night of November 9, 1989, after a muddled announcement at an East German press conference.",
+    "era": "timeless",
+    "topic": "cold-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-065",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which country launched Sputnik, the first artificial satellite, in 1957?",
+    "a": "The Soviet Union",
+    "accept": [
+      "USSR",
+      "Soviet Union",
+      "Russia"
+    ],
+    "note": "Sputnik was about the size of a beach ball and did little but circle the Earth emitting a radio beep.",
+    "era": "timeless",
+    "topic": "space-race",
+    "pack": "core"
+  },
+  {
+    "id": "his-066",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which ocean liner struck an iceberg and sank on its maiden voyage in April 1912?",
+    "a": "The Titanic",
+    "accept": [
+      "Titanic",
+      "RMS Titanic"
+    ],
+    "note": "Its wreck was not located until 1985, lying more than two miles down on the sea floor.",
+    "era": "timeless",
+    "topic": "titanic",
+    "pack": "core"
+  },
+  {
+    "id": "his-067",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1919 treaty formally ended the First World War between Germany and the Allied powers?",
+    "a": "The Treaty of Versailles",
+    "accept": [
+      "Treaty of Versailles",
+      "Versailles"
+    ],
+    "note": "It was signed in the Hall of Mirrors on June 28, five years to the day after the Sarajevo assassination.",
+    "era": "timeless",
+    "topic": "world-war-i",
+    "pack": "core"
+  },
+  {
+    "id": "his-068",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1917 revolution brought the Bolsheviks to power in Russia?",
+    "a": "The October Revolution",
+    "accept": [
+      "October Revolution",
+      "Russian Revolution",
+      "Bolshevik Revolution"
+    ],
+    "note": "It is called the October Revolution although, by the calendar most of the world uses, it happened in November.",
+    "era": "timeless",
+    "topic": "russian-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-069",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Soviet city gave its name to the 1942-43 battle that turned the war on the Eastern Front?",
+    "a": "Stalingrad",
+    "accept": [
+      "Battle of Stalingrad",
+      "Volgograd"
+    ],
+    "note": "The city has been called Volgograd since 1961.",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-070",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which war, fought from 1950 to 1953, ended with an armistice near the 38th parallel?",
+    "a": "The Korean War",
+    "accept": [
+      "Korean War"
+    ],
+    "note": "It closed with an armistice rather than a peace treaty, leaving the peninsula formally still at war.",
+    "era": "timeless",
+    "topic": "korean-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-071",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What name is given to the October 1962 standoff over Soviet missiles placed on a Caribbean island?",
+    "a": "The Cuban Missile Crisis",
+    "accept": [
+      "Cuban Missile Crisis"
+    ],
+    "note": "The confrontation ran for thirteen days and is generally reckoned the closest the Cold War came to nuclear war.",
+    "era": "timeless",
+    "topic": "cold-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-072",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1938 agreement allowed Germany to annex the Sudetenland region of Czechoslovakia?",
+    "a": "The Munich Agreement",
+    "accept": [
+      "Munich Agreement",
+      "Munich Pact",
+      "Munich"
+    ],
+    "note": "Neville Chamberlain came home waving the document and promising \"peace for our time.\"",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-073",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which country did Germany invade on September 1, 1939, beginning the Second World War in Europe?",
+    "a": "Poland",
+    "accept": [],
+    "note": "Britain and France declared war two days later, on September 3.",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-074",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which 1916 battle on the Western Front, fought along a French river from July to November, became a byword for trench warfare?",
+    "a": "The Battle of the Somme",
+    "accept": [
+      "The Somme",
+      "Somme",
+      "Battle of the Somme"
+    ],
+    "note": "It was also the first battle in which tanks were used, though only a few dozen took part.",
+    "era": "timeless",
+    "topic": "world-war-i",
+    "pack": "core"
+  },
+  {
+    "id": "his-075",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which international organization was founded in 1945 to succeed the League of Nations?",
+    "a": "The United Nations",
+    "accept": [
+      "United Nations",
+      "UN"
+    ],
+    "note": "Fifty nations signed its charter in San Francisco in June 1945, before the war had even ended.",
+    "era": "timeless",
+    "topic": "international-organizations",
+    "pack": "core"
+  },
+  {
+    "id": "his-076",
+    "category": "history",
+    "difficulty": 2,
+    "q": "In what year was the Soviet Union formally dissolved?",
+    "a": "1991",
+    "accept": [],
+    "note": "The Soviet flag came down over the Kremlin for the last time on December 25, 1991.",
+    "era": "timeless",
+    "topic": "cold-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-077",
+    "category": "history",
+    "difficulty": 3,
+    "q": "At which Crimean resort did Roosevelt, Churchill and Stalin meet in February 1945 to plan postwar Europe?",
+    "a": "Yalta",
+    "accept": [
+      "The Yalta Conference",
+      "Yalta Conference"
+    ],
+    "note": "Roosevelt was already gravely ill and died two months after the meeting.",
+    "era": "timeless",
+    "topic": "world-war-ii",
+    "pack": "core"
+  },
+  {
+    "id": "his-078",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which 1957 treaty created the European Economic Community?",
+    "a": "The Treaty of Rome",
+    "accept": [
+      "Treaty of Rome"
+    ],
+    "note": "Six countries signed it, laying the foundation for what later became the European Union.",
+    "era": "timeless",
+    "topic": "european-integration",
+    "pack": "core"
+  },
+  {
+    "id": "his-079",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which conflict of 1936 to 1939 ended with Francisco Franco in power?",
+    "a": "The Spanish Civil War",
+    "accept": [
+      "Spanish Civil War"
+    ],
+    "note": "Franco went on to rule Spain until his death in 1975.",
+    "era": "timeless",
+    "topic": "spanish-civil-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-080",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which war of 1904 and 1905 was settled by a treaty negotiated in Portsmouth, New Hampshire?",
+    "a": "The Russo-Japanese War",
+    "accept": [
+      "Russo Japanese War",
+      "Russo-Japanese War"
+    ],
+    "note": "President Theodore Roosevelt won a Nobel Peace Prize for brokering the settlement.",
+    "era": "timeless",
+    "topic": "russo-japanese-war",
+    "pack": "core"
+  },
+  {
+    "id": "his-081",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which British monarch reigned from 1837 to 1901, giving her name to an era?",
+    "a": "Queen Victoria",
+    "accept": [
+      "Victoria"
+    ],
+    "note": "She held the record as Britain's longest-reigning monarch until Elizabeth II passed her in 2015.",
+    "era": "timeless",
+    "topic": "british-monarchy",
+    "pack": "core"
+  },
+  {
+    "id": "his-082",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which French emperor was defeated at the Battle of Waterloo in 1815?",
+    "a": "Napoleon Bonaparte",
+    "accept": [
+      "Napoleon",
+      "Napoleon I"
+    ],
+    "note": "He was exiled to Saint Helena, a speck of an island in the South Atlantic, and died there in 1821.",
+    "era": "timeless",
+    "topic": "napoleonic-era",
+    "pack": "core"
+  },
+  {
+    "id": "his-083",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which US president was elected to four terms and led the country through most of the Second World War?",
+    "a": "Franklin D. Roosevelt",
+    "accept": [
+      "FDR",
+      "Franklin Roosevelt",
+      "Roosevelt"
+    ],
+    "note": "He died in April 1945, weeks before Germany surrendered, and a later amendment capped presidents at two terms.",
+    "era": "timeless",
+    "topic": "us-presidents",
+    "pack": "core"
+  },
+  {
+    "id": "his-084",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which British prime minister led his country through most of the Second World War?",
+    "a": "Winston Churchill",
+    "accept": [
+      "Churchill"
+    ],
+    "note": "British voters turned him out of office in July 1945, before the war with Japan had even ended.",
+    "era": "timeless",
+    "topic": "british-politics",
+    "pack": "core"
+  },
+  {
+    "id": "his-085",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which Indian independence leader built his campaign against British rule on nonviolent resistance?",
+    "a": "Mohandas Gandhi",
+    "accept": [
+      "Mahatma Gandhi",
+      "Gandhi",
+      "Mohandas Karamchand Gandhi"
+    ],
+    "note": "His 1930 Salt March covered some 240 miles on foot to make salt from the sea in defiance of British law.",
+    "era": "timeless",
+    "topic": "indian-independence",
+    "pack": "core"
+  },
+  {
+    "id": "his-086",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which South African leader spent 27 years in prison before becoming his country's president in 1994?",
+    "a": "Nelson Mandela",
+    "accept": [
+      "Mandela"
+    ],
+    "note": "He shared the 1993 Nobel Peace Prize with F. W. de Klerk, the president who released him.",
+    "era": "timeless",
+    "topic": "south-africa",
+    "pack": "core"
+  },
+  {
+    "id": "his-087",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Russian ruler founded the city of Saint Petersburg in 1703?",
+    "a": "Peter the Great",
+    "accept": [
+      "Peter I",
+      "Tsar Peter the Great"
+    ],
+    "note": "He toured Western Europe in disguise as an ordinary workman to learn shipbuilding firsthand.",
+    "era": "timeless",
+    "topic": "russian-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-088",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which French king was on the throne when the French Revolution began, and was executed in 1793?",
+    "a": "Louis XVI",
+    "accept": [
+      "Louis the Sixteenth",
+      "Louis 16"
+    ],
+    "note": "His wife, Marie Antoinette, was executed later the same year.",
+    "era": "timeless",
+    "topic": "french-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-089",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which US president resigned from office in 1974?",
+    "a": "Richard Nixon",
+    "accept": [
+      "Nixon",
+      "Richard M. Nixon"
+    ],
+    "note": "He left the White House on August 9, 1974, and was pardoned a month later by Gerald Ford.",
+    "era": "timeless",
+    "topic": "us-presidents",
+    "pack": "core"
+  },
+  {
+    "id": "his-090",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which leader proclaimed the founding of the People's Republic of China in 1949?",
+    "a": "Mao Zedong",
+    "accept": [
+      "Mao Tse-tung",
+      "Chairman Mao",
+      "Mao"
+    ],
+    "note": "He made the announcement from the Gate of Heavenly Peace in Beijing on October 1, 1949.",
+    "era": "timeless",
+    "topic": "modern-china",
+    "pack": "core"
+  },
+  {
+    "id": "his-091",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Ottoman sultan, who came to the throne in 1520, was known in Europe as \"the Magnificent\"?",
+    "a": "Suleiman",
+    "accept": [
+      "Suleiman the Magnificent",
+      "Suleiman I",
+      "Suleyman",
+      "Solomon the Magnificent"
+    ],
+    "note": "His own subjects called him \"the Lawgiver\" for his overhaul of the empire's legal code.",
+    "era": "timeless",
+    "topic": "ottoman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-092",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which king was crowned emperor by Pope Leo III on Christmas Day in the year 800?",
+    "a": "Charlemagne",
+    "accept": [
+      "Charles the Great",
+      "Karl der Grosse"
+    ],
+    "note": "His biographer claimed he would not have entered the church that day had he known what the pope intended.",
+    "era": "timeless",
+    "topic": "holy-roman-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-093",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which US president was assassinated in Dallas, Texas, in November 1963?",
+    "a": "John F. Kennedy",
+    "accept": [
+      "JFK",
+      "John Kennedy",
+      "Kennedy"
+    ],
+    "note": "Lyndon Johnson took the oath of office aboard Air Force One at Dallas Love Field hours later.",
+    "era": "timeless",
+    "topic": "us-presidents",
+    "pack": "core"
+  },
+  {
+    "id": "his-094",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Mughal emperor had the Taj Mahal built?",
+    "a": "Shah Jahan",
+    "accept": [
+      "Shahjahan"
+    ],
+    "note": "He built it as a tomb for his wife Mumtaz Mahal, who died giving birth to their fourteenth child.",
+    "era": "timeless",
+    "topic": "mughal-empire",
+    "pack": "core"
+  },
+  {
+    "id": "his-095",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Prussian statesman, nicknamed the Iron Chancellor, brought the German states together into one empire in 1871?",
+    "a": "Otto von Bismarck",
+    "accept": [
+      "Bismarck"
+    ],
+    "note": "He engineered short wars against Denmark, Austria and France to pull the German states into line.",
+    "era": "timeless",
+    "topic": "german-unification",
+    "pack": "core"
+  },
+  {
+    "id": "his-096",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Soviet leader introduced the reform policies known as glasnost and perestroika in the 1980s?",
+    "a": "Mikhail Gorbachev",
+    "accept": [
+      "Gorbachev"
+    ],
+    "note": "The words mean roughly \"openness\" and \"restructuring,\" and the policies loosened party control across Eastern Europe.",
+    "era": "timeless",
+    "topic": "soviet-union",
+    "pack": "core"
+  },
+  {
+    "id": "his-097",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Italian leader led the red-shirted volunteers who helped unify Italy in 1860?",
+    "a": "Giuseppe Garibaldi",
+    "accept": [
+      "Garibaldi"
+    ],
+    "note": "He landed in Sicily with about a thousand men and took the whole of southern Italy within months.",
+    "era": "timeless",
+    "topic": "italian-unification",
+    "pack": "core"
+  },
+  {
+    "id": "his-098",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which English queen ruled jointly with her husband William after they took the throne in 1689?",
+    "a": "Mary II",
+    "accept": [
+      "Queen Mary II",
+      "Mary"
+    ],
+    "note": "Their joint accession, which replaced her father James II, is known as the Glorious Revolution.",
+    "era": "timeless",
+    "topic": "glorious-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-099",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which US president was the first to be impeached by the House of Representatives, in 1868?",
+    "a": "Andrew Johnson",
+    "accept": [
+      "Johnson"
+    ],
+    "note": "The Senate fell one vote short of the two-thirds needed to remove him from office.",
+    "era": "timeless",
+    "topic": "us-presidents",
+    "pack": "core"
+  },
+  {
+    "id": "his-100",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Habsburg ruler governed Austria from 1740 to 1780 and was the mother of Marie Antoinette?",
+    "a": "Maria Theresa",
+    "accept": [
+      "Empress Maria Theresa"
+    ],
+    "note": "She was the only woman ever to rule the Habsburg lands in her own right, and she had sixteen children.",
+    "era": "timeless",
+    "topic": "habsburg-austria",
+    "pack": "core"
+  },
+  {
+    "id": "his-101",
+    "category": "history",
+    "difficulty": 1,
+    "q": "In what year did Christopher Columbus first cross the Atlantic and reach the Americas?",
+    "a": "1492",
+    "accept": [],
+    "note": "He made four voyages in all and went to his grave insisting he had found a route to Asia.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-102",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which pair of brothers made the first powered airplane flight in 1903?",
+    "a": "The Wright brothers",
+    "accept": [
+      "Wright brothers",
+      "Orville and Wilbur Wright",
+      "The Wrights"
+    ],
+    "note": "Their first hop at Kitty Hawk lasted about twelve seconds and covered less than the wingspan of a modern airliner.",
+    "era": "timeless",
+    "topic": "aviation",
+    "pack": "core"
+  },
+  {
+    "id": "his-103",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Who was the first person to walk on the Moon?",
+    "a": "Neil Armstrong",
+    "accept": [
+      "Armstrong"
+    ],
+    "note": "Buzz Aldrin followed him down the ladder about twenty minutes later.",
+    "era": "timeless",
+    "topic": "space-race",
+    "pack": "core"
+  },
+  {
+    "id": "his-104",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which German craftsman introduced movable-type printing to Europe around 1450?",
+    "a": "Johannes Gutenberg",
+    "accept": [
+      "Gutenberg",
+      "Johann Gutenberg"
+    ],
+    "note": "His famous Bible was printed at Mainz in the 1450s, and fewer than fifty copies survive.",
+    "era": "timeless",
+    "topic": "printing",
+    "pack": "core"
+  },
+  {
+    "id": "his-105",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Who received a US patent for the telephone in 1876?",
+    "a": "Alexander Graham Bell",
+    "accept": [
+      "Bell",
+      "Alexander Bell"
+    ],
+    "note": "Both his mother and his wife were deaf, and he spent much of his life teaching speech to deaf students.",
+    "era": "timeless",
+    "topic": "invention",
+    "pack": "core"
+  },
+  {
+    "id": "his-106",
+    "category": "history",
+    "difficulty": 1,
+    "q": "Which canal, opened in 1914, links the Atlantic and Pacific Oceans?",
+    "a": "The Panama Canal",
+    "accept": [
+      "Panama Canal"
+    ],
+    "note": "An earlier French attempt in the 1880s collapsed after enormous losses to disease and debt.",
+    "era": "timeless",
+    "topic": "engineering",
+    "pack": "core"
+  },
+  {
+    "id": "his-107",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Portuguese navigator commanded the expedition that first sailed around the world, though he did not survive the voyage?",
+    "a": "Ferdinand Magellan",
+    "accept": [
+      "Magellan",
+      "Fernao de Magalhaes"
+    ],
+    "note": "He was killed in the Philippines in 1521, and Juan Sebastian Elcano brought one ship home.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-108",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which inscribed slab, found in Egypt in 1799, gave scholars the key to reading hieroglyphs?",
+    "a": "The Rosetta Stone",
+    "accept": [
+      "Rosetta Stone"
+    ],
+    "note": "Jean-Francois Champollion finally cracked the script in 1822, working from the Greek text carved alongside it.",
+    "era": "timeless",
+    "topic": "archaeology",
+    "pack": "core"
+  },
+  {
+    "id": "his-109",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which British navigator charted much of the Pacific on three voyages in the 1760s and 1770s?",
+    "a": "Captain James Cook",
+    "accept": [
+      "James Cook",
+      "Captain Cook",
+      "Cook"
+    ],
+    "note": "He was killed in a confrontation on a beach in Hawaii in 1779.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-110",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which two men led the American expedition that reached the Pacific coast overland between 1804 and 1806?",
+    "a": "Lewis and Clark",
+    "accept": [
+      "Meriwether Lewis and William Clark",
+      "Lewis & Clark"
+    ],
+    "note": "A Shoshone woman named Sacagawea traveled with them as interpreter and guide, carrying an infant much of the way.",
+    "era": "timeless",
+    "topic": "exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-111",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Norwegian explorer's party was first to reach the South Pole, in December 1911?",
+    "a": "Roald Amundsen",
+    "accept": [
+      "Amundsen"
+    ],
+    "note": "Robert Falcon Scott's party arrived about a month later and died on the journey back.",
+    "era": "timeless",
+    "topic": "polar-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-112",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Scottish engineer's improvements to the steam engine helped power the Industrial Revolution?",
+    "a": "James Watt",
+    "accept": [
+      "Watt"
+    ],
+    "note": "The unit of power used to rate everything from light bulbs to engines is named after him.",
+    "era": "timeless",
+    "topic": "industrial-revolution",
+    "pack": "core"
+  },
+  {
+    "id": "his-113",
+    "category": "history",
+    "difficulty": 2,
+    "q": "What was completed at Promontory Summit, Utah, in 1869 when a golden spike was driven?",
+    "a": "The first transcontinental railroad",
+    "accept": [
+      "Transcontinental railroad",
+      "The transcontinental railroad"
+    ],
+    "note": "Two companies had been building toward each other for years, one east from Sacramento and one west from Omaha.",
+    "era": "timeless",
+    "topic": "railroads",
+    "pack": "core"
+  },
+  {
+    "id": "his-114",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which English naturalist published \"On the Origin of Species\" in 1859?",
+    "a": "Charles Darwin",
+    "accept": [
+      "Darwin"
+    ],
+    "note": "He had sat on the theory for two decades, and only a letter from a rival naturalist pushed him into print.",
+    "era": "timeless",
+    "topic": "science-history",
+    "pack": "core"
+  },
+  {
+    "id": "his-115",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which Polish astronomer argued in a 1543 book that the Earth travels around the Sun?",
+    "a": "Nicolaus Copernicus",
+    "accept": [
+      "Copernicus",
+      "Nicholas Copernicus"
+    ],
+    "note": "The book was published in the year he died, which spared him the argument that followed.",
+    "era": "timeless",
+    "topic": "science-history",
+    "pack": "core"
+  },
+  {
+    "id": "his-116",
+    "category": "history",
+    "difficulty": 2,
+    "q": "Which of the Seven Wonders of the Ancient World was a lighthouse that guided ships into an Egyptian harbour?",
+    "a": "The Pharos of Alexandria",
+    "accept": [
+      "Pharos",
+      "Lighthouse of Alexandria",
+      "The Lighthouse of Alexandria"
+    ],
+    "note": "It stood for roughly 1,600 years before earthquakes brought it down.",
+    "era": "timeless",
+    "topic": "architecture",
+    "pack": "core"
+  },
+  {
+    "id": "his-117",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Chinese admiral commanded huge treasure fleets across the Indian Ocean in the early 1400s?",
+    "a": "Zheng He",
+    "accept": [
+      "Cheng Ho"
+    ],
+    "note": "His fleets reached East Africa decades before Portuguese ships rounded the southern tip of the continent.",
+    "era": "timeless",
+    "topic": "ming-china",
+    "pack": "core"
+  },
+  {
+    "id": "his-118",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Norse explorer is credited in the sagas with reaching North America around the year 1000?",
+    "a": "Leif Erikson",
+    "accept": [
+      "Leif Eriksson",
+      "Leif Ericson",
+      "Leif Ericsson"
+    ],
+    "note": "Norse ruins at L'Anse aux Meadows in Newfoundland confirm that Vikings did reach the continent.",
+    "era": "timeless",
+    "topic": "vikings",
+    "pack": "core"
+  },
+  {
+    "id": "his-119",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which Italian navigator gave his name to two continents?",
+    "a": "Amerigo Vespucci",
+    "accept": [
+      "Vespucci",
+      "Americus Vespucius"
+    ],
+    "note": "A German mapmaker labeled the new lands \"America\" on a 1507 map, and the name stuck.",
+    "era": "timeless",
+    "topic": "age-of-exploration",
+    "pack": "core"
+  },
+  {
+    "id": "his-120",
+    "category": "history",
+    "difficulty": 3,
+    "q": "Which English doctor pioneered vaccination against smallpox in 1796?",
+    "a": "Edward Jenner",
+    "accept": [
+      "Jenner"
+    ],
+    "note": "The word \"vaccine\" comes from the Latin for cow, after the cowpox he used to confer protection.",
+    "era": "timeless",
+    "topic": "medicine-history",
+    "pack": "core"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ent-001",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1939 film The Wizard of Oz, what color are the magic slippers Dorothy wears?",
+    "a": "Ruby red",
+    "accept": [
+      "Ruby",
+      "Red"
+    ],
+    "note": "They were silver in L. Frank Baum's novel, and MGM switched them to ruby to show off Technicolor.",
+    "era": "1930s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-002",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1977 film Star Wars, what is the name of Han Solo's battered freighter?",
+    "a": "The Millennium Falcon",
+    "accept": [
+      "Millennium Falcon"
+    ],
+    "note": "Han brags that it made the Kessel Run in less than twelve parsecs, a boast about distance rather than time.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-003",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1960 thriller Psycho, where in the Bates Motel is Marion Crane murdered?",
+    "a": "In the shower",
+    "accept": [
+      "The shower",
+      "Shower",
+      "The bathroom",
+      "In the bathroom"
+    ],
+    "note": "Bernard Herrmann scored the entire film for string instruments alone, including those shrieking violins.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-004",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the 1985 film Back to the Future, what make of car does Doc Brown turn into a time machine?",
+    "a": "A DeLorean",
+    "accept": [
+      "DeLorean",
+      "DeLorean DMC-12"
+    ],
+    "note": "The car has to hit 88 miles per hour and draw 1.21 gigawatts of power to jump through time.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-005",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "What is the dying word spoken in the opening scene of the 1941 film Citizen Kane?",
+    "a": "Rosebud",
+    "accept": [],
+    "note": "Orson Welles co-wrote, directed and starred in the picture, his first feature film.",
+    "era": "1940s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-006",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "Which actress played the singing governess Maria in the 1965 film The Sound of Music?",
+    "a": "Julie Andrews",
+    "accept": [],
+    "note": "She won the Best Actress Oscar for Mary Poppins, released the year before.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-007",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1975 film Jaws, what is the name of the beach town terrorized by the great white shark?",
+    "a": "Amity Island",
+    "accept": [
+      "Amity"
+    ],
+    "note": "The mechanical shark broke down so often that the director kept it hidden, which only made the film scarier.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-008",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played the aging Don Vito Corleone in the 1972 film The Godfather?",
+    "a": "Marlon Brando",
+    "accept": [],
+    "note": "He won Best Actor for the role and refused the award in protest at Hollywood's portrayal of Native Americans.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-009",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the ship's computer that turns on the crew in the 1968 film 2001: A Space Odyssey?",
+    "a": "HAL 9000",
+    "accept": [
+      "HAL"
+    ],
+    "note": "Each letter of HAL sits one place before IBM in the alphabet, which Arthur C. Clarke always insisted was a coincidence.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-010",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1982 film E.T. the Extra-Terrestrial, what brand of candy does Elliott use to coax E.T. into his house?",
+    "a": "Reese's Pieces",
+    "accept": [
+      "Reeses Pieces"
+    ],
+    "note": "Mars turned down the chance to use M&M's, and sales of Reese's Pieces soared after the film opened.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-011",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the 1939 epic Gone with the Wind, what is the name of Scarlett O'Hara's family plantation?",
+    "a": "Tara",
+    "accept": [],
+    "note": "Hattie McDaniel won Best Supporting Actress for the film, the first Academy Award given to a Black performer.",
+    "era": "1930s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-012",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the snowbound Colorado hotel in the 1980 film The Shining?",
+    "a": "The Overlook Hotel",
+    "accept": [
+      "Overlook",
+      "The Overlook"
+    ],
+    "note": "Stephen King disliked Kubrick's version so much that he backed a more faithful television remake in 1997.",
+    "era": "1980s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-013",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which heavyweight champion does Rocky Balboa fight in the climax of the 1976 film Rocky?",
+    "a": "Apollo Creed",
+    "accept": [
+      "Apollo"
+    ],
+    "note": "Sylvester Stallone wrote the screenplay himself and refused to sell it unless he could star in it.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-014",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which 1979 science fiction film introduced Sigourney Weaver as Warrant Officer Ripley?",
+    "a": "Alien",
+    "accept": [],
+    "note": "Ridley Scott kept the cast in the dark about the chestburster scene, so much of their horror is genuine.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-015",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the nightclub run by Humphrey Bogart's character in the 1942 film Casablanca?",
+    "a": "Rick's Café Américain",
+    "accept": [
+      "Rick's",
+      "Rick's Cafe Americain",
+      "Rick's Cafe"
+    ],
+    "note": "The film's most quoted line, 'Play it again, Sam,' is never actually spoken in it.",
+    "era": "1940s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-016",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which star sings and dances the title number through a downpour in the 1952 musical Singin' in the Rain?",
+    "a": "Gene Kelly",
+    "accept": [],
+    "note": "The story is set during Hollywood's chaotic switch from silent pictures to talkies.",
+    "era": "1950s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-017",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor played T. E. Lawrence in the 1962 epic Lawrence of Arabia?",
+    "a": "Peter O'Toole",
+    "accept": [],
+    "note": "He was nominated for eight acting Oscars across his career and never won a competitive one.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-018",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "How many different roles did Peter Sellers play in the 1964 satire Dr. Strangelove?",
+    "a": "Three",
+    "accept": [
+      "3"
+    ],
+    "note": "He was meant to play a fourth, the bomber pilot, but an injury handed that part to Slim Pickens.",
+    "era": "1960s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-019",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1974 Roman Polanski film about Los Angeles water rights ends with the line 'Forget it, Jake. It's Chinatown'?",
+    "a": "Chinatown",
+    "accept": [],
+    "note": "Screenwriter Robert Towne took home the film's only Academy Award.",
+    "era": "1970s",
+    "topic": "classic-film",
+    "pack": "core"
+  },
+  {
+    "id": "ent-020",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which 1959 Billy Wilder comedy closes with the line 'Nobody's perfect'?",
+    "a": "Some Like It Hot",
+    "accept": [],
+    "note": "Joe E. Brown delivers it after learning that his fiancée is a man in disguise.",
+    "era": "1950s",
+    "topic": "classic-film",
+    "pack": "core"
+  }
+]

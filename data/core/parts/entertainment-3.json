@@ -1,0 +1,264 @@
+[
+  {
+    "id": "ent-041",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the sitcom Friends, which premiered in 1994, what is the name of the coffee house where the group hangs out?",
+    "a": "Central Perk",
+    "accept": [],
+    "note": "The six leads eventually negotiated their salaries as a single group rather than individually.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-042",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In The Simpsons, which began as a half-hour series in 1989, what is the name of the town where the family lives?",
+    "a": "Springfield",
+    "accept": [],
+    "note": "The show has never settled which state it is in, and the vagueness is the joke.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-043",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the series Breaking Bad, which began in 2008, what subject did Walter White teach in high school?",
+    "a": "Chemistry",
+    "accept": [],
+    "note": "He takes the alias Heisenberg, borrowed from the German physicist.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-044",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "On Sesame Street, which first aired in 1969, which grouchy character lives in a trash can?",
+    "a": "Oscar the Grouch",
+    "accept": [
+      "Oscar"
+    ],
+    "note": "Caroll Spinney performed both Oscar and Big Bird for nearly fifty years.",
+    "era": "1960s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-045",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "The series M*A*S*H, which ran from 1972 to 1983, is set during which war?",
+    "a": "The Korean War",
+    "accept": [
+      "Korea",
+      "Korean War"
+    ],
+    "note": "The show lasted eleven years, more than three times as long as the war it depicted.",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-046",
+    "category": "entertainment",
+    "difficulty": 1,
+    "q": "In the American version of The Office, which premiered in 2005, what is the name of the paper company where the staff work?",
+    "a": "Dunder Mifflin",
+    "accept": [],
+    "note": "The branch sits in Scranton, Pennsylvania, and the series was adapted from Ricky Gervais's British original.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-047",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the rarely used first name of Kramer, the neighbor on the sitcom Seinfeld, which ran from 1989 to 1998?",
+    "a": "Cosmo",
+    "accept": [
+      "Cosmo Kramer"
+    ],
+    "note": "The character was based on Kenny Kramer, a real-life neighbor of co-creator Larry David.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-048",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In the HBO series Game of Thrones, which premiered in 2011, what three words serve as the motto of House Stark?",
+    "a": "Winter is coming",
+    "accept": [
+      "Winter is coming."
+    ],
+    "note": "The series was adapted from George R. R. Martin's novels, starting with A Game of Thrones.",
+    "era": "2010s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-049",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the starship commanded by Captain Kirk in the original Star Trek series, which debuted in 1966?",
+    "a": "The USS Enterprise",
+    "accept": [
+      "Enterprise",
+      "USS Enterprise"
+    ],
+    "note": "The original series was canceled after three seasons and only became a phenomenon in reruns.",
+    "era": "1960s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-050",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In which American city is the bar in the sitcom Cheers, which ran from 1982 to 1993?",
+    "a": "Boston",
+    "accept": [],
+    "note": "The exterior shots show a real pub then known as the Bull & Finch.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-051",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which comedian starred as Lucy Ricardo in the 1950s sitcom I Love Lucy?",
+    "a": "Lucille Ball",
+    "accept": [],
+    "note": "It was shot on film with three cameras before a live audience, which is why the reruns still look sharp.",
+    "era": "1950s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-052",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the surname of the skeptical medical doctor partnered with Fox Mulder in The X-Files, which began in 1993?",
+    "a": "Scully",
+    "accept": [
+      "Dana Scully"
+    ],
+    "note": "Gillian Anderson was a near-unknown, and the network had to be talked into casting her.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-053",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "Which actor played mob boss Tony Soprano in the HBO drama that began in 1999?",
+    "a": "James Gandolfini",
+    "accept": [],
+    "note": "The series ends mid-scene with an abrupt cut to black that still divides viewers.",
+    "era": "1990s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-054",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What was the nickname of Henry Winkler's leather-jacketed character on the 1970s sitcom Happy Days?",
+    "a": "The Fonz",
+    "accept": [
+      "Fonzie",
+      "Fonz",
+      "Arthur Fonzarelli"
+    ],
+    "note": "A 1977 episode in which he water-skis over a shark gave the world the phrase 'jumping the shark.'",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-055",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "In which city do the four housemates live in the sitcom The Golden Girls, which premiered in 1985?",
+    "a": "Miami",
+    "accept": [],
+    "note": "All four leads won an Emmy for the series, a rare clean sweep.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-056",
+    "category": "entertainment",
+    "difficulty": 2,
+    "q": "What is the name of the dark parallel world in the series Stranger Things, which premiered in 2016?",
+    "a": "The Upside Down",
+    "accept": [
+      "Upside Down"
+    ],
+    "note": "The show is set in the fictional town of Hawkins, Indiana, during the 1980s.",
+    "era": "2010s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-057",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "The 1980 cliffhanger 'Who shot J.R.?' left the world guessing about a character on which prime-time soap opera?",
+    "a": "Dallas",
+    "accept": [],
+    "note": "The culprit turned out to be Kristin, his scheming sister-in-law.",
+    "era": "1980s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-058",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which writer created, hosted and narrated the anthology series The Twilight Zone, which debuted in 1959?",
+    "a": "Rod Serling",
+    "accept": [],
+    "note": "He wrote a large share of the episodes himself, often smuggling social commentary past the censors.",
+    "era": "1950s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-059",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "Which actor played the loud-mouthed bigot Archie Bunker on the 1970s sitcom All in the Family?",
+    "a": "Carroll O'Connor",
+    "accept": [],
+    "note": "The series was adapted from the British sitcom Till Death Us Do Part.",
+    "era": "1970s",
+    "topic": "television",
+    "pack": "core"
+  },
+  {
+    "id": "ent-060",
+    "category": "entertainment",
+    "difficulty": 3,
+    "q": "What is the name of the New York advertising agency where Don Draper works in the early seasons of Mad Men, which premiered in 2007?",
+    "a": "Sterling Cooper",
+    "accept": [
+      "Sterling Cooper Draper Pryce"
+    ],
+    "note": "The firm is renamed several times across the series as partners arrive and depart.",
+    "era": "2000s",
+    "topic": "television",
+    "pack": "core"
+  }
+]
