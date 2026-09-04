@@ -7,15 +7,38 @@
 (function () {
   'use strict';
 
-  // Board order. Codes are the ones printed on a Genus card.
-  // History's yellow needs dark type on top of it.
+  // One glyph per category, in the same stroke style as the settings gear
+  // (fill: none, stroke: currentColor) so they pick up the tile's ink color
+  // for free — white on five wedges, dark on history's yellow.
+  var ICONS = {
+    geography:
+      '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/>' +
+      '<path d="M3 12h18"/><path d="M12 3c3 3.5 3 14.5 0 18"/><path d="M12 3c-3 3.5-3 14.5 0 18"/></svg>',
+    entertainment:
+      '<svg viewBox="0 0 24 24"><path d="M3 10 4 4h4l-1 6"/><path d="M10 10 11 4h4l-1 6"/>' +
+      '<path d="M17 10 18 4h3l-1 6"/><rect x="3" y="10" width="18" height="10" rx="1"/></svg>',
+    history:
+      '<svg viewBox="0 0 24 24"><path d="M4 4h16"/><path d="M4 20h16"/>' +
+      '<path d="M6 4v16"/><path d="M10 4v16"/><path d="M14 4v16"/><path d="M18 4v16"/></svg>',
+    arts:
+      '<svg viewBox="0 0 24 24"><path d="M12 6c-1.8-1.3-4-2-7-2v14c3 0 5.2.7 7 2 1.8-1.3 4-2 7-2V4c-3 0-5.2.7-7 2Z"/>' +
+      '<path d="M12 6v14"/></svg>',
+    science:
+      '<svg viewBox="0 0 24 24"><path d="M5 19c-1-6 1-12 7-15 6 1 9 6 8 12-5 3-11 4-15 3Z"/>' +
+      '<path d="M6 18c3-4 7-8 12-11"/></svg>',
+    sports:
+      '<svg viewBox="0 0 24 24"><path d="M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4a3 3 0 0 0 3 5"/>' +
+      '<path d="M17 5h3a3 3 0 0 1-3 5"/><path d="M12 13v4"/><path d="M9 20h6"/></svg>'
+  };
+
+  // Board order. History's yellow needs dark type (and icon stroke) on top of it.
   var CATEGORIES = [
-    { id: 'geography',     code: 'G',  label: 'Geography' },
-    { id: 'entertainment', code: 'E',  label: 'Entertainment' },
-    { id: 'history',       code: 'H',  label: 'History', onLight: true },
-    { id: 'arts',          code: 'AL', label: 'Arts & Literature' },
-    { id: 'science',       code: 'SN', label: 'Science & Nature' },
-    { id: 'sports',        code: 'SL', label: 'Sports & Leisure' }
+    { id: 'geography',     label: 'Geography' },
+    { id: 'entertainment', label: 'Entertainment' },
+    { id: 'history',       label: 'History', onLight: true },
+    { id: 'arts',          label: 'Arts & Literature' },
+    { id: 'science',       label: 'Science & Nature' },
+    { id: 'sports',        label: 'Sports & Leisure' }
   ];
 
   var DIFFICULTY = {
@@ -370,9 +393,10 @@
       tile.style.setProperty('--tile', 'var(--c-' + cat.id + ')');
       tile.style.setProperty('--tile-ink', cat.onLight ? 'var(--on-fill-dark)' : 'var(--on-fill)');
 
-      var code = document.createElement('span');
-      code.className = 'tile-code';
-      code.textContent = cat.code;
+      var icon = document.createElement('span');
+      icon.className = 'tile-icon';
+      icon.innerHTML = ICONS[cat.id];
+      icon.setAttribute('aria-hidden', 'true');
 
       var foot = document.createElement('span');
       foot.className = 'tile-foot';
@@ -385,7 +409,7 @@
 
       foot.appendChild(name);
       foot.appendChild(count);
-      tile.appendChild(code);
+      tile.appendChild(icon);
       tile.appendChild(foot);
 
       tile.addEventListener('click', function () { startQuestion(cat.id); });
@@ -471,8 +495,17 @@
     node.style.setProperty('--on-cat', cat.onLight ? 'var(--on-fill-dark)' : 'var(--on-fill)');
   }
 
-  function chipText(cat) {
-    return cat.code + ' · ' + labelFor(cat);
+  function fillChip(el, cat) {
+    el.innerHTML = '';
+    var icon = document.createElement('span');
+    icon.className = 'chip-icon';
+    icon.innerHTML = ICONS[cat.id];
+    icon.setAttribute('aria-hidden', 'true');
+    var text = document.createElement('span');
+    text.className = 'chip-text';
+    text.textContent = labelFor(cat);
+    el.appendChild(icon);
+    el.appendChild(text);
   }
 
   function startQuestion(catId, excludeId) {
@@ -494,7 +527,7 @@
     var view = $('view-question');
     applyCategoryTheme(view, category);
 
-    $('q-chip').textContent = chipText(category);
+    fillChip($('q-chip'), category);
     $('q-text').textContent = question.q;
 
     var pips = $('q-pips');
@@ -516,7 +549,7 @@
     var view = $('view-answer');
     applyCategoryTheme(view, category);
 
-    $('a-chip').textContent = chipText(category);
+    fillChip($('a-chip'), category);
     $('a-question').textContent = question.q;
     $('a-text').textContent = question.a;
 
@@ -644,7 +677,7 @@
       swatch.className = 'swatch';
       swatch.style.setProperty('--tile', 'var(--c-' + cat.id + ')');
       swatch.style.setProperty('--tile-ink', cat.onLight ? 'var(--on-fill-dark)' : 'var(--on-fill)');
-      swatch.textContent = cat.code;
+      swatch.innerHTML = ICONS[cat.id];
       swatch.setAttribute('aria-hidden', 'true');
 
       var input = document.createElement('input');
