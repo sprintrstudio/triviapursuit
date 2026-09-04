@@ -1,2 +1,4 @@
 node_modules/
 *.log
+tools/_devserver.mjs
+.claude/launch.json

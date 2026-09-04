@@ -65,10 +65,10 @@ body {
   position: relative;
   max-width: 460px;
   margin: 0 auto;
-  padding: 22px 22px 30px;
+  padding: 24px 22px 32px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 22px;
   min-height: 100dvh;
 }
 
@@ -84,7 +84,7 @@ body {
 .wordmark {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 30px;
+  font-size: 34px;
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
@@ -92,8 +92,8 @@ body {
 }
 
 .icon-btn {
-  width: 46px;
-  height: 46px;
+  width: 50px;
+  height: 50px;
   flex: none;
   display: grid;
   place-items: center;
@@ -108,8 +108,8 @@ body {
   transition: transform 90ms ease;
 }
 .icon-btn svg {
-  width: 21px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -129,6 +129,12 @@ body {
 }
 #view-question, #view-answer { gap: 20px; }
 
+/* The tile grid is a fixed shape (sized by its own aspect ratio, not the
+   screen), so on a phone taller than the content needs, center it in the
+   room below the header instead of pinning it to the top and leaving a
+   dead zone underneath. */
+#view-home { justify-content: center; }
+
 /* Full-bleed category flood behind the whole screen. Fixed so it covers the
    viewport rather than just the 460px column. */
 .view-flood::before {
@@ -143,7 +149,7 @@ body {
 .prompt {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.25;
   text-transform: uppercase;
   color: var(--accent);
@@ -164,8 +170,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  min-height: 46px;
-  padding: 8px 14px;
+  min-height: 52px;
+  padding: 10px 16px;
   border: 3px solid var(--outline);
   border-radius: 999px;
   background: var(--white);
@@ -175,7 +181,7 @@ body {
   transition: transform 90ms ease, box-shadow 90ms ease;
 }
 .player-chip .player-name {
-  font-size: 14px;
+  font-size: 15.5px;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
@@ -184,7 +190,7 @@ body {
 .player-chip .player-record {
   flex: none;
   font-family: var(--font-display);
-  font-size: 15px;
+  font-size: 17px;
   font-variant-numeric: tabular-nums;
   display: flex;
   gap: 7px;
@@ -209,35 +215,37 @@ body {
 
 .tile {
   /* Sized by its own shape, not stretched to fill whatever room the
-     screen happens to have — a tall phone would otherwise balloon these. */
-  aspect-ratio: 4 / 3;
-  min-height: 120px;
-  padding: 12px 13px;
+     screen happens to have — a tall phone would otherwise balloon these.
+     Squarer than the original 4:3 so the grid carries more visual weight
+     on a tall phone screen instead of reading small and pinned to the top. */
+  aspect-ratio: 1 / 1;
+  min-height: 150px;
+  padding: 16px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
   text-align: left;
   border: 4px solid var(--outline);
-  border-radius: 8px;
+  border-radius: 10px;
   background: var(--tile);
   color: var(--tile-ink);
   cursor: pointer;
-  box-shadow: 6px 6px 0 var(--outline);
+  box-shadow: 7px 7px 0 var(--outline);
   transition: transform 90ms ease, box-shadow 90ms ease;
 }
 
 .tile-icon {
   display: block;
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
 }
 .tile-icon svg {
   width: 100%;
   height: 100%;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.8;
+  stroke-width: 1.7;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -252,7 +260,7 @@ body {
 
 .tile-name {
   font-family: var(--font-ui);
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
@@ -262,7 +270,7 @@ body {
 .tile-count {
   flex: none;
   font-family: var(--font-display);
-  font-size: 16px;
+  font-size: 18px;
   opacity: 0.75;
   font-variant-numeric: tabular-nums;
 }
@@ -291,12 +299,12 @@ body {
 .tally-count {
   flex: none;
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 23px;
   font-variant-numeric: tabular-nums;
 }
 
 .tally-note {
-  font-size: 12px;
+  font-size: 13.5px;
   font-weight: 500;
   color: var(--ink-62);
   font-variant-numeric: tabular-nums;
