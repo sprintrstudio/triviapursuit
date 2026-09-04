@@ -9,6 +9,9 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = join(ROOT, 'src');
 const OUT = join(ROOT, 'dist', 'trivia.html');
+// GitHub Pages serves this repo from /docs — kept identical to OUT so a push
+// after `npm run build` republishes https://sprintrstudio.github.io/triviapursuit/.
+const PAGES_OUT = join(ROOT, 'docs', 'index.html');
 
 const collect = async (dir) => {
   if (!existsSync(dir)) return [];
@@ -55,10 +58,14 @@ const page = html
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, page, 'utf8');
 
+await mkdir(dirname(PAGES_OUT), { recursive: true });
+await writeFile(PAGES_OUT, page, 'utf8');
+
 const byCat = {};
 for (const q of deduped) byCat[q.category] = (byCat[q.category] ?? 0) + 1;
 const kb = (Buffer.byteLength(page, 'utf8') / 1024).toFixed(0);
 
-console.log(`Built dist/trivia.html — ${deduped.length} questions, ${kb} KB`);
+console.log(`Built dist/trivia.html and docs/index.html — ${deduped.length} questions, ${kb} KB`);
 for (const [cat, n] of Object.entries(byCat).sort()) console.log(`  ${cat.padEnd(15)} ${n}`);
 if (bank.length !== deduped.length) console.log(`  (dropped ${bank.length - deduped.length} duplicate ids)`);
+console.log(`\nPush to publish: git add -A && git commit -m "..." && git push`);

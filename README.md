@@ -58,10 +58,28 @@ That runs three steps, which you can also run on their own:
 | --- | --- |
 | `npm run merge` | Combines the per-topic blocks in `data/core/parts/` into one file per category in `data/core/`. |
 | `npm run validate` | Checks the schema, finds duplicate and near-duplicate questions, reports the difficulty spread, and flags any question phrased in a way that will expire. |
-| `npm run build` | Inlines the stylesheet, the script and the whole question bank into `dist/trivia.html`. |
+| `npm run build` | Inlines the stylesheet, the script and the whole question bank into `dist/trivia.html`, and writes an identical copy to `docs/index.html`. |
 
-`dist/trivia.html` is one self-contained file with no external dependencies except the
-webfonts. It's what gets published, and you can also just open it in a browser.
+Both output files are one self-contained file with no external dependencies except the
+webfonts — `dist/trivia.html` is the one to open locally or hand to the Artifact tool;
+`docs/index.html` is what GitHub Pages actually serves.
+
+### Publishing changes to the live site
+
+The game is hosted at **https://sprintrstudio.github.io/triviapursuit/**, served by
+GitHub Pages from the `docs/` folder on `master`. After any change:
+
+```bash
+npm run all
+git add -A
+git commit -m "describe the change"
+git push
+```
+
+Pages rebuilds automatically within about a minute of the push — no separate deploy
+step. The repo is public (a requirement of GitHub Pages' free tier), so the question
+bank and source are visible to anyone who looks, though the site itself is only found
+by people you send the link to.
 
 ### Layout
 
@@ -70,7 +88,8 @@ src/          index.html, styles.css, app.js — edited separately, shipped as o
 data/core/    the general question bank, one file per category
 data/house/   your own questions
 tools/        merge, validate, build
-dist/         build output
+dist/         build output (also opens directly in a browser)
+docs/         what GitHub Pages serves — kept identical to dist/ by `npm run build`
 ```
 
 ### Why validate exists
